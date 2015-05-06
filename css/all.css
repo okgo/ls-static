@@ -133,7 +133,7 @@ body.user-verification {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   padding: 20px 20px 20px 55px;
-  background: url("/img/tip.png") #f6f6f6 15px center no-repeat;
+  background: url("../img/tip.png") #f6f6f6 15px center no-repeat;
   max-width: 300px; }
 
 /* line 117, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
@@ -165,7 +165,7 @@ body.user-verification {
   margin: -50px 0 0 -75px;
   padding-top: 50px;
   text-align: center;
-  background: url("/img/total-return-ico.png") top center no-repeat;
+  background: url("../img/total-return-ico.png") top center no-repeat;
   z-index: 12;
   font-size: 1em;
   text-transform: uppercase; }
@@ -649,7 +649,7 @@ a.pr-but {
   .custom-slct .ui-widget .ui-icon {
     width: 40px;
     height: 39px;
-    background: url("/img/drop-down-ico.png") 0 -40px no-repeat; }
+    background: url("../img/drop-down-ico.png") 0 -40px no-repeat; }
   /* line 285, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
   .custom-slct .ui-widget:hover {
     border: 1px solid #ea6336; }
@@ -691,7 +691,7 @@ a.pr-but {
     margin-top: -6px;
     width: 8px;
     height: 12px;
-    background: url("/img/br-arrow.png") 0 0px no-repeat;
+    background: url("../img/br-arrow.png") 0 0px no-repeat;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg); }
@@ -915,7 +915,7 @@ a.pr-but {
   *display: inline;
   width: 41px;
   height: 41px;
-  background: url("/img/make-offer-ico.png") no-repeat; }
+  background: url("../img/make-offer-ico.png") no-repeat; }
 
 /* line 536, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
 .form-ok input {
@@ -935,7 +935,7 @@ a.pr-but {
   display: block;
   width: 56px;
   height: 56px;
-  background: url("/img/big-cash-ico.png") no-repeat; }
+  background: url("../img/big-cash-ico.png") no-repeat; }
 
 /* line 560, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
 .custom-white-select .ui-widget, .custom-multiselect .ui-widget, .regular-payment-select .ui-widget {
@@ -982,7 +982,7 @@ a.pr-but {
     margin-top: -6px;
     width: 8px;
     height: 12px;
-    background: url("/img/br-arrow.png") 0 0px no-repeat;
+    background: url("../img/br-arrow.png") 0 0px no-repeat;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg); }
@@ -1303,7 +1303,7 @@ header.main-header #logo {
   display: block;
   width: 32px;
   height: 47px;
-  background: url("/img/logo-small.png") center center no-repeat; }
+  background: url("../img/logo-small.png") center center no-repeat; }
 
 /* line 24, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
 .main-menu nav {
@@ -1408,7 +1408,7 @@ header.main-header #logo {
       display: block;
       width: 29px;
       height: 30px;
-      background: url("/img/user-menu-ico.png") no-repeat;
+      background: url("../img/user-menu-ico.png") no-repeat;
       z-index: 60;
       text-align: center;
       line-height: 30px;
@@ -1424,10 +1424,10 @@ header.main-header #logo {
         display: none; }
       /* line 107, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
       .user-logged-in .user-menu a.ico.create-new-project {
-        background: url("/img/create-new-project-ico.png") no-repeat; }
+        background: url("../img/create-new-project-ico.png") no-repeat; }
       /* line 108, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
       .user-logged-in .user-menu a.ico.search-new-projects {
-        background: url("/img/search-projects-ico.png") no-repeat; }
+        background: url("../img/search-projects-ico.png") no-repeat; }
       /* line 109, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
       .user-logged-in .user-menu a.ico span {
         position: absolute;
@@ -1610,7 +1610,7 @@ header.main-header #logo {
       top: 0;
       width: 30px;
       height: 29px;
-      background: url("/img/accept-offer.png") no-repeat; }
+      background: url("../img/accept-offer.png") no-repeat; }
     /* line 271, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
     .user-request a.accept-request:hover {
       text-decoration: underline; }
@@ -1629,7 +1629,7 @@ header.main-header #logo {
     padding: 0;
     width: 29px;
     height: 29px;
-    background: url("/img/decline-offer-ico.png") center center no-repeat;
+    background: url("../img/decline-offer-ico.png") center center no-repeat;
     float: right; }
 
 /* line 291, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
@@ -1971,7 +1971,7 @@ header.main-header #logo {
     position: relative; }
   /* line 563, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
   .cabinet-header #logo {
-    background: url("/img/logo-grey.png") center center no-repeat;
+    background: url("../img/logo-grey.png") center center no-repeat;
     margin-top: 0;
     top: 13px; }
   /* line 568, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
@@ -1988,7 +1988,7 @@ header.main-header #logo {
   display: block;
   width: 22px;
   height: 19px;
-  background: url("/img/tooggle-menu-ico.png") center center no-repeat;
+  background: url("../img/tooggle-menu-ico.png") center center no-repeat;
   z-index: 1001; }
 
 /* line 586, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
@@ -2026,7 +2026,7 @@ header.main-header #logo {
     display: block;
     width: 9px;
     height: 15px;
-    background: url("/img/arrows-small.png") 0 0 no-repeat;
+    background: url("../img/arrows-small.png") 0 0 no-repeat;
     -moz-transition: all 0.1s ease 0s;
     -o-transition: all 0.1s ease 0s;
     -webkit-transition: all 0.1s ease;
@@ -2133,17 +2133,17 @@ header.main-header #logo {
       padding-left: 22px; }
       /* line 53, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
       .main-menu-user-block .short-user-info li.verified {
-        background: url("/img/form-ok.png") left center no-repeat; }
+        background: url("../img/form-ok.png") left center no-repeat; }
       /* line 54, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
       .main-menu-user-block .short-user-info li.unverified {
-        background: url("/img/error-ico.png") left center no-repeat;
+        background: url("../img/error-ico.png") left center no-repeat;
         background-size: 15px; }
         /* line 57, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
         .main-menu-user-block .short-user-info li.unverified a {
           font-family: "pt_sansregular"; }
       /* line 59, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
       .main-menu-user-block .short-user-info li.account-type {
-        background: url("/img/forgot-pass-ico.png") left center no-repeat; }
+        background: url("../img/forgot-pass-ico.png") left center no-repeat; }
       /* line 60, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
       .main-menu-user-block .short-user-info li.change-account-type {
         font-size: 0.8em;
@@ -2239,7 +2239,7 @@ header.main-header #logo {
     display: block;
     width: 29px;
     height: 30px;
-    background-image: url("/img/user-nav-ico.png");
+    background-image: url("../img/user-nav-ico.png");
     background-repeat: no-repeat; }
   /* line 145, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
   .user-main-navigation a.my-account:before {
@@ -2322,7 +2322,7 @@ header.main-header #logo {
       left: 0;
       top: 50%;
       margin-top: -15px;
-      background: url("/img/main-nav-contacts-ico.png") no-repeat; }
+      background: url("../img/main-nav-contacts-ico.png") no-repeat; }
     /* line 207, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
     .main-nav-contacts a.online-help:before {
       background-position: 0 0; }
@@ -2478,7 +2478,7 @@ header.main-header #logo {
         /* line 340, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
         #payment-switcher .ui-tabs-panel .cr-card-list a.selected {
           color: #ea6336;
-          background: url("/img/form-ok.png") #2e353f right 20px center no-repeat; }
+          background: url("../img/form-ok.png") #2e353f right 20px center no-repeat; }
         /* line 344, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
         #payment-switcher .ui-tabs-panel .cr-card-list a:before {
           content: "";
@@ -2582,7 +2582,7 @@ header.main-header #logo {
   width: 100%;
   position: absolute;
   z-index: 11;
-  background: url("/img/video-overlay.png") top center no-repeat;
+  background: url("../img/video-overlay.png") top center no-repeat;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -2607,7 +2607,7 @@ header.main-header #logo {
   width: 40px;
   height: 40px;
   z-index: 120000000000005;
-  background: url("/img/video.png") -114px 0px no-repeat;
+  background: url("../img/video.png") -114px 0px no-repeat;
   -moz-transition: none;
   -o-transition: none;
   -webkit-transition: none;
@@ -2688,7 +2688,7 @@ header.main-header #logo {
     display: block;
     width: 245px;
     height: 49px;
-    background: url("/img/logo.png") top center no-repeat; }
+    background: url("../img/logo.png") top center no-repeat; }
 
 /* line 206, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .slogan {
@@ -2761,7 +2761,7 @@ header.main-header #logo {
         margin-top: -6px;
         width: 8px;
         height: 12px;
-        background: url("/img/br-arrow.png") 0 0px no-repeat;
+        background: url("../img/br-arrow.png") 0 0px no-repeat;
         -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         transform: rotate(90deg); }
@@ -2983,7 +2983,7 @@ header.main-header #logo {
 /* line 445, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 #how-it-works {
   cursor: pointer;
-  background: url("/img/how-it-works.jpg") #fff center 145px no-repeat; }
+  background: url("../img/how-it-works.jpg") #fff center 145px no-repeat; }
   /* line 448, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
   #how-it-works.yt-nobg {
     background: #e2e2e2 none; }
@@ -3008,7 +3008,7 @@ header.main-header #logo {
     top: 350px;
     left: 50%;
     margin-left: -50px;
-    background: url("/img/yt-player.png") no-repeat; }
+    background: url("../img/yt-player.png") no-repeat; }
   /* line 472, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
   #how-it-works:hover span.yt {
     background-position: 0 -77px; }
@@ -3164,35 +3164,35 @@ header.main-header #logo {
 
 /* line 588, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .borrower-tab-panel .step1-bg {
-  background: url("/img/calc-step11.png") center bottom no-repeat; }
+  background: url("../img/calc-step11.png") center bottom no-repeat; }
 
 /* line 590, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .borrower-tab-panel .step2-bg {
-  background: url("/img/calc-step22.png") center bottom no-repeat; }
+  background: url("../img/calc-step22.png") center bottom no-repeat; }
 
 /* line 592, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .borrower-tab-panel .step3-bg {
-  background: url("/img/calc-step33.png") center bottom no-repeat; }
+  background: url("../img/calc-step33.png") center bottom no-repeat; }
 
 /* line 594, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .borrower-tab-panel .step4-bg {
-  background: url("/img/calc-step44.png") center bottom no-repeat; }
+  background: url("../img/calc-step44.png") center bottom no-repeat; }
 
 /* line 596, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .investor-tab-panel .step1-bg {
-  background: url("/img/calc-step11.png") center bottom no-repeat; }
+  background: url("../img/calc-step11.png") center bottom no-repeat; }
 
 /* line 598, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .investor-tab-panel .step2-bg {
-  background: url("/img/calc-step22.png") center bottom no-repeat; }
+  background: url("../img/calc-step22.png") center bottom no-repeat; }
 
 /* line 600, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .investor-tab-panel .step3-bg {
-  background: url("/img/calc-step33.png") center bottom no-repeat; }
+  background: url("../img/calc-step33.png") center bottom no-repeat; }
 
 /* line 602, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .investor-tab-panel .step4-bg {
-  background: url("/img/calc-step44.png") center bottom no-repeat; }
+  background: url("../img/calc-step44.png") center bottom no-repeat; }
 
 /* line 604, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .calc-h {
@@ -3380,7 +3380,7 @@ header.main-header #logo {
 #slider3 .ui-slider-handle:hover,
 #slider5 .ui-slider-handle:hover,
 #slider6 .ui-slider-handle:hover {
-  background: url("/img/ui-handler2.png") bottom left no-repeat; }
+  background: url("../img/ui-handler2.png") bottom left no-repeat; }
 
 /* line 760, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 #slider .ui-slider-handle,
@@ -3398,7 +3398,7 @@ header.main-header #logo {
   border: 0px;
   width: 50px;
   height: 50px;
-  background: url("/img/ui-handler2.png") top left no-repeat;
+  background: url("../img/ui-handler2.png") top left no-repeat;
   -moz-transition: none;
   -o-transition: none;
   -webkit-transition: none;
@@ -3556,7 +3556,7 @@ header.main-header #logo {
     top: 0px;
     left: 50%;
     margin-left: -28px;
-    background: url("/img/whishlist.png") 0px 0px no-repeat; }
+    background: url("../img/whishlist.png") 0px 0px no-repeat; }
   /* line 900, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
   .add-to-wish-list:hover {
     color: #fff; }
@@ -3593,7 +3593,7 @@ header.main-header #logo {
     top: 0px;
     left: 50%;
     margin-left: -28px;
-    background: url("/img/investcart.png") 0px 0px no-repeat; }
+    background: url("../img/investcart.png") 0px 0px no-repeat; }
   /* line 934, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
   .add-to-watch-list:hover {
     color: #fff; }
@@ -3716,7 +3716,7 @@ header.main-header #logo {
 #feedback {
   height: 600px;
   overflow: hidden;
-  background: url("/img/feedback.jpg") top center no-repeat;
+  background: url("../img/feedback.jpg") top center no-repeat;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -4540,7 +4540,7 @@ a.calculate:hover,
       .create-new-pr-steps li.active.done:before {
         height: 11px;
         margin-top: -6px;
-        background: url("/img/done-step-ico.png") no-repeat;
+        background: url("../img/done-step-ico.png") no-repeat;
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg); }
@@ -4620,7 +4620,7 @@ a.calculate:hover,
   width: 470px;
   text-align: center;
   padding-top: 120px;
-  background: url("/img/guarantees-ico3.png") center 30px no-repeat; }
+  background: url("../img/guarantees-ico3.png") center 30px no-repeat; }
   /* line 300, /Users/admin/Works/LendingStar/frontend/source/css/partials/_registration.scss */
   .aside-text-lcol .btn-type-2, .aside-text-rcol .btn-type-2 {
     margin-top: 30px;
@@ -4645,7 +4645,7 @@ a.calculate:hover,
 /* line 318, /Users/admin/Works/LendingStar/frontend/source/css/partials/_registration.scss */
 .aside-text-rcol {
   margin-left: 20px;
-  background: url("/img/guarantees-ico4.png") center 30px no-repeat; }
+  background: url("../img/guarantees-ico4.png") center 30px no-repeat; }
   /* line 321, /Users/admin/Works/LendingStar/frontend/source/css/partials/_registration.scss */
   .aside-text-rcol h3 {
     width: 245px; }
@@ -4673,7 +4673,7 @@ a.calculate:hover,
     width: 101px;
     height: 98px;
     margin-right: 60px;
-    background: url("/img/how-it-work-steps.png") no-repeat; }
+    background: url("../img/how-it-work-steps.png") no-repeat; }
     /* line 15, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
     .how-it-works li:last-child {
       margin-right: 0; }
@@ -4898,7 +4898,7 @@ a.calculate:hover,
   .pr-full-data .projects-arrow-up {
     width: 19px;
     height: 19px;
-    background: url("/img/projects-arrow-down.png") no-repeat;
+    background: url("../img/projects-arrow-down.png") no-repeat;
     position: absolute;
     top: 39px;
     right: 14px; }
@@ -5154,7 +5154,7 @@ a.calculate:hover,
         display: block;
         width: 20px;
         height: 19px;
-        background: url("/img/sort-icons.png") no-repeat; }
+        background: url("../img/sort-icons.png") no-repeat; }
       /* line 406, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
       .pr-sorting-container .item a.item1 span {
         background-position: 0 0; }
@@ -5519,7 +5519,7 @@ a.calculate:hover,
     position: absolute;
     top: -3px;
     left: 0;
-    background: url("/img/rating-scale.png") no-repeat;
+    background: url("../img/rating-scale.png") no-repeat;
     -moz-background-size: 730px auto;
     -o-background-size: 730px auto;
     -webkit-background-size: 730px auto;
@@ -5538,7 +5538,7 @@ a.calculate:hover,
       margin: -9px 0 0 -9px;
       width: 19px;
       height: 19px;
-      background: url("/img/radio-ico.png") 0 0 no-repeat;
+      background: url("../img/radio-ico.png") 0 0 no-repeat;
       border: none; }
       /* line 736, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
       .rating-line #rating-scale .ui-slider-handle:last-child {
@@ -5550,7 +5550,7 @@ a.calculate:hover,
       margin-top: -4px;
       overflow: hidden;
       width: 713px;
-      background: url("/img/rating-scale-progress.png") no-repeat;
+      background: url("../img/rating-scale-progress.png") no-repeat;
       -moz-background-size: 713px 8px;
       -o-background-size: 713px 8px;
       -webkit-background-size: 713px 8px;
@@ -5587,7 +5587,7 @@ a.calculate:hover,
   display: block;
   width: 118px;
   height: 25px;
-  background: url("/img/privacy-policy-ico.png") no-repeat; }
+  background: url("../img/privacy-policy-ico.png") no-repeat; }
 
 /* line 777, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
 .back-link-container {
@@ -5648,19 +5648,19 @@ a.calculate:hover,
       transition: none; }
       /* line 810, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
       .project-owner-info .user-short-info .row .contacts-ico a.send-message {
-        background: url("/img/send-message-ico.png") no-repeat; }
+        background: url("../img/send-message-ico.png") no-repeat; }
         /* line 812, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
         .project-owner-info .user-short-info .row .contacts-ico a.send-message:hover {
           background-position: 0 -29px; }
       /* line 814, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
       .project-owner-info .user-short-info .row .contacts-ico a.facebook {
-        background: url("/img/facebook.png") no-repeat; }
+        background: url("../img/facebook.png") no-repeat; }
         /* line 816, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
         .project-owner-info .user-short-info .row .contacts-ico a.facebook:hover {
           background-position: 0 -29px; }
       /* line 818, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
       .project-owner-info .user-short-info .row .contacts-ico a.gplus {
-        background: url("/img/gplus.png") no-repeat; }
+        background: url("../img/gplus.png") no-repeat; }
         /* line 820, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
         .project-owner-info .user-short-info .row .contacts-ico a.gplus:hover {
           background-position: 0 -29px; }
@@ -5706,14 +5706,14 @@ a.calculate:hover,
       font-family: "pt_sansbold"; }
     /* line 861, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
     .user-photo-name .user-name-rating .profile-status.verified {
-      background: url("/img/form-ok.png") no-repeat left center;
+      background: url("../img/form-ok.png") no-repeat left center;
       -moz-background-size: 15px auto;
       -o-background-size: 15px auto;
       -webkit-background-size: 15px auto;
       background-size: 15px auto; }
     /* line 865, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
     .user-photo-name .user-name-rating .profile-status.unverified {
-      background: url("/img/error-ico.png") no-repeat left center;
+      background: url("../img/error-ico.png") no-repeat left center;
       -moz-background-size: 15px auto;
       -o-background-size: 15px auto;
       -webkit-background-size: 15px auto;
@@ -5861,7 +5861,7 @@ a.calculate:hover,
         width: 32px;
         height: 23px;
         right: 20px;
-        background: url("/img/make-offer-btn-ico.png") no-repeat; }
+        background: url("../img/make-offer-btn-ico.png") no-repeat; }
 
 /* line 993, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
 .project-statistics {
@@ -5907,7 +5907,7 @@ a.calculate:hover,
         position: absolute;
         left: 0;
         top: 4px;
-        background: url("/img/project-stat-ico.png") no-repeat; }
+        background: url("../img/project-stat-ico.png") no-repeat; }
       /* line 1030, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
       .project-statistics li p.investors:before {
         background-position: 0 0; }
@@ -5943,7 +5943,7 @@ a.calculate:hover,
     top: 0;
     height: 8px;
     width: 100%;
-    background: url("/img/usr-gradient-pr.png") 0 0 no-repeat;
+    background: url("../img/usr-gradient-pr.png") 0 0 no-repeat;
     -moz-background-size: 540px 8px;
     -o-background-size: 540px 8px;
     -webkit-background-size: 540px 8px;
@@ -6244,7 +6244,7 @@ a.calculate:hover,
       display: block;
       width: 30px;
       height: 30px;
-      background: url("/img/firstscreen-ico.png") no-repeat;
+      background: url("../img/firstscreen-ico.png") no-repeat;
       z-index: 2; }
     /* line 138, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
     .userFirstScreen-cont .my-account-cash-info:after {
@@ -6309,7 +6309,7 @@ a.calculate:hover,
     right: 392px;
     top: 0;
     padding-right: 35px;
-    background: url("/img/game-not-ico.png") right center no-repeat;
+    background: url("../img/game-not-ico.png") right center no-repeat;
     text-align: right; }
     /* line 199, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
     .gamificationCont-inside .latest-notifications p {
@@ -6321,7 +6321,7 @@ a.calculate:hover,
     right: 119px;
     top: 42px;
     padding-left: 45px;
-    background: url("/img/cash-ico.png") left top 2px no-repeat; }
+    background: url("../img/cash-ico.png") left top 2px no-repeat; }
     /* line 208, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
     .gamificationCont-inside .your-balance p {
       font-size: 1.86667em;
@@ -6334,7 +6334,7 @@ a.calculate:hover,
     right: 392px;
     top: 98px;
     padding-right: 35px;
-    background: url("/img/new-messages-small-ico.png") right center no-repeat;
+    background: url("../img/new-messages-small-ico.png") right center no-repeat;
     text-align: right; }
   /* line 223, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
   .gamificationCont-inside .cash-income {
@@ -6343,7 +6343,7 @@ a.calculate:hover,
     top: 139px;
     right: 116px;
     padding-left: 45px;
-    background: url("/img/cash-income-ico.png") left top 2px no-repeat; }
+    background: url("../img/cash-income-ico.png") left top 2px no-repeat; }
     /* line 230, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
     .gamificationCont-inside .cash-income p {
       font-size: 1.86667em;
@@ -6356,7 +6356,7 @@ a.calculate:hover,
     right: 386px;
     top: 185px;
     padding-right: 40px;
-    background: url("/img/accepted-payment.png") right center no-repeat;
+    background: url("../img/accepted-payment.png") right center no-repeat;
     text-align: right; }
   /* line 245, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
   .gamificationCont-inside .overdue-payment {
@@ -6365,7 +6365,7 @@ a.calculate:hover,
     top: 240px;
     right: 116px;
     padding-left: 45px;
-    background: url("/img/overdue-payment-ico.png") left top 2px no-repeat; }
+    background: url("../img/overdue-payment-ico.png") left top 2px no-repeat; }
     /* line 252, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
     .gamificationCont-inside .overdue-payment p {
       font-size: 1.86667em;
@@ -6495,7 +6495,7 @@ a.calculate:hover,
       bottom: 0;
       left: 50%;
       margin-left: -20px;
-      background: url("/img/triangle-white.png") no-repeat; }
+      background: url("../img/triangle-white.png") no-repeat; }
 
 /* line 369, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
 .my-account-user-chart {
@@ -6729,7 +6729,7 @@ a.calculate:hover,
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  background: url("/img/btn-arrow-down.png") center center no-repeat;
+  background: url("../img/btn-arrow-down.png") center center no-repeat;
   z-index: 100; }
   /* line 574, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
   .nav-wrapper a:hover {
@@ -6848,7 +6848,7 @@ a.sort-bydate {
     display: block;
     width: 8px;
     height: 5px;
-    background: url("/img/btn-arrow-down.png") no-repeat;
+    background: url("../img/btn-arrow-down.png") no-repeat;
     -moz-background-size: 8px 5px;
     -o-background-size: 8px 5px;
     -webkit-background-size: 8px 5px;
@@ -6957,7 +6957,7 @@ a.sort-bydate {
       .notifications-filter-container .not-quick-settings a.not-set-link, .stnCab-link-container .not-quick-settings a.not-set-link {
         width: 29px;
         height: 29px;
-        background: url("/img/not-settings-ico.png") no-repeat; }
+        background: url("../img/not-settings-ico.png") no-repeat; }
 
 /* line 777, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
 .notification-tableHeader, .myfiles-tableHeader {
@@ -6977,7 +6977,7 @@ a.sort-bydate {
     color: #2e353f; }
     /* line 794, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
     .notification-tableHeader .table-date a.sort-bydate:before, .notification-tableHeader .table-date a.sort-by-name:before, .myfiles-tableHeader .table-date a.sort-bydate:before, .myfiles-tableHeader .table-date a.sort-by-name:before {
-      background: url("/img/br-arrow.png") no-repeat;
+      background: url("../img/br-arrow.png") no-repeat;
       width: 5px;
       height: 8px;
       -moz-background-size: 5px 8px;
@@ -7171,7 +7171,7 @@ a.sort-bydate {
         position: absolute;
         left: 0;
         top: 0;
-        background: url("/img/checkbox2-ico.png") no-repeat; }
+        background: url("../img/checkbox2-ico.png") no-repeat; }
       /* line 995, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
       .messages-tableHeader .edit-list #markall-btn.marked:before, .new-message-header .edit-list #markall-btn.marked:before {
         background-position: 0 -18px; }
@@ -7188,7 +7188,7 @@ a.sort-bydate {
         position: absolute;
         left: 0;
         top: 0;
-        background: url("/img/delete-btn-ico.png") no-repeat; }
+        background: url("../img/delete-btn-ico.png") no-repeat; }
 
 /* line 1018, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
 .new-message-header p {
@@ -7229,7 +7229,7 @@ a.sort-bydate {
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
     border-radius: 100%;
-    background: url("/img/sort-arrow-down.png") #909498 center center no-repeat; }
+    background: url("../img/sort-arrow-down.png") #909498 center center no-repeat; }
   /* line 1051, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
   .messagesList .message-row span.ico {
     display: block;
@@ -7238,7 +7238,7 @@ a.sort-bydate {
     position: absolute;
     left: -31px;
     top: 15px;
-    background: url("/img/checkbox2-ico.png") no-repeat; }
+    background: url("../img/checkbox2-ico.png") no-repeat; }
     /* line 1059, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
     .messagesList .message-row span.ico:hover {
       cursor: pointer; }
@@ -7350,7 +7350,7 @@ a.sort-bydate {
     position: absolute;
     left: -39px;
     top: 0;
-    background: url("/img/delete-btn-ico-revers.png") no-repeat; }
+    background: url("../img/delete-btn-ico-revers.png") no-repeat; }
   /* line 1169, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
   .message-full-body .message-text-cont {
     padding: 0 15px 15px 15px; }
@@ -7376,7 +7376,7 @@ a.sort-bydate {
       display: block;
       width: 17px;
       height: 13px;
-      background: url("/img/reply-arrow-ico.png") no-repeat; }
+      background: url("../img/reply-arrow-ico.png") no-repeat; }
     /* line 1192, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
     .message-full-body .message-reply-cont .auto-saving {
       display: block;
@@ -7387,7 +7387,7 @@ a.sort-bydate {
       font-size: 0.8em;
       line-height: 14px;
       color: #909498;
-      background: url("/img/loader.png") right center no-repeat; }
+      background: url("../img/loader.png") right center no-repeat; }
   /* line 1204, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
   .message-full-body .message-reply {
     width: 75%; }
@@ -7526,7 +7526,7 @@ a.sort-bydate {
       display: block;
       width: 20px;
       height: 20px;
-      background: url("/img/delete-ico.png") no-repeat;
+      background: url("../img/delete-ico.png") no-repeat;
       -moz-transition: none;
       -o-transition: none;
       -webkit-transition: none;
@@ -7779,13 +7779,13 @@ a.sort-bydate {
   margin-left: 40px; }
   /* line 1391, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
   .bankDetails-tableContainer .ico.paypal {
-    background: url("/img/paypal-ico.png") no-repeat; }
+    background: url("../img/paypal-ico.png") no-repeat; }
   /* line 1392, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
   .bankDetails-tableContainer .ico.visa {
-    background: url("/img/visa-ico.png") no-repeat; }
+    background: url("../img/visa-ico.png") no-repeat; }
   /* line 1393, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
   .bankDetails-tableContainer .ico.mastercard {
-    background: url("/img/mastercard-ico.png") no-repeat; }
+    background: url("../img/mastercard-ico.png") no-repeat; }
 /* line 1395, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
 .bankDetails-tableContainer .deal-ico {
   display: inline-block;
@@ -7795,7 +7795,7 @@ a.sort-bydate {
   *display: inline;
   width: 29px;
   height: 29px;
-  background: url("/img/deals-ico.png") no-repeat; }
+  background: url("../img/deals-ico.png") no-repeat; }
   /* line 1400, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
   .bankDetails-tableContainer .deal-ico.active {
     background-position: 0 -29px; }
@@ -7807,7 +7807,7 @@ a.sort-bydate {
   margin-left: 0; }
   /* line 1406, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
   .bankDetails-tableContainer .bankDetails-tableHeader a:before {
-    background: url("/img/br-arrow.png") no-repeat scroll 0 0/5px 8px transparent;
+    background: url("../img/br-arrow.png") no-repeat scroll 0 0/5px 8px transparent;
     height: 8px;
     width: 5px; }
   /* line 1412, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
@@ -8045,7 +8045,7 @@ a.sort-bydate {
     display: block;
     width: 29px;
     height: 29px;
-    background: url("/img/bank-account-actions-ico.png") no-repeat;
+    background: url("../img/bank-account-actions-ico.png") no-repeat;
     -moz-transition: none;
     -o-transition: none;
     -webkit-transition: none;
@@ -8113,7 +8113,7 @@ a.sort-bydate {
         position: absolute;
         top: 0;
         width: 30px;
-        background: url("/img/decline-offer-ico.png") no-repeat; }
+        background: url("../img/decline-offer-ico.png") no-repeat; }
       /* line 1572, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
       .myOffers-tableBody .offers-row .user-request .decline-request:hover {
         text-decoration: underline; }
@@ -8135,7 +8135,7 @@ a.sort-bydate {
     display: block;
     width: 15px;
     height: 15px;
-    background: url("/img/decline-offer-ico.png") center center no-repeat; }
+    background: url("../img/decline-offer-ico.png") center center no-repeat; }
   /* line 1594, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
   .myOffers-tableBody .offers-row.declined .trCol-5 p {
     color: #ee3823; }
@@ -8144,7 +8144,7 @@ a.sort-bydate {
     display: block;
     width: 15px;
     height: 15px;
-    background: url("/img/accepted-offer-ico.png") center center no-repeat; }
+    background: url("../img/accepted-offer-ico.png") center center no-repeat; }
   /* line 1607, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
   .myOffers-tableBody .offers-row.accepted .trCol-5 p {
     color: #6dc876; }
@@ -8266,7 +8266,7 @@ a.sort-bydate {
     display: block;
     width: 29px;
     height: 29px;
-    background: url("/img/user-actions-ico.png") no-repeat;
+    background: url("../img/user-actions-ico.png") no-repeat;
     -moz-transition: none;
     -o-transition: none;
     -webkit-transition: none;
@@ -8347,7 +8347,7 @@ a.sort-bydate {
     width: 295px;
     padding: 4px 65px 4px 30px;
     border: 1px solid #fff;
-    background: url("/img/date-range-ico.png") right 22px center #fff no-repeat;
+    background: url("../img/date-range-ico.png") right 22px center #fff no-repeat;
     font-family: "pt_sansregular";
     color: #2e353f; }
     /* line 1750, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
@@ -8370,7 +8370,7 @@ a.sort-bydate {
     *display: inline;
     padding-right: 25px;
     margin-right: 17px;
-    background: url("/img/br-arrow.png") right center no-repeat;
+    background: url("../img/br-arrow.png") right center no-repeat;
     -moz-background-size: 10px 14px;
     -o-background-size: 10px 14px;
     -webkit-background-size: 10px 14px;
@@ -8408,7 +8408,7 @@ a.sort-bydate {
   .user-id-verification .start-id-verification {
     padding-top: 215px;
     margin-top: 100px;
-    background: url("/img/id-checker.png") center top no-repeat; }
+    background: url("../img/id-checker.png") center top no-repeat; }
 
 /* line 1802, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
 .user-settings-header {
@@ -8426,7 +8426,7 @@ a.sort-bydate {
   /* line 1816, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
   .bankDetails-add-new-card-header .back-link-container {
     margin-left: 20px;
-    background: url("/img/protection-policy-ico.png") right center no-repeat;
+    background: url("../img/protection-policy-ico.png") right center no-repeat;
     padding: 15px 0; }
     /* line 1820, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
     .bankDetails-add-new-card-header .back-link-container .back-link {
@@ -8488,11 +8488,11 @@ a.sort-bydate {
       /* line 1854, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
       .bankDetails-add-new-card-body .input-container .item.visa-item label {
         width: 105px;
-        background: url("/img/visa-label.png") 35px 0 no-repeat; }
+        background: url("../img/visa-label.png") 35px 0 no-repeat; }
     /* line 1860, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
     .bankDetails-add-new-card-body .input-container .item.mastercard-item label {
       width: 85px;
-      background: url("/img/mastercard-label.png") 35px 0 no-repeat; }
+      background: url("../img/mastercard-label.png") 35px 0 no-repeat; }
     /* line 1865, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
     .bankDetails-add-new-card-body .input-container .item.paypal-item {
       margin-right: 35px;
@@ -8500,14 +8500,14 @@ a.sort-bydate {
       /* line 1868, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
       .bankDetails-add-new-card-body .input-container .item.paypal-item label {
         width: 140px;
-        background: url("/img/paypal-label.png") 35px 0 no-repeat; }
+        background: url("../img/paypal-label.png") 35px 0 no-repeat; }
     /* line 1873, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
     .bankDetails-add-new-card-body .input-container .item.maestro-item {
       margin-top: 20px; }
       /* line 1875, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
       .bankDetails-add-new-card-body .input-container .item.maestro-item label {
         width: 85px;
-        background: url("/img/maestro-label.png") 35px 0 no-repeat; }
+        background: url("../img/maestro-label.png") 35px 0 no-repeat; }
 
 /* line 2, /Users/admin/Works/LendingStar/frontend/source/css/partials/_borrower-cab.scss */
 .borrower-credit-score-container {
@@ -8543,7 +8543,7 @@ a.sort-bydate {
   *display: inline;
   width: 798px;
   height: 162px;
-  background: url("/img/user-score-scale.png") center center no-repeat; }
+  background: url("../img/user-score-scale.png") center center no-repeat; }
   /* line 29, /Users/admin/Works/LendingStar/frontend/source/css/partials/_borrower-cab.scss */
   .br-credit-score-scale .big {
     position: absolute;
@@ -8756,7 +8756,7 @@ a.sort-bydate {
       width: 20px;
       height: 20px;
       right: -35px;
-      background: url("/img/add-new-phone.png") no-repeat; }
+      background: url("../img/add-new-phone.png") no-repeat; }
 
 /* line 226, /Users/admin/Works/LendingStar/frontend/source/css/partials/_borrower-cab.scss */
 .borrower-bank-details-container .stnCab-link-container .my-account-cash-info {
@@ -8889,10 +8889,10 @@ a.sort-bydate {
           cursor: pointer; }
     /* line 341, /Users/admin/Works/LendingStar/frontend/source/css/partials/_borrower-cab.scss */
     .borrower-create-new-project-form .new-pr-slider#loan-amount-slider .ui-slider-handle {
-      background: url("/img/money-slider-ico.png") no-repeat; }
+      background: url("../img/money-slider-ico.png") no-repeat; }
     /* line 344, /Users/admin/Works/LendingStar/frontend/source/css/partials/_borrower-cab.scss */
     .borrower-create-new-project-form .new-pr-slider#loan-term-slider .ui-slider-handle {
-      background: url("/img/month-slider-ico.png") no-repeat; }
+      background: url("../img/month-slider-ico.png") no-repeat; }
   /* line 347, /Users/admin/Works/LendingStar/frontend/source/css/partials/_borrower-cab.scss */
   .borrower-create-new-project-form .new-pr-slider-txt {
     width: 115px;
@@ -8919,7 +8919,7 @@ a.sort-bydate {
   /* line 368, /Users/admin/Works/LendingStar/frontend/source/css/partials/_borrower-cab.scss */
   .borrower-create-new-project-form .finish-text {
     padding-top: 160px;
-    background: url("/img/finish-pr-ico.png") center top no-repeat;
+    background: url("../img/finish-pr-ico.png") center top no-repeat;
     text-align: center;
     margin-top: 35px;
     font-family: "pt_sansregular";
@@ -8954,7 +8954,7 @@ a.sort-bydate {
   color: #909498; }
 /* line 25, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
 .my-investments-add-filter-container .custom-checkbox .ui-widget:before {
-  background: url("/img/checkbox4-ico.png") no-repeat;
+  background: url("../img/checkbox4-ico.png") no-repeat;
   height: 29px; }
 /* line 29, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
 .my-investments-add-filter-container .custom-checkbox .ui-widget.ui-state-active:before {
@@ -8964,7 +8964,7 @@ a.sort-bydate {
   color: #5d6369; }
 /* line 31, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
 .my-investments-add-filter-container .rating-line .scale {
-  background: url("/img/rating-scale-white.png") no-repeat;
+  background: url("../img/rating-scale-white.png") no-repeat;
   -moz-background-size: 730px auto;
   -o-background-size: 730px auto;
   -webkit-background-size: 730px auto;
@@ -9031,7 +9031,7 @@ a.sort-bydate {
       display: block;
       width: 8px;
       height: 14px;
-      background: url("/img/br-arrow.png") no-repeat;
+      background: url("../img/br-arrow.png") no-repeat;
       -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg); }
@@ -9056,7 +9056,7 @@ a.sort-bydate {
     font-family: "pt_sansregular";
     height: 28px;
     line-height: 28px;
-    background: url("/img/calltoaction-checkbox.png") no-repeat; }
+    background: url("../img/calltoaction-checkbox.png") no-repeat; }
     /* line 108, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
     .calltoaction p a {
       color: #5d6369; }
@@ -9164,7 +9164,7 @@ a.sort-bydate {
     *display: inline;
     width: 29px;
     height: 29px;
-    background: url("/img/user-actions-ico.png") no-repeat; }
+    background: url("../img/user-actions-ico.png") no-repeat; }
     /* line 184, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
     .invested-project-short-desc a.open-project {
       background-position: 0 -116px; }
@@ -9202,13 +9202,13 @@ a.sort-bydate {
     *display: inline;
     width: 29px;
     height: 29px;
-    background: url("/img/user-actions-ico.png") no-repeat; }
+    background: url("../img/user-actions-ico.png") no-repeat; }
     /* line 209, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
     .borrower-project-block .user-actions a.open-project {
       background-position: 0 -116px; }
     /* line 210, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
     .borrower-project-block .user-actions a.delete-project {
-      background: url("/img/delete-pr-ico.png");
+      background: url("../img/delete-pr-ico.png");
       margin-left: 6px; }
 /* line 216, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
 .borrower-project-block .digit-pr-info {
@@ -9287,7 +9287,7 @@ a.sort-bydate {
       width: 90px;
       height: 90px;
       text-indent: -99999px;
-      background: url("/img/add-new-photo-ico.png") no-repeat; }
+      background: url("../img/add-new-photo-ico.png") no-repeat; }
       /* line 284, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
       .borrower-project-txt-desc .photo-block li label:hover {
         cursor: pointer; }
@@ -9395,7 +9395,7 @@ a.sort-bydate {
         height: 18px;
         left: 0;
         top: 1px;
-        background: url("/img/current-yield-status-ico.png") no-repeat; }
+        background: url("../img/current-yield-status-ico.png") no-repeat; }
       /* line 373, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
       .current-yield-table.body li.row div.status.succesful:before {
         background-position: 0 0; }
@@ -9418,7 +9418,7 @@ a.sort-bydate {
         top: 0;
         width: 12px;
         height: 20px;
-        background: url("/img/current-yield-amount-ico.png") no-repeat; }
+        background: url("../img/current-yield-amount-ico.png") no-repeat; }
       /* line 402, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
       .current-yield-table.body li.row div.amount.succesful:before {
         background-position: 0 0; }
@@ -9478,7 +9478,7 @@ a.sort-bydate {
         width: 8px;
         height: 12px;
         margin-top: -6px;
-        background: url("/img/br-arrow.png") no-repeat;
+        background: url("../img/br-arrow.png") no-repeat;
         -webkit-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
         transform: rotate(180deg); }
@@ -9544,7 +9544,7 @@ a.sort-bydate {
       margin-top: -6px;
       width: 8px;
       height: 12px;
-      background: url("/img/br-arrow.png") 0 0px no-repeat;
+      background: url("../img/br-arrow.png") 0 0px no-repeat;
       -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg); }
@@ -9657,18 +9657,18 @@ a.sort-bydate {
     padding: 80px 490px 80px 0; }
     /* line 46, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
     .text-page-header .text-container.terms-of-conditions-ico {
-      background: url("/img/terms-of-conditions-ico.png") right 80px center no-repeat; }
+      background: url("../img/terms-of-conditions-ico.png") right 80px center no-repeat; }
     /* line 47, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
     .text-page-header .text-container.privacy-policy {
-      background: url("/img/policy-protection.png") right 80px center no-repeat; }
+      background: url("../img/policy-protection.png") right 80px center no-repeat; }
     /* line 48, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
     .text-page-header .text-container.for-borrower-ico {
       padding-right: 360px;
-      background: url("/img/for-borrowers-ico.png") right 80px center no-repeat; }
+      background: url("../img/for-borrowers-ico.png") right 80px center no-repeat; }
     /* line 52, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
     .text-page-header .text-container.for-investors-ico {
       padding-right: 360px;
-      background: url("/img/guarantees-6.png") right 80px center no-repeat; }
+      background: url("../img/guarantees-6.png") right 80px center no-repeat; }
   /* line 57, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
   .text-page-header h3 {
     color: #909498; }
@@ -9794,7 +9794,7 @@ a.sort-bydate {
       display: block;
       width: 6px;
       height: 11px;
-      background: url("/img/list-ico.png") no-repeat; }
+      background: url("../img/list-ico.png") no-repeat; }
 /* line 183, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
 .text-content table {
   margin-top: 30px;
@@ -9859,34 +9859,34 @@ a.sort-bydate {
   /* line 234, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
   .guarantee-block.picture-right {
     padding-right: 305px;
-    background: url("/img/guarantees-6.png") right 80px center no-repeat; }
+    background: url("../img/guarantees-6.png") right 80px center no-repeat; }
   /* line 238, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
   .guarantee-block.picture-left {
     padding-left: 194px;
-    background: url("/img/guarantees-1.png") 10px center no-repeat; }
+    background: url("../img/guarantees-1.png") 10px center no-repeat; }
     /* line 241, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
     .guarantee-block.picture-left.credit-rating {
-      background: url("/img/guarantees-2.png") 10px center no-repeat; }
+      background: url("../img/guarantees-2.png") 10px center no-repeat; }
     /* line 242, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
     .guarantee-block.picture-left.credit-cond {
-      background: url("/img/guarantees-3.png") 10px center no-repeat; }
+      background: url("../img/guarantees-3.png") 10px center no-repeat; }
     /* line 243, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
     .guarantee-block.picture-left.money-back {
-      background: url("/img/guarantees-4.png") 10px center no-repeat; }
+      background: url("../img/guarantees-4.png") 10px center no-repeat; }
     /* line 244, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
     .guarantee-block.picture-left.legal-contract {
-      background: url("/img/guarantees-5.png") 10px center no-repeat; }
+      background: url("../img/guarantees-5.png") 10px center no-repeat; }
   /* line 246, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
   .guarantee-block.ico-top {
     padding-top: 130px;
     text-align: center;
-    background: url("/img/guarantees-ico.png") center 25px no-repeat; }
+    background: url("../img/guarantees-ico.png") center 25px no-repeat; }
     /* line 250, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
     .guarantee-block.ico-top.safely-platform {
-      background: url("/img/guarantees-ico2.png") center 25px no-repeat; }
+      background: url("../img/guarantees-ico2.png") center 25px no-repeat; }
     /* line 251, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
     .guarantee-block.ico-top.we-take-care {
-      background: url("/img/guarantees-ico3.png") center 25px no-repeat; }
+      background: url("../img/guarantees-ico3.png") center 25px no-repeat; }
     /* line 252, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
     .guarantee-block.ico-top p {
       display: inline-block;
@@ -9988,7 +9988,7 @@ a.sort-bydate {
 
 /* line 331, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
 .invest-cart-chart-container {
-  background: url("/img/invest-cart-chart-back.png") center 5px no-repeat;
+  background: url("../img/invest-cart-chart-back.png") center 5px no-repeat;
   width: 480px;
   height: 300px;
   position: relative;
@@ -10044,7 +10044,7 @@ a.sort-bydate {
       font-family: "pt_sansbold";
       color: #909498;
       line-height: 29px;
-      background: url("/img/change-data-link-ico.png") right center no-repeat; }
+      background: url("../img/change-data-link-ico.png") right center no-repeat; }
 
 /* line 378, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
 .investment-projects-table-container {
@@ -10254,7 +10254,7 @@ a.sort-bydate {
       font-size: 1.2em;
       line-height: 19px;
       padding-right: 17px;
-      background: url("/img/current-yield-amount-ico.png") right top no-repeat; }
+      background: url("../img/current-yield-amount-ico.png") right top no-repeat; }
   /* line 568, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
   .investment-receipe-total-container .btn-container {
     text-align: center;
@@ -10271,7 +10271,7 @@ a.sort-bydate {
     position: relative; }
     /* line 581, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
     .continue-investing-link a:before {
-      background: url("/img/br-arrow.png") no-repeat;
+      background: url("../img/br-arrow.png") no-repeat;
       content: "";
       display: block;
       height: 12px;
@@ -10398,7 +10398,7 @@ a.sort-bydate {
       right: 15px;
       top: 50%;
       margin-top: -9px;
-      background: url("/img/search-ico.png") no-repeat;
+      background: url("../img/search-ico.png") no-repeat;
       z-index: 10; }
     /* line 687, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
     .invest-cart-container .registration-stn-header .search-project input {
