@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html>
+  <head lang='en'>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
+    <title>LendingStar</title>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <link href='img/favicon.png' rel='shortcut icon'>
+    <link href="/css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="/fonts/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="/css/vendor/jquery.custom-scrollbar.css" rel="stylesheet" type="text/css" />
+    <link href="/css/vendor/jquery.datepick.css" rel="stylesheet" type="text/css" />
+    <link href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="/css/all.css" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js" type="text/javascript"></script>
+    <script src="/js/jquery.custom-scrollbar.min.js" type="text/javascript"></script>
+    <script src="/js/chart.min.js" type="text/javascript"></script>
+    <script src="/js/fade-plugin.js" type="text/javascript"></script>
+    <script src="/js/classie.js" type="text/javascript"></script>
+    <script src="/js/jquery.plugin.js" type="text/javascript"></script>
+    <script src="/js/jquery.datepick.js" type="text/javascript"></script>
+    <script src="/js/jquery.multiselect.min.js" type="text/javascript"></script>
+    <script src="/js/base.js" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js'></script>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js'></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class='wrap'>
+      <header class='index-header' id='top'>
+        <div class='text-slider'>
+          <a href='#' id='playpause'></a>
+          <div class='video-overlay'></div>
+          <video autoplay='autoplay' class='vid1' loop='loop' poster='http://caragaleblog.files.wordpress.com/2014/03/frank-drebin.png' width='100%'>
+            <source src='video/kualalumpur.mp4' type='video/mp4'>
+            <source src='video/kualalumpur.webm' type='video/webm'>
+              Your browser does not support the video tag.
+            </source>
+          </video>
+          <div class='video-overlay'></div>
+          <div class='item'>
+            <div class='posrel'>
+              <div class='sliderTitle'>
+                <div class='slogan'>
+                  <h1>
+                    Your small business peer-to-peer financing starts here
+                  </h1>
+                </div>
+                <form action='/' class='investment-pr-search'>
+                  <ul class='list cf'>
+                    <li class='block'>
+                      <div class='loan-types'>
+                        <select>
+                          <option value='all_loan_types'>All</option>
+                          <option value='business_loan'>Business</option>
+                          <option value='personal_loan'>Personal</option>
+                        </select>
+                      </div>
+                    </li>
+                    <li class='block'>
+                      <div class='apy-types'>
+                        <select>
+                          <option value='3,5_apy'>3,5% - APY</option>
+                          <option value='4_apy'>4% - APY</option>
+                          <option value='5_apy'>5% - APY</option>
+                          <option value='6_apy'>6% - APY</option>
+                          <option value='7_apy'>7% - APY</option>
+                          <option value='8_apy'>8% - APY</option>
+                          <option value='9_apy'>9% - APY</option>
+                          <option value='10_apy'>10% - APY</option>
+                          <option value='12_apy'>12% - APY</option>
+                          <option value='apy_above_all'>Above all</option>
+                        </select>
+                      </div>
+                    </li>
+                    <li class='block'>
+                      <div class='period-types'>
+                        <select>
+                          <option value='1_month'>1 month</option>
+                          <option value='2_months'>2 months</option>
+                          <option value='3_months'>3 months</option>
+                          <option value='4_months'>4 months</option>
+                          <option value='5_months'>5 months</option>
+                          <option value='6_months'>6 months</option>
+                          <option value='7_months'>7 months</option>
+                          <option value='8_months'>8 months</option>
+                          <option value='9_months'>9 months</option>
+                          <option value='10_months'>10 months</option>
+                          <option value='11_month'>11 months</option>
+                          <option value='12_months'>12 months</option>
+                          <option value='13_months'>13 months</option>
+                          <option value='14_months'>14 months</option>
+                          <option value='15_months'>15 months</option>
+                          <option value='16_months'>16 months</option>
+                          <option value='17_months'>17 months</option>
+                          <option value='18_months'>18 months</option>
+                          <option value='all_period_types'>All</option>
+                        </select>
+                      </div>
+                    </li>
+                    <li class='block'>
+                      <button class='btn-type-1'>search projects</button>
+                    </li>
+                  </ul>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='h-block cf'>
+          <h1 class='logo' title='LendingStar'>
+            <a href='/'>
+              <span>LendingStar</span>
+            </a>
+          </h1>
+        </div>
+        <div class='slide-down'>
+          <a href='#more'></a>
+        </div>
+      </header>
+      <section class='main-menu' id='more'>
+        <div class='container2 cf' id='sign-in'>
+          <nav>
+            <ul>
+              <li>
+                <a href='start-investing.html'>invest</a>
+              </li>
+              <li>
+                <a href='create-new-project.html'>get money</a>
+              </li>
+            </ul>
+          </nav>
+          <a href='index.html' id='logo'></a>
+          <div class='user-block'>
+            <div class='invest-list empty'>
+              <a href='invest-cart.html'>
+                Invest cart
+                <span>3</span>
+              </a>
+            </div>
+            <ul class='user-lg-ju cf'>
+              <li class='user-lg cf'>
+                <a class='login-form-link' href='#more'>Login</a>
+                <div class='user-login-form-container cf' id='user-login-form'>
+                  <a href='#' id='hide-login-form'></a>
+                  <form action='/' class='user-login-form cf'>
+                    <div class='lg-item'>
+                      <input id='user-login' placeholder='Username or E-mail' type='email'>
+                    </div>
+                    <div class='lg-item'>
+                      <input id='user-pass' placeholder='Password' type='text'>
+                      <a class='pass-recover' href='retrieve-pass-step3.html' title='Forgot password?'></a>
+                    </div>
+                  </form>
+                </div>
+              </li>
+              <li class='user-ju active cf'>
+                <a class='login-form-link' href='create-new-account.html'>Create account</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id='how-it-works'>
+        <div class='container'>
+          <h2 class='yt-hide'>How LendingStar works?</h2>
+          <div class='yt-hide'>
+            <span class='yt'></span>
+          </div>
+          <div class='yt-video'></div>
+        </div>
+      </section>
+      <section id='ls-statistics'>
+        <div class='container'>
+          <div class='st-1'>
+            <div class='st-num'>1500</div>
+            <div class='st-h'>Loan Request</div>
+          </div>
+          <div class='st-2'>
+            <div class='st-cur'>$</div>
+            <div class='st-num'>2 256 840</div>
+            <div class='st-h'>The total amount of requests</div>
+          </div>
+          <div class='st-1'>
+            <div class='st-num'>2000</div>
+            <div class='st-h'>Projects</div>
+          </div>
+        </div>
+      </section>
+      <section id='guarantees'>
+        <div class='container'>
+          <h2>Guarantees</h2>
+          <div class='guarantees-block cf'>
+            <a href='guarantee.html#g-premod'>
+              <img alt='#' src='img/guarantees-1.png'>
+            </a>
+            <a href='guarantee.html#g-rating'>
+              <img alt='#' src='img/guarantees-2.png'>
+            </a>
+            <a href='guarantee.html#g-creditcond'>
+              <img alt='#' src='img/guarantees-3.png'>
+            </a>
+            <a href='guarantee.html#g-moneyback'>
+              <img alt='#' src='img/guarantees-4.png'>
+            </a>
+            <a href='guarantee.html#g-legalcontract'>
+              <img alt='#' src='img/guarantees-5.png'>
+            </a>
+          </div>
+        </div>
+        <div id='calculate-income'></div>
+      </section>
+      <section id='calc'>
+        <div class='container'>
+          <h4>Calculate your deposit or loan a few simple steps and see how beneficial terms of service</h4>
+          <div class='calc-tab-h'>
+            <a class='borrower-charts' href='#'>Pre-calculate your loan</a>
+            <span>or</span>
+            <a class='investor-charts' href='#'>Calculate income</a>
+          </div>
+          <div class='step-strip cf'>
+            <div class='step-h'>Amount</div>
+            <div class='step-h step-rate2'>Term</div>
+            <div class='step-h step-rate'>Rate</div>
+            <div class='step-h'>Finish</div>
+          </div>
+        </div>
+      </section>
+      <section id='calc2'>
+        <div class='container borrower-tab'>
+          <div class='calc-step-tab'>
+            <div class='calc-h'>I want to take</div>
+            <div class='calc-h2'>Slide to change the data</div>
+            <div id='slider'></div>
+            <div class='slider-grad'>
+              <div class='slider-grad1'>100</div>
+              <div class='slider-grad2'>2500</div>
+              <div class='slider-grad3'>5000</div>
+              <div class='slider-grad4'>7500</div>
+              <div class='slider-grad5'>10000</div>
+            </div>
+            <div class='firstChart'>
+              <div class='chart-label1'>
+                <div>$</div>
+                <div class='chart-amount-you-want'>100</div>
+              </div>
+              <canvas height='200' id='myChart' width='200'></canvas>
+            </div>
+            <a class='calc-next' href='#'>
+              <span>Click to next step</span>
+            </a>
+          </div>
+          <div class='calc-step-tab'>
+            <div class='calc-h'>Loan term</div>
+            <div class='calc-h2'>Slide to change the data</div>
+            <div id='slider2'></div>
+            <div class='slider-grad'>
+              <div class='slider-tab2-grad1'>1</div>
+              <div class='slider-tab2-grad2'>6</div>
+              <div class='slider-tab2-grad3'>12</div>
+              <div class='slider-tab2-grad4'>18</div>
+              <div class='slider-tab2-grad5'>24</div>
+            </div>
+            <div class='firstChart'>
+              <div class='chart-label1'>
+                <div class='chart-term-you-want'>1</div>
+                <div>month</div>
+              </div>
+              <canvas height='200' id='myChart2' width='200'></canvas>
+            </div>
+            <a class='calc-prev' href='#'>
+              <span>Go back</span>
+            </a>
+            <a class='calc-next' href='#'>
+              <span>Click to next step</span>
+            </a>
+          </div>
+          <div class='calc-step-tab'>
+            <div class='three-charts cf'>
+              <div class='firstChart2'>
+                <div class='chart-title'>Amount</div>
+                <div class='chart-label2'>
+                  <div>$</div>
+                  <div class='chart-amount-you-want'>100</div>
+                </div>
+                <canvas height='150' id='myChart4' width='150'></canvas>
+              </div>
+              <div class='firstChart2'>
+                <div class='chart-title'>Loan term</div>
+                <div class='chart-label2'>
+                  <div>month</div>
+                  <div class='chart-term-you-want'>1</div>
+                </div>
+                <canvas height='150' id='myChart5' width='150'></canvas>
+              </div>
+              <a class='calc-prev calc-prev-final' href='#'></a>
+              <a class='calc-next calc-next-final' href='#'></a>
+              <div class='tab4h'>To complete calculation choose your rate:</div>
+              <div class='score-setter cf'>
+                <div class='score-letter'>
+                  <a data-score='a' href='#'>a</a>
+                  <a data-score='b' href='#'>b</a>
+                  <a data-score='c' href='#'>c</a>
+                  <a data-score='d' href='#'>d</a>
+                  <a data-score='e' href='#'>e</a>
+                  <a data-score='f' href='#'>f</a>
+                  <a data-score='g' href='#'>g</a>
+                </div>
+                <a class='set-score' href='http://scoring.lendingstar.com/' target='_blank'>I dont have loan rate</a>
+                <a class='calculate' href='#'>Calculate!</a>
+              </div>
+            </div>
+          </div>
+          <div class='calc-step-tab'>
+            <div class='borrower-finish2'>
+              <div class='three-charts2 cf'>
+                <div class='your-rate'>
+                  <div class='your-rate-title'>
+                    <div>
+                      Your
+                      <br>
+                      rate is
+                    </div>
+                    C
+                  </div>
+                </div>
+                <div class='recommended-payment'>
+                  <div class='recommended-payment-title'>
+                    <div>
+                      Recommended
+                      <br>
+                      interest rate for you
+                    </div>
+                  </div>
+                  <div class='rp-pad'>%</div>
+                  <div>3.5</div>
+                </div>
+                <div class='firstChart3'>
+                  <div class='chart-title3'>I want to take</div>
+                  <div class='chart-label3'>
+                    <div>$</div>
+                    <div class='chart-amount-you-want'>100</div>
+                  </div>
+                  <canvas height='105' id='myChart7' width='105'></canvas>
+                </div>
+                <div class='firstChart3'>
+                  <div class='chart-title3'>Loan term</div>
+                  <div class='chart-label3'>
+                    <div>month</div>
+                    <div class='chart-term-you-want'>1</div>
+                  </div>
+                  <canvas height='105' id='myChart8' width='105'></canvas>
+                </div>
+                <div class='firstChart3'>
+                  <div class='chart-title3'>Monthly payment</div>
+                  <div class='chart-label3'>
+                    <div>$</div>
+                    <div class='chart-payment-you-want'>250</div>
+                  </div>
+                  <canvas height='105' id='myChart9' width='105'></canvas>
+                </div>
+              </div>
+              <div class='borrower-finish-button'>
+                <a href='#'>Fill an application to complete your loan!</a>
+              </div>
+              <div class='borrower-change-data'>
+                <a href='#'>Change data</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='container investor-tab cf'>
+          <div class='calc-step-tab-investor'>
+            <div class='calc-h'>I want to invest</div>
+            <div class='calc-h2'>Slide to change the data</div>
+            <div id='slider4'></div>
+            <div class='slider-grad'>
+              <div class='slider-grad1'>100</div>
+              <div class='slider-grad2'>2500</div>
+              <div class='slider-grad3'>5000</div>
+              <div class='slider-grad4'>7500</div>
+              <div class='slider-grad5'>10000</div>
+            </div>
+            <div class='firstChart'>
+              <div class='chart-label1'>
+                <div>$</div>
+                <div class='chart-amount-you-want-invest'>100</div>
+              </div>
+              <canvas height='200' id='myChart10' width='200'></canvas>
+            </div>
+            <a class='calc-next' href='#'>
+              <span>Click to next step</span>
+            </a>
+          </div>
+          <div class='calc-step-tab-investor'>
+            <div class='calc-h'>Tenure</div>
+            <div class='calc-h2'>Slide to change the data</div>
+            <div id='slider5'></div>
+            <div class='slider-grad'>
+              <div class='slider-tab2-grad1'>1</div>
+              <div class='slider-tab2-grad2'>6</div>
+              <div class='slider-tab2-grad3'>12</div>
+              <div class='slider-tab2-grad4'>18</div>
+              <div class='slider-tab2-grad5'>24</div>
+            </div>
+            <div class='firstChart'>
+              <div class='chart-label1'>
+                <div class='chart-term-you-want-invest'>1</div>
+                <div>month</div>
+              </div>
+              <canvas height='200' id='myChart11' width='200'></canvas>
+            </div>
+            <a class='calc-prev' href='#'>
+              <span>Go back</span>
+            </a>
+            <a class='calc-next' href='#'>
+              <span>Click to next step</span>
+            </a>
+          </div>
+          <div class='calc-step-tab-investor'>
+            <div class='calc-h'>Annual percentage yield with monthly compounding</div>
+            <div class='calc-h2'>Slide to change the data</div>
+            <div id='slider6'></div>
+            <div class='slider-grad'>
+              <div class='slider-grad1'>0.5</div>
+              <div class='slider-grad2'>2,5</div>
+              <div class='slider-grad3'>5</div>
+              <div class='slider-grad4'>7,5</div>
+              <div class='slider-grad5'>10</div>
+            </div>
+            <div class='firstChart'>
+              <div class='chart-label1'>
+                <div>%</div>
+                <div>
+                  <span class='chart-rate-you-want-invest'>0.5</span>
+                </div>
+              </div>
+              <canvas height='200' id='myChart12' width='200'></canvas>
+            </div>
+            <a class='calc-prev' href='#'>
+              <span>Go back</span>
+            </a>
+            <a class='calc-next' href='#'>
+              <span>Click to next step</span>
+            </a>
+          </div>
+          <div class='calc-step-tab-investor'>
+            <div class='three-charts cf'>
+              <div class='firstChart2'>
+                <div class='chart-title'>Invest</div>
+                <div class='chart-label2'>
+                  <div>$</div>
+                  <div class='chart-amount-you-want'>100</div>
+                </div>
+                <canvas height='150' id='myChart13' width='150'></canvas>
+              </div>
+              <div class='firstChart2'>
+                <div class='chart-title'>Tenure</div>
+                <div class='chart-label2'>
+                  <div>month</div>
+                  <div class='chart-term-you-want'>1</div>
+                </div>
+                <canvas height='150' id='myChart14' width='150'></canvas>
+              </div>
+              <div class='firstChart2'>
+                <div class='chart-title'>APY</div>
+                <div class='chart-label2'>
+                  <div>%</div>
+                  <div>
+                    <span class='chart-rate-you-want-invest'>0.5</span>
+                  </div>
+                </div>
+                <canvas height='150' id='myChart15' width='150'></canvas>
+              </div>
+            </div>
+            <a class='calc-prev calc-prev-final' href='#'></a>
+            <a class='calc-next-final' href='#'></a>
+            <div class='tab4h'>We almost ready</div>
+            <div class='score-setter cf'>
+              <a class='inv-port' href='#'>Click here to start investing!</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id='projects'>
+        <div class='container'>
+          <h2>Projects</h2>
+          <div class='project-list cf'>
+            <div class='project-item' data-prinvid='1'>
+              <div class='pr-item-block'>
+                <div class='pr-author'>Name Surname</div>
+                <div class='pr-mini-desc'>I want to take money for more new phototechnik and travel</div>
+                <div class='pr-mini-desc2'>
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                </div>
+                <div class='pr-rate'>
+                  Recommended rate
+                  <span>
+                    5.6
+                    <b>%</b>
+                  </span>
+                </div>
+                <div class='pr-status'>
+                  <div class='pr-status-line' style='width: 99px '></div>
+                </div>
+                <div class='cf'>
+                  <div class='pr-data-l pr-amount-left'>
+                    152 000
+                    <span>USD</span>
+                  </div>
+                  <div class='pr-data-r pr-days-left'>43</div>
+                </div>
+                <div class='cf'>
+                  <div class='pr-data-l'>Left to collect</div>
+                  <div class='pr-data-r'>Days left</div>
+                </div>
+              </div>
+              <div class='project-item-hover'>
+                <ul>
+                  <li>
+                    <a class='add-to-wish-list' href='#'>Add to wish list</a>
+                  </li>
+                  <li class='ybut add-to-invest-list'>
+                    <a data-invid='1' href='#'>Add to Invest cart</a>
+                  </li>
+                  <li class='ybut pr-sign-in-but-block'>
+                    <a class='pr-sign-in-but' href='#user-login-form'>Sign in to read more</a>
+                  </li>
+                  <li>
+                    <a class='add-to-watch-list' href='#calculate-income'>Add to watсh list</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class='project-item' data-prinvid='2'>
+              <div class='pr-item-block'>
+                <div class='pr-author'>Name Surname</div>
+                <div class='pr-mini-desc'>I want to take money for more new phototechnik and travel</div>
+                <div class='pr-mini-desc2'>
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                </div>
+                <div class='pr-rate'>
+                  Recommended rate
+                  <span>
+                    5.6
+                    <b>%</b>
+                  </span>
+                </div>
+                <div class='pr-status'>
+                  <div class='pr-status-line' style='width: 99px '></div>
+                </div>
+                <div class='cf'>
+                  <div class='pr-data-l pr-amount-left'>
+                    152 000
+                    <span>USD</span>
+                  </div>
+                  <div class='pr-data-r pr-days-left'>43</div>
+                </div>
+                <div class='cf'>
+                  <div class='pr-data-l'>Left to collect</div>
+                  <div class='pr-data-r'>Days left</div>
+                </div>
+              </div>
+              <div class='project-item-hover'>
+                <ul>
+                  <li>
+                    <a class='add-to-wish-list' href='#'>Add to wish list</a>
+                  </li>
+                  <li class='ybut add-to-invest-list'>
+                    <a data-invid='1' href='#'>Add to Invest cart</a>
+                  </li>
+                  <li class='ybut pr-sign-in-but-block'>
+                    <a class='pr-sign-in-but' href='#user-login-form'>Sign in to read more</a>
+                  </li>
+                  <li>
+                    <a class='add-to-watch-list' href='#calculate-income'>Add to watсh list</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class='project-item' data-prinvid='3'>
+              <div class='pr-item-block'>
+                <div class='pr-author'>Name Surname</div>
+                <div class='pr-mini-desc'>I want to take money for more new phototechnik and travel</div>
+                <div class='pr-mini-desc2'>
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                </div>
+                <div class='pr-rate'>
+                  Recommended rate
+                  <span>
+                    5.6
+                    <b>%</b>
+                  </span>
+                </div>
+                <div class='pr-status'>
+                  <div class='pr-status-line' style='width: 99px '></div>
+                </div>
+                <div class='cf'>
+                  <div class='pr-data-l pr-amount-left'>
+                    152 000
+                    <span>USD</span>
+                  </div>
+                  <div class='pr-data-r pr-days-left'>43</div>
+                </div>
+                <div class='cf'>
+                  <div class='pr-data-l'>Left to collect</div>
+                  <div class='pr-data-r'>Days left</div>
+                </div>
+              </div>
+              <div class='project-item-hover'>
+                <ul>
+                  <li>
+                    <a class='add-to-wish-list' href='#'>Add to wish list</a>
+                  </li>
+                  <li class='ybut add-to-invest-list'>
+                    <a data-invid='1' href='#'>Add to Invest cart</a>
+                  </li>
+                  <li class='ybut pr-sign-in-but-block'>
+                    <a class='pr-sign-in-but' href='#user-login-form'>Sign in to read more</a>
+                  </li>
+                  <li>
+                    <a class='add-to-watch-list' href='#calculate-income'>Add to watсh list</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class='project-item' data-prinvid='4'>
+              <div class='pr-item-block'>
+                <div class='pr-author'>Name Surname</div>
+                <div class='pr-mini-desc'>I want to take money for more new phototechnik and travel</div>
+                <div class='pr-mini-desc2'>
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                </div>
+                <div class='pr-rate'>
+                  Recommended rate
+                  <span>
+                    5.6
+                    <b>%</b>
+                  </span>
+                </div>
+                <div class='pr-status'>
+                  <div class='pr-status-line' style='width: 99px '></div>
+                </div>
+                <div class='cf'>
+                  <div class='pr-data-l pr-amount-left'>
+                    152 000
+                    <span>USD</span>
+                  </div>
+                  <div class='pr-data-r pr-days-left'>43</div>
+                </div>
+                <div class='cf'>
+                  <div class='pr-data-l'>Left to collect</div>
+                  <div class='pr-data-r'>Days left</div>
+                </div>
+              </div>
+              <div class='project-item-hover'>
+                <ul>
+                  <li>
+                    <a class='add-to-wish-list' href='#'>Add to wish list</a>
+                  </li>
+                  <li class='ybut add-to-invest-list'>
+                    <a data-invid='1' href='#'>Add to Invest cart</a>
+                  </li>
+                  <li class='ybut pr-sign-in-but-block'>
+                    <a class='pr-sign-in-but' href='#user-login-form'>Sign in to read more</a>
+                  </li>
+                  <li>
+                    <a class='add-to-watch-list' href='#calculate-income'>Add to watсh list</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class='project-item' data-prinvid='5'>
+              <div class='pr-item-block'>
+                <div class='pr-author'>Name Surname</div>
+                <div class='pr-mini-desc'>I want to take money for more new phototechnik and travel</div>
+                <div class='pr-mini-desc2'>
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                </div>
+                <div class='pr-rate'>
+                  Recommended rate
+                  <span>
+                    5.6
+                    <b>%</b>
+                  </span>
+                </div>
+                <div class='pr-status'>
+                  <div class='pr-status-line' style='width: 99px '></div>
+                </div>
+                <div class='cf'>
+                  <div class='pr-data-l pr-amount-left'>
+                    152 000
+                    <span>USD</span>
+                  </div>
+                  <div class='pr-data-r pr-days-left'>43</div>
+                </div>
+                <div class='cf'>
+                  <div class='pr-data-l'>Left to collect</div>
+                  <div class='pr-data-r'>Days left</div>
+                </div>
+              </div>
+              <div class='project-item-hover'>
+                <ul>
+                  <li>
+                    <a class='add-to-wish-list' href='#'>Add to wish list</a>
+                  </li>
+                  <li class='ybut add-to-invest-list'>
+                    <a data-invid='1' href='#'>Add to Invest cart</a>
+                  </li>
+                  <li class='ybut pr-sign-in-but-block'>
+                    <a class='pr-sign-in-but' href='#user-login-form'>Sign in to read more</a>
+                  </li>
+                  <li>
+                    <a class='add-to-watch-list' href='#calculate-income'>Add to watсh list</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class='project-item' data-prinvid='6'>
+              <div class='pr-item-block'>
+                <div class='pr-author'>Name Surname</div>
+                <div class='pr-mini-desc'>I want to take money for more new phototechnik and travel</div>
+                <div class='pr-mini-desc2'>
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                </div>
+                <div class='pr-rate'>
+                  Recommended rate
+                  <span>
+                    5.6
+                    <b>%</b>
+                  </span>
+                </div>
+                <div class='pr-status'>
+                  <div class='pr-status-line' style='width: 99px '></div>
+                </div>
+                <div class='cf'>
+                  <div class='pr-data-l pr-amount-left'>
+                    152 000
+                    <span>USD</span>
+                  </div>
+                  <div class='pr-data-r pr-days-left'>43</div>
+                </div>
+                <div class='cf'>
+                  <div class='pr-data-l'>Left to collect</div>
+                  <div class='pr-data-r'>Days left</div>
+                </div>
+              </div>
+              <div class='project-item-hover'>
+                <ul>
+                  <li>
+                    <a class='add-to-wish-list' href='#'>Add to wish list</a>
+                  </li>
+                  <li class='ybut add-to-invest-list'>
+                    <a data-invid='1' href='#'>Add to Invest cart</a>
+                  </li>
+                  <li class='ybut pr-sign-in-but-block'>
+                    <a class='pr-sign-in-but' href='#user-login-form'>Sign in to read more</a>
+                  </li>
+                  <li>
+                    <a class='add-to-watch-list' href='#calculate-income'>Add to watсh list</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class='pr-links'>
+            <a class='pr-but btn-type-2' href='#'>get money</a>
+            <a class='pr-but btn-type-3' href='#'>All projects</a>
+          </div>
+        </div>
+      </section>
+      <section id='feedback'>
+        <div class='container'>
+          <div class='fdb-slider'>
+            <a class='fdb-slider-left' href='#'></a>
+            <a class='fdb-slider-right' href='#'></a>
+            <div class='fdb-slider-item'>
+              <div class='fdb-img'>
+                <img alt='' src='img/lubomir.jpg'>
+              </div>
+              <div class='fdb-position'>
+                <div>Lubomyr Ostapiv</div>
+                <div>CFO at Stanfy</div>
+              </div>
+              <div class='fdb-header'>Easier than you think</div>
+              <div class='fdb-text'>
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+              </div>
+            </div>
+            <div class='fdb-slider-item'>
+              <div class='fdb-img'>
+                <img alt='' src='img/cn.jpg'>
+              </div>
+              <div class='fdb-position'>
+                <div>Chuck Norris</div>
+                <div>CEO of Universe</div>
+              </div>
+              <div class='fdb-header'>Federal Reserve is borrowing money from me</div>
+              <div class='fdb-text'>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores assumenda corporis, dolores error, expedita fugit labore laudantium libero neque odit officiis quaerat quam sed similique ullam unde vel veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores assumenda corporis, dolores error, expedita fugit labore laudantium libero neque odit officiis quaerat quam sed similique ullam unde vel veniam.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id='press'>
+        <div class='container'>
+          <h2>Press about us</h2>
+          <div class='press-slider'>
+            <div id='text_slider'>
+              <div class='effectContainer mod'>
+                <div class='slide r1'>
+                  <div class='press-slider-item cf'>
+                    <div class='press-left'>
+                      <div class='press-h'>NY Times</div>
+                      <div class='press-feedback'>
+                        Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                      </div>
+                    </div>
+                    <div class='press-right'>
+                      <img alt='' src='img/press-logo.gif'>
+                    </div>
+                  </div>
+                </div>
+                <div class='slide r1'>
+                  <div class='press-slider-item cf'>
+                    <div class='press-left'>
+                      <div class='press-h'>Komersant</div>
+                      <div class='press-feedback'>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad beatae corporis culpa facilis nobis, nulla, officiis pariatur perspiciatis placeat ratione, reiciendis sint totam? A accusamus ad consequatur in quos!
+                      </div>
+                    </div>
+                    <div class='press-right'>
+                      <img alt='' src='img/press-logo.gif'>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class='footer-push'></div>
+    </div>
+    <footer class='main-footer'>
+      <div class='f1'>
+        <div class='slide-up'>
+          <a href='#top'></a>
+        </div>
+        <div class='container'>
+          <div class='footer-block1'>
+            <h4>About</h4>
+            <ul>
+              <li>
+                <a href='#'>Blog</a>
+              </li>
+              <li>
+                <a href='#'>About Us</a>
+              </li>
+              <li>
+                <a href='#'>Groups</a>
+              </li>
+              <li>
+                <a href='#'>How it works</a>
+              </li>
+              <li>
+                <a href='#'>Press</a>
+              </li>
+              <li>
+                <a href='#'>Agents</a>
+              </li>
+              <li>
+                <a href='terms-of-conditions.html'>Terms of conditions</a>
+              </li>
+              <li>
+                <a href='#'>Privacy policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class='footer-block2'>
+            <h4>Get Financing</h4>
+            <ul>
+              <li>
+                <a href='#'>Where to start</a>
+              </li>
+              <li>
+                <a href='#'>Tutorial</a>
+              </li>
+              <li>
+                <a href='#'>Profile</a>
+              </li>
+              <li>
+                <a href='create-new-project.html'>Create project</a>
+              </li>
+              <li>
+                <a href='guarantee.html'>Guarantees</a>
+              </li>
+            </ul>
+          </div>
+          <div class='footer-block3'>
+            <h4>Investment</h4>
+            <ul>
+              <li>
+                <a href='#'>Where to start</a>
+              </li>
+              <li>
+                <a href='#'>Tutorial</a>
+              </li>
+              <li>
+                <a href='#'>Profile</a>
+              </li>
+              <li>
+                <a href='all-projects.html'>Projects</a>
+              </li>
+              <li>
+                <a href='guarantee.html'>Guarantees</a>
+              </li>
+            </ul>
+          </div>
+          <div class='footer-block4'>
+            <h4>Contact Us</h4>
+            <p>Phone.: +710 60 654 231</p>
+            <p>
+              <a href='mailto:feedback@lendingstar.com'>feedback@lendingstar.com</a>
+            </p>
+            <p>Mon-Fri from 10-00 to 18-00</p>
+            <div class='feedback-form-link'>
+              <h4>Have a question?</h4>
+              <p>
+                <a href='#'>Use Feedback form</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='f-bottom'>
+        <div class='container'>
+          <div class='footer-soc'>
+            <a href='#' id='soc-tw'></a>
+            <a href='#' id='soc-fb'></a>
+            <a href='#' id='soc-gp'></a>
+            <a href='#' id='soc-yt'></a>
+          </div>
+          <p class='copyright'>
+            &copy; "LendingStar"
+            2013 - 2014 All rights reserved.
+          </p>
+          <a class='webmil' href='http://webmil.eu/' target='_blank'>
+            <img alt='Webmil.eu' src='img/webmil.png'>
+          </a>
+        </div>
+      </div>
+      <div class='f1'>
+        <div class='container'>
+          <div class='disclaimer-container'>
+            <h4>Website disclaimer - sample template</h4>
+            <p>The information contained in this website is for general information purposes only. The information is provided by [business name] and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.</p>
+            <p>In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.</p>
+            <p>Through this website you are able to link to other websites which are not under the control of [business name]. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.</p>
+            <p>Every effort is made to keep the website up and running smoothly. However, [business name] takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/pages-js/index.js" type="text/javascript"></script>
+    <script>
+      LendingStar.data.index.stepTitleBorrower = "Rate";
+      LendingStar.data.index.stepTitleBorrower2 = "Term";
+      LendingStar.data.index.stepTitleInvestor = "APY";
+      LendingStar.data.index.stepTitleInvestor2 = "Tenure";
+      LendingStar.data.index.addedToWishList = "Added to wish list";
+      LendingStar.data.index.addedToWatchList = "Added to watсh list";
+      LendingStar.data.index.messageFormError = "FILL THE FORM PROPERLY";
+    </script>
+  </body>
+</html>

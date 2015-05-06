@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+  <head lang='en'>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
+    <title>LendingStar</title>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <link href='img/favicon.png' rel='shortcut icon'>
+    <link href="/css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="/fonts/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="/css/vendor/jquery.custom-scrollbar.css" rel="stylesheet" type="text/css" />
+    <link href="/css/vendor/jquery.datepick.css" rel="stylesheet" type="text/css" />
+    <link href="/css/vendor/jquery.multiselect.css" rel="stylesheet" type="text/css" />
+    <link href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="/css/vendor/lightSlider.css" rel="stylesheet" type="text/css" />
+    <link href="/css/all.css" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js" type="text/javascript"></script>
+    <script src="/js/jquery.custom-scrollbar.min.js" type="text/javascript"></script>
+    <script src="/js/chart.min.js" type="text/javascript"></script>
+    <script src="/js/fade-plugin.js" type="text/javascript"></script>
+    <script src="/js/classie.js" type="text/javascript"></script>
+    <script src="/js/jquery.plugin.js" type="text/javascript"></script>
+    <script src="/js/jquery.datepick.js" type="text/javascript"></script>
+    <script src="/js/jquery.lightSlider.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.multiselect.min.js" type="text/javascript"></script>
+    <script src="/js/base.js" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js'></script>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js'></script>
+    <![endif]-->
+  </head>
+  <body class='white-bg'>
+    <div class='wrap static-page'>
+      <header class='main-header' id='top'>
+        <section class='main-menu scroll_menu2_fixed' id='more'>
+          <div class='container2 cf' id='sign-in'>
+            <nav>
+              <ul>
+                <li>
+                  <a href='start-investing.html'>invest</a>
+                </li>
+                <li>
+                  <a href='create-new-project.html'>get money</a>
+                </li>
+                <li>
+                  <a href='all-projects.html'>projects</a>
+                </li>
+              </ul>
+            </nav>
+            <a href='index.html' id='logo'></a>
+            <div class='user-block'>
+              <div class='invest-list empty'>
+                <a href='invest-cart.html'>
+                  Invest cart
+                  <span>0</span>
+                </a>
+              </div>
+              <div class='user-logged-in cf'>
+                <ul class='user-menu cf'>
+                  <li class='item'>
+                    <a class='ico create-new-project' href='#'></a>
+                  </li>
+                  <li class='item'>
+                    <a class='user-not ico' href='#'>
+                      <span>9+</span>
+                    </a>
+                    <div class='notificatin-menu'>
+                      <ul>
+                        <li>
+                          <a href='borrower-notifications.html'>
+                            <p>
+                              Notifications
+                              <span class='all-not'>38</span>
+                            </p>
+                          </a>
+                        </li>
+                        <li class='stn-notif'>
+                          <a href='#'>
+                            <span class='ico yellow'></span>
+                            <p>Cash Income for last 24 hours: 300$</p>
+                            <time datatime='2014-10-23 23:59'>
+                              23.10.2014
+                              <b>23:59</b>
+                            </time>
+                          </a>
+                        </li>
+                        <li class='project-notif'>
+                          <div class='not-text'>
+                            <span class='ico yellow'></span>
+                            <p>You have 1 new offer from Alex L.</p>
+                            <time datatime='2014-10-23 23:59'>
+                              23.10.2014
+                              <b>23:59</b>
+                            </time>
+                          </div>
+                          <div class='user-request cf'>
+                            <a class='accept-request' href='#'>Accept offer</a>
+                            <a class='decline-request' href='#'></a>
+                          </div>
+                        </li>
+                        <li class='stn-notif'>
+                          <a href='#'>
+                            <span class='ico red'></span>
+                            <p>John V. add 300$.</p>
+                            <time datatime='2014-10-23 10:12'>
+                              23.10.2014
+                              <b>10:12</b>
+                            </time>
+                          </a>
+                        </li>
+                        <li class='stn-notif'>
+                          <a class='read' href='#'>
+                            <span class='ico green'></span>
+                            <p>You have 1 offer from John V.</p>
+                            <time datatime='2014-10-22 22:23'>
+                              22.10.2014
+                              <b>22:23</b>
+                            </time>
+                          </a>
+                        </li>
+                        <li class='stn-notif'>
+                          <a href='#'>
+                            <span class='ico yellow'></span>
+                            <p>Cash Income for last 24 hours: 1500$</p>
+                            <time datatime='2014-10-22 23:59'>
+                              22.10.2014
+                              <b>23:59</b>
+                            </time>
+                          </a>
+                        </li>
+                        <li class='stn-notif'>
+                          <a class='read' href='#'>
+                            <span class='ico red'></span>
+                            <p>Chuck N. add 1000$</p>
+                            <time datatime='2014-10-22 15:00'>
+                              22.10.2014
+                              <b>15:00</b>
+                            </time>
+                          </a>
+                        </li>
+                        <li class='stn-notif'>
+                          <a href='#'>
+                            clear list
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class='item'>
+                    <a class='ico empty user-inbox' href='borrower-messages.html'>
+                      <span>0</span>
+                    </a>
+                  </li>
+                </ul>
+                <div class='user-name-menu'>
+                  <a class='user-name' href='borrower-cab.html'>
+                    <h6>Alexander G.</h6>
+                    <div class='user-photo'>
+                      <img alt='#' src='img/cn.jpg'>
+                    </div>
+                  </a>
+                  <div class='user-fallout-menu'>
+                    <ul>
+                      <li>
+                        <a href='borrower-my-account.html'>
+                          <p>
+                            My account
+                          </p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href='#'>
+                          <p>
+                            My Projects
+                            <span class='all-not'>3</span>
+                          </p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href='borrower-transactions-details.html'>
+                          <p>Transactions details</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href='#'>
+                          <p>My Profile</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a class='credit-score' href='#'>
+                          <p>
+                            My credit score
+                            <span>D</span>
+                          </p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+      <div class='submenu-container'>
+        <div class='container'>
+          <ul class='cf'>
+            <li>
+              <a href='#'>About us</a>
+            </li>
+            <li>
+              <a href='guarantee.html'>Guarantees</a>
+            </li>
+            <li>
+              <a href='#'>How it works</a>
+            </li>
+            <li>
+              <a href='for-investors.html'>For Investors</a>
+            </li>
+            <li>
+              <a class='active' href='for-borrower.html'>For Borrowers</a>
+            </li>
+            <li>
+              <a href='terms-of-conditions.html'>Terms of conditions</a>
+            </li>
+            <li>
+              <a href='privacy-policy.html'>Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='text-page-header'>
+        <div class='container'>
+          <div class='text-container for-borrower-ico'>
+            <h3>For Borrowers</h3>
+            <p>Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+            <a class='btn-type-2' href='#'>create project</a>
+          </div>
+        </div>
+      </div>
+      <div class='text-page-body user-text-page-body'>
+        <div class='container'>
+          <div class='for-user-menu-col'>
+            <ul class='user-stn-menu'>
+              <li>
+                <a href='#'>Where to start?</a>
+              </li>
+              <li>
+                <a class='active' href='#'>Profile</a>
+              </li>
+              <li>
+                <a href='#'>Loans</a>
+              </li>
+              <li>
+                <a href='#'>Trust and Security</a>
+              </li>
+              <li>
+                <a href='#'>Taxes</a>
+              </li>
+              <li>
+                <a href='#'>Rules and regulations</a>
+              </li>
+              <li>
+                <a href='#'>VIDEO tutorial</a>
+              </li>
+              <li>
+                <a href='#'>Contact US</a>
+              </li>
+            </ul>
+            <div class='banner-container'>
+              <img alt='#' src='img/banner-example.png'>
+            </div>
+          </div>
+          <div class='text-content'>
+            <h4>Table example. Styles</h4>
+            <p>
+              Nullam ac urna eu felis dapibus
+              <a href='#'>condimentum</a>
+              sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque.
+              <br>
+              Suspendisse in orci enim. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.
+            </p>
+            <p>Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+            <ul>
+              <li>Etiam pharetra, erat sed fermentum</li>
+              <li>Proin gravida nibh vel velit auctor aliquet.</li>
+              <li>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</li>
+              <li>Morbi accumsan ipsum velit.</li>
+              <li>Mauris in erat justo.</li>
+              <li>Nullam ac urna eu felis dapibus condimentum sit amet a augue.</li>
+            </ul>
+            <h4>TRUST</h4>
+            <p>
+              Gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
+              <br>
+              Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+            </p>
+            <p>
+              Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra,
+              <a href='#'>erat sed fermentum</a>
+              feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+            </p>
+            <table border='1' width='710'>
+              <tr>
+                <th rowspan='2' width='200'>Year</th>
+                <th height='42' width='255'>main 1</th>
+                <th height='42' width='255'>main 2</th>
+              </tr>
+              <tr>
+                <td height='42'>Text or description</td>
+                <td height='42'>$1500</td>
+              </tr>
+              <tr>
+                <td height='42'>Text</td>
+                <td height='42'>Description</td>
+                <td height='42'>$10</td>
+              </tr>
+              <tr>
+                <td colspan='3' height='42'>Text</td>
+              </tr>
+              <tr>
+                <td height='42'>Text</td>
+                <td height='42'>Description</td>
+                <td height='42'>$10</td>
+              </tr>
+              <tr>
+                <th rowspan='3'>year month day</th>
+                <td height='42'>Description</td>
+                <td height='42'>$10</td>
+              </tr>
+              <tr>
+                <td height='42'></td>
+                <td height='42'>$500</td>
+              </tr>
+              <tr>
+                <td height='42'>$1000</td>
+                <td height='42'>$800</td>
+              </tr>
+              <tr>
+                <td height='42'>Text</td>
+                <td height='42'>Text or description</td>
+                <td height='42'>$800</td>
+              </tr>
+            </table>
+            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit</p>
+            <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque.</p>
+            <div id='image-slider'>
+              <div class='effectContainer mod'>
+                <div class='slide r1'>
+                  <img alt='#' src='img/img1.png'>
+                </div>
+                <div class='slide r1'>
+                  <img alt='#' src='img/img1.png'>
+                </div>
+              </div>
+            </div>
+            <p>
+              Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue
+              <a href='#'>non nequeed non neque elit.</a>
+              Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class='main-footer'>
+      <div class='f1'>
+        <div class='slide-up'>
+          <a href='#top'></a>
+        </div>
+        <div class='container'>
+          <div class='footer-block1'>
+            <h4>About</h4>
+            <ul>
+              <li>
+                <a href='#'>Blog</a>
+              </li>
+              <li>
+                <a href='#'>About Us</a>
+              </li>
+              <li>
+                <a href='#'>Groups</a>
+              </li>
+              <li>
+                <a href='#'>How it works</a>
+              </li>
+              <li>
+                <a href='#'>Press</a>
+              </li>
+              <li>
+                <a href='#'>Agents</a>
+              </li>
+              <li>
+                <a href='terms-of-conditions.html'>Terms of conditions</a>
+              </li>
+              <li>
+                <a href='#'>Privacy policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class='footer-block2'>
+            <h4>Get Financing</h4>
+            <ul>
+              <li>
+                <a href='#'>Where to start</a>
+              </li>
+              <li>
+                <a href='#'>Tutorial</a>
+              </li>
+              <li>
+                <a href='#'>Profile</a>
+              </li>
+              <li>
+                <a href='create-new-project.html'>Create project</a>
+              </li>
+              <li>
+                <a href='guarantee.html'>Guarantees</a>
+              </li>
+            </ul>
+          </div>
+          <div class='footer-block3'>
+            <h4>Investment</h4>
+            <ul>
+              <li>
+                <a href='#'>Where to start</a>
+              </li>
+              <li>
+                <a href='#'>Tutorial</a>
+              </li>
+              <li>
+                <a href='#'>Profile</a>
+              </li>
+              <li>
+                <a href='all-projects.html'>Projects</a>
+              </li>
+              <li>
+                <a href='guarantee.html'>Guarantees</a>
+              </li>
+            </ul>
+          </div>
+          <div class='footer-block4'>
+            <h4>Contact Us</h4>
+            <p>Phone.: +710 60 654 231</p>
+            <p>
+              <a href='mailto:feedback@lendingstar.com'>feedback@lendingstar.com</a>
+            </p>
+            <p>Mon-Fri from 10-00 to 18-00</p>
+            <div class='feedback-form-link'>
+              <h4>Have a question?</h4>
+              <p>
+                <a href='#'>Use Feedback form</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='f-bottom'>
+        <div class='container'>
+          <div class='footer-soc'>
+            <a href='#' id='soc-tw'></a>
+            <a href='#' id='soc-fb'></a>
+            <a href='#' id='soc-gp'></a>
+            <a href='#' id='soc-yt'></a>
+          </div>
+          <p class='copyright'>
+            &copy; "LendingStar"
+            2013 - 2014 All rights reserved.
+          </p>
+          <a class='webmil' href='http://webmil.eu/' target='_blank'>
+            <img alt='Webmil.eu' src='img/webmil.png'>
+          </a>
+        </div>
+      </div>
+      <div class='f1'>
+        <div class='container'>
+          <div class='disclaimer-container'>
+            <h4>Website disclaimer - sample template</h4>
+            <p>The information contained in this website is for general information purposes only. The information is provided by [business name] and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.</p>
+            <p>In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.</p>
+            <p>Through this website you are able to link to other websites which are not under the control of [business name]. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.</p>
+            <p>Every effort is made to keep the website up and running smoothly. However, [business name] takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/pages-js/static-pages.js" type="text/javascript"></script>
+  </body>
+</html>
