@@ -1,31 +1,27 @@
-/* line 10, /Users/admin/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
-html, body {
-  height: 100%; }
+html, body { height: 100%; }
 
-/* line 12, /Users/admin/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
 .wrap {
   clear: both;
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -90px; }
-  /* line 18, /Users/admin/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
-  .wrap .footer-push {
-    height: 90px; }
+  margin-bottom: -90px;
+}
 
-/* line 20, /Users/admin/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
+.wrap .footer-push { height: 90px; }
+
 .cab-footer {
   clear: both;
   position: relative;
-  height: 90px; }
+  height: 90px;
+}
 
 /* CSS reset */
-/* line 6, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
-/* line 11, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
 body {
   font-family: "open_sanslight", tahoma, verdana, arial, sans-serif;
   font-size: 15px;
@@ -34,92 +30,62 @@ body {
   color: #000;
   background-color: #e4e7ea;
   position: relative;
-  min-width: 960px; }
+  min-width: 960px;
+}
 
-/* line 22, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-body.user-cab {
-  background-color: #909498; }
+body.white-bg { background-color: #fff; }
 
-/* line 24, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-body.white-bg {
-  background-color: #fff; }
-
-/* line 26, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-body.user-verification {
-  background-color: #5d6369; }
-
-/* line 29, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
-/* line 31, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
 .container {
   width: 960px;
   display: block;
-  margin: 0px auto; }
-  /* line 35, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-  .container:after {
-    clear: both;
-    content: "";
-    display: table; }
+  margin: 0px auto;
+}
 
-/* line 42, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-.cab-container2 {
-  width: 100%;
-  max-width: 1240px;
-  min-width: 960px;
-  margin: 0 auto; }
-  /* line 47, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-  .cab-container2:after {
-    clear: both;
-    content: "";
-    display: table; }
+.container:after {
+  clear: both;
+  content: "";
+  display: table;
+}
 
-/* line 54, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
 .wrap.static-page {
   margin-bottom: 0px;
-  min-height: inherit; }
+  min-height: inherit;
+}
 
-/* line 60, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-.cf {
-  *zoom: 1; }
-  /* line 62, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-  .cf:before, .cf:after {
-    content: "";
-    display: table; }
-  /* line 66, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-  .cf:after {
-    clear: both; }
+.cf { *zoom: 1; }
 
-/* line 69, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after { clear: both; }
+
 .gradient-color {
   background: #ffd001;
-  /* Old browsers */
-  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZDAwMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmE4MDEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
   background: -moz-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-  /* FF3.6+ */
   background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ffd001), color-stop(100%, #ffa801));
-  /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-  /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-  /* Opera 11.10+ */
   background: -ms-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-  /* IE10+ */
   background: linear-gradient(to right, #ffd001 0%, #ffa801 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd001', endColorstr='#ffa801', GradientType=1);
-  /* IE6-8 */ }
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffd001', endColorstr='#ffa801', GradientType=1);
+}
 
 @media only screen and (max-width: 1024px) {
-  /* line 83, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
   body {
     font-size: 13px;
-    min-width: 960px; } }
-/* line 89, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
+    min-width: 960px;
+  }
+}
+
 .custom-helptip {
   font-family: "open_sansregular";
   font-size: 0.93333em;
@@ -134,28 +100,33 @@ body.user-verification {
   border-radius: 4px;
   padding: 20px 20px 20px 55px;
   background: url("../img/tip.png") #f6f6f6 15px center no-repeat;
+<<<<<<< HEAD
   max-width: 300px; }
+=======
+  max-width: 300px;
+}
+>>>>>>> gh-pages
 
-/* line 117, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
 .back-link {
   position: relative;
-  padding-left: 20px; }
-  /* line 120, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-  .back-link:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    margin-top: -6px;
-    display: block;
-    width: 8px;
-    height: 12px;
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAMCAMAAABoQAyvAAAAM1BMVEWQlJiQlJiQlJiQlJiQlJiQlJiQlJhMaXGQlJiQlJiQlJiQlJiQlJiQlJiQlJiQlJiQlJjrUhIkAAAAEHRSTlMPJtEu2SDtAArfyL4YF+W0MkDJ2wAAAEFJREFUCB0FgIkRgjAAwMLXtKCY/af1oN9UhXpQobpR5qj2j3iM6rzQ7a1O9FrVwuOt1sYc1XkJ1f5VqBsVeqbqH7wKA3mCVLB1AAAAAElFTkSuQmCC') no-repeat;
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg); }
+  padding-left: 20px;
+}
 
-/* line 136, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
+.back-link:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -6px;
+  display: block;
+  width: 8px;
+  height: 12px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAMCAMAAABoQAyvAAAAM1BMVEWQlJiQlJiQlJiQlJiQlJiQlJiQlJhMaXGQlJiQlJiQlJiQlJiQlJiQlJiQlJiQlJiQlJjrUhIkAAAAEHRSTlMPJtEu2SDtAArfyL4YF+W0MkDJ2wAAAEFJREFUCB0FgIkRgjAAwMLXtKCY/af1oN9UhXpQobpR5qj2j3iM6rzQ7a1O9FrVwuOt1sYc1XkJ1f5VqBsVeqbqH7wKA3mCVLB1AAAAAElFTkSuQmCC') no-repeat;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
 .total-return {
   position: absolute;
   width: 150px;
@@ -168,134 +139,66 @@ body.user-verification {
   background: url("../img/total-return-ico.png") top center no-repeat;
   z-index: 12;
   font-size: 1em;
-  text-transform: uppercase; }
-  /* line 149, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-  .total-return span {
-    font-family: "open_sansregular";
-    text-transform: none;
-    font-size: 1.2em; }
+  text-transform: uppercase;
+}
 
-/* line 156, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-.assets-chart-desc-container {
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  max-width: 230px;
-  margin-left: 30px; }
-  /* line 160, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-  .assets-chart-desc-container li {
-    position: relative;
-    font-size: 1.6em;
-    padding-left: 25px;
-    margin-top: 20px; }
-    /* line 165, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-    .assets-chart-desc-container li:before {
-      content: "";
-      display: block;
-      width: 15px;
-      height: 15px;
-      position: absolute;
-      left: 0;
-      top: 10px;
-      background: #ea6336; }
-    /* line 176, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-    .assets-chart-desc-container li.returned:before {
-      background: #6dc876; }
-    /* line 179, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-    .assets-chart-desc-container li.yield-received:before {
-      height: 21px;
-      background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAVCAYAAACZm7S3AAAAiUlEQVQ4jWNgwANyT5Qx4ZPHp5EPiHcBMRc5mucB8X8gnkiqRj+oRhD+B8ROxGoUAeLnSJpB+CEQ8xOjeQ2aRhheQEhjNA6NMOyPS6M0EL8joPkFEIti07wcqhmbAf+Q5OYQcj665g8EA2tUM/ma36HhB0Rrpg8AOkmQTCyALXCIxR+wBQ6x+AEAgRBQyz5KmFYAAAAASUVORK5CYII=') no-repeat; }
-    /* line 185, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-    .assets-chart-desc-container li.rate-of-return:before {
-      height: 18px;
-      width: 18px;
-      background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABVklEQVR4AbXUT0s6QRwGcPfdbK9CKLFXE0EHCQI7BBYFSZcgbxoUHTrUoatH+wOWWWm5/rCgDpW2rpW7y9bze2ZxZBs2sqwvfC6PM48z6hoJm4n9xCitUY2cnlovG6OISg10yhO+kCf9s6IoWYQBWRRVi3QyCd9kki6LNCoQfqhAmiiKEYYUE0UZgmq7sQvbs7FubPWzyYNpXLYNPNpNJIup4PqMKDIIqkbnGmIunqr9bLG8AjlZYzO43hBFjlqSPl+F9+7BdNpw31zMnSyJE/gnsdwOSq0zJI6SwT1OJPiV80UuKuPV66JiXmHqcAa3L3dou5Zfet99UK/0oagqg2xtA3JSpWU/27nZ62ezx/MiC1MXRTkZiHdr2i0Y1j/xwfrZwmnav06xWQorkHKiaJwwpPgv/iCHf0RG/uShlfQBr1kI+xtRaRSnDNXJpWeq9LI4aeq+/3Q5N2NOOe0LAAAAAElFTkSuQmCC') no-repeat; }
-    /* line 191, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-    .assets-chart-desc-container li span {
-      font-size: 0.75em; }
-    /* line 192, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-    .assets-chart-desc-container li.yield-received, .assets-chart-desc-container li.rate-of-return, .assets-chart-desc-container li.returned {
-      color: #6dc876; }
-    /* line 193, /Users/admin/Works/LendingStar/frontend/source/css/partials/_base.scss */
-    .assets-chart-desc-container li p {
-      font-size: 0.667em;
-      font-family: "pt_sansregular";
-      color: #909498; }
+.total-return span {
+  font-family: "open_sansregular";
+  text-transform: none;
+  font-size: 1.2em;
+}
 
-/* line 1, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-.ui-container {
-  padding: 40px; }
-
-/* line 3, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-.ui-line {
-  margin: 20px 0 0 20px; }
-
-/* line 5, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
 img {
   max-width: 100%;
-  width: 100%; }
+  width: 100%;
+}
 
-/* line 7, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-i {
-  font-style: normal; }
+i { font-style: normal; }
 
-/* line 9, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
 ul, ol {
   margin: 0;
   padding: 0;
-  list-style-type: none; }
-  /* line 13, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  ul li, ol li {
-    list-style-type: none;
-    list-style: none; }
+  list-style-type: none;
+}
 
-/* line 19, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
+ul li, ol li {
+  list-style-type: none;
+  list-style: none;
+}
+
 menu {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
-/* line 21, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-.ui-widget, .ui-slider-handle {
-  outline: none; }
+.ui-widget, .ui-slider-handle { outline: none; }
 
-/* line 23, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "open_sanslight", tahoma, verdana, arial, sans-serif;
   color: #000;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
-/* line 29, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
 h1 {
   font-family: "pt_sansregular";
-  font-size: 3.46667em; }
+  font-size: 3.46667em;
+}
 
-/* line 31, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-h2 {
-  font-size: 2.53333em; }
-  /* line 33, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  h2.bold {
-    font-family: "open_sansbold"; }
+h2 { font-size: 2.53333em; }
 
-/* line 36, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-h3 {
-  font-size: 2.4em; }
+h2.bold { font-family: "open_sansbold"; }
 
-/* line 38, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-h4 {
-  font-size: 1.46667em; }
+h3 { font-size: 2.4em; }
 
-/* line 40, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-h5 {
-  font-size: 1.2em; }
+h4 { font-size: 1.46667em; }
 
-/* line 42, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
+h5 { font-size: 1.2em; }
+
 h6 {
   font-family: "pt_sansregular";
-  font-size: 1.06667em; }
+  font-size: 1.06667em;
+}
 
-/* line 44, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
 a {
   font-family: "pt_sansregular";
   font-size: 1em;
@@ -306,12 +209,11 @@ a {
   -o-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease;
   -webkit-transition-delay: 0s;
-  transition: all 0.3s ease 0s; }
-  /* line 51, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  a:hover {
-    text-decoration: none; }
+  transition: all 0.3s ease 0s;
+}
 
-/* line 54, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
+a:hover { text-decoration: none; }
+
 input[type="text"], input[type="password"], input[type="email"], textarea {
   height: 41px;
   width: 382px;
@@ -333,20 +235,19 @@ input[type="text"], input[type="password"], input[type="email"], textarea {
   -webkit-transition: all 0.3s ease;
   -webkit-transition-delay: 0s;
   transition: all 0.3s ease 0s;
-  position: relative; }
+  position: relative;
+}
 
-/* line 69, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
 input[disabled], input[readonly] {
   background-color: #e4e7ea !important;
   border: 1px solid #e4e7ea !important;
   font-family: "pt_sans_narrowbold";
   color: #5d6369;
-  font-size: 1.2em; }
-  /* line 75, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  input[disabled]:hover, input[readonly]:hover {
-    border-color: #e4e7ea !important; }
+  font-size: 1.2em;
+}
 
-/* line 78, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
+input[disabled]:hover, input[readonly]:hover { border-color: #e4e7ea !important; }
+
 label {
   display: inline-block;
   vertical-align: middle;
@@ -356,9 +257,9 @@ label {
   font-family: "pt_sansbold";
   font-size: 1em;
   color: #909498;
-  line-height: 41px; }
+  line-height: 41px;
+}
 
-/* line 86, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
 textarea {
   height: 100px;
   width: 100%;
@@ -366,18 +267,19 @@ textarea {
   resize: none;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  border-radius: 5px; }
-  /* line 92, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  textarea:focus {
-    border: 1px #ffd278 solid;
-    outline: 0 none; }
+  border-radius: 5px;
+}
 
-/* line 99, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
+textarea:focus {
+  border: 1px #ffd278 solid;
+  outline: 0 none;
+}
+
 input[type="email"]:focus, input[type="text"]:focus, input[type="password"]:focus {
   border: 1px solid #b2b4b7;
-  outline: 0 none; }
+  outline: 0 none;
+}
 
-/* line 105, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
 button, input[type="button"], input[type="submit"] {
   display: inline-block;
   vertical-align: middle;
@@ -399,16 +301,16 @@ button, input[type="button"], input[type="submit"] {
   -o-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease;
   -webkit-transition-delay: 0s;
-  transition: all 0.3s ease 0s; }
-  /* line 117, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  button:hover, input[type="button"]:hover, input[type="submit"]:hover {
-    background-color: #ee3823; }
-  /* line 118, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  button:disabled, input[type="button"]:disabled, input[type="submit"]:disabled {
-    background-color: #d3d3d3 !important;
-    border-color: #d3d3d3 !important; }
+  transition: all 0.3s ease 0s;
+}
 
-/* line 124, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
+button:hover, input[type="button"]:hover, input[type="submit"]:hover { background-color: #ee3823; }
+
+button:disabled, input[type="button"]:disabled, input[type="submit"]:disabled {
+  background-color: #d3d3d3 !important;
+  border-color: #d3d3d3 !important;
+}
+
 a.stn-ico {
   background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAABaCAMAAADekbVAAAABR1BMVEVMaXHqYzbqYzbGf1zqYzbqYzallnqllnrqYzallnqllnrqYzallnqllnqllnrqYzallnqllnrqYzbqYzbqYzallnrqYzallnqllnrqYzallnrqYzayjW/qYzbqYzallnqllnqllnrqYzallnrqYzallnrqYzallnrqYzallnrqYzallnrqYzbqYzallnrqYzallnrqYzbqYzallnqllnqllnrqYzbqYzbqYzbqYzallnqllnrqYzbqYzallnrqYzbqYzbqYzallnqllnqllnqllnrqYzbqYzbqYzbqYzallnrqYzb////+9/SrnYPrbUP5+Pbp5t/62s/rZzvBtaKomX31sZv+/f3f2c/wknLSy73zo4nKwbGvoon4ybm3q5Tv7Oj749zj3tXVzsD97+vsdEzvgV318/D1t6L2v6zMw7Pa1MjzpIqsRH9qAAAASnRSTlMAvSQEDPW9Jf6jxN7e2Q76+/fZD9IQw+8LrKvwAip0dOrzhYV+FKE0k5PrLAgTtTxmtWYgVdClH8aYmIAVHUdGVjJ7HdI9pKbpUhNbp/0AAAOlSURBVHhe7ZVXU+NIEIBbNshGtlmwkcnZpAVvAnZJG8MtNyNHct4c7u7/P1+riymP1KN5gOKNr0rT5Zr6amzJ9gcK6Hqz6BRzRWfx7xVgDK0tuYV8wV1aG2J7Lze7paJ78WVUXN2aForppfegk66Q2JEnxjri2Lt+odM/qW1WHRnHKSnTd0Uct1eZpQHJGbh2/XXBWb9202VpwknTpidMuGOkzkgzFUBmhZltQMYfJKgPUgDLfQlqfwbV5zKJeYAekUQPwI46NAgOaR4GgTq2OqcODYJTmqdBoI714ZlUKrpkkko8eyKUii6ZpBJPYFiph+TSqtS/RpR6Si6tnXc8IDWXIJMYKAjNJcgkPsCo1NyoKUenheZGTTEIUqONZlt2yAqNFpot0aEPum2n9ltPzVk+azFv+awFeGq5w8OPLHd4BCYsz3Vi0vJcJyGVTfw2ZV9kROK3SawCODKJpwCuSOIRADxOMrOPAT4mqh/B8tOZB6Qn+YeDlHJGs1gCxM8bzUIvEKmHkrObAiIzJThTGbhmnJ+bI5Ncfm4eTUV1OGYOl0ABcyMxc8QHndcbmrjxGiK88jTRewVx3s6UR1EbLc+MA2Nh1htEbdCbXQYzXdUVSGTI56nipbsv3X3pOKp0HF46DpWOw0vHodJxeOlqtdoljkucvHTNZvMYxzFOQ+m+UDN+4/qFl+4zNeMbrp8NpfvxHa1LvL7/4KW7aKJ1jNevC1PpftaCkNpPU+mujmjz6IqVjjgJt49OJC8dsk+b+4KXjvgP1TOcvHTIP6ie4+SlI/4Ev8PBSkf8G3yjyUpHZBv0ipeOqNO449Ldl+6+dJvl3G6uvPimi2u9a1tefirvmUqX0ku3+SJeuk6wprdW7aWrpLXN7Vjp3uml49Vxqsr0eXVcX5k7ttLNfbCUbmVDmijbSuelraWbsZVu9ual6wtL9ym5G3dVurlo6c5qZ8mlO2+eJ5fu5CjyDy4/6aXbx839SOmKMlIO6gYrnSpHE7vBSqd6RbXipRMXv9CkWhlK1wgrSVeDl64eVpKuuqF07bCR2ctw5aVrhY0UX3H9aigdOu09udfGyUuHTutAHLRwGkrXaDT2cOzh5KWr1+sHOA5wstIxeOkQVjoOLx3n/e1Kl71R6RYAmb9F6YqW0vUW7KXbvXnpUrcoXel59F5l57XS+fGy9/jRWDma6byNxcrVRHcB4oxXymHdHzoVQ+mWt72w7lPudlLpVmylS/tp0PkffmpqaIPcCxcAAAAASUVORK5CYII=') no-repeat;
   display: inline-block;
@@ -421,32 +323,27 @@ a.stn-ico {
   -moz-transition: none;
   -o-transition: none;
   -webkit-transition: none;
-  transition: none; }
-  /* line 130, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  a.stn-ico.close-ico {
-    background-position: 0 0; }
-    /* line 132, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    a.stn-ico.close-ico:hover {
-      background-position: -29px 0; }
-  /* line 134, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  a.stn-ico.down-ico {
-    background-position: 0 -30px; }
-    /* line 136, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    a.stn-ico.down-ico:hover {
-      background-position: -29px -30px; }
-  /* line 138, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  a.stn-ico.up-ico {
-    background-position: 0 -60px; }
-    /* line 140, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    a.stn-ico.up-ico:hover {
-      background-position: -29px -60px; }
-  /* line 142, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  a.stn-ico.error-ico {
-    width: 19px;
-    height: 20px;
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAABMklEQVR4AaXUsUrDUBTG8Qt3cglk6h73zD6Cr+AgFMRVQemWqQ7qUpC6iksH6eisOEjHPsEd8gJFCKXGtpDjdyHC5ePEC23gRyGn+VMO6TXa9XV0mEAfpjCHEhy8wGk7N4xvWBhABfKPBVyA7Yol8BGJsDdIOGYjoVjQhrEbkD0M/mI9qMNhdXIsy8u++uDy6szP+X4FqY8V/MBqNJTmp6YgQtfnIpu1rO4K9df52AyEfT/eB8EgNBp27s7wa6AF66cxhzSliS13/ToVf+GTZ6w2vHxtR5vPd9qhauFjcx7wjpQdambqO6YvOxosfCyHhmIUCoLjWy22hczHvAnIHh7Cv1MKbseQg4RPjQzKHUJZ13nWgwntUNPAM6R8nmnydg8OtkHAtffz+Emrs5DCQey7v+lmJY2wpB5YAAAAAElFTkSuQmCC') no-repeat; }
+  transition: none;
+}
 
-/* line 149, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
+a.stn-ico.close-ico { background-position: 0 0; }
+
+a.stn-ico.close-ico:hover { background-position: -29px 0; }
+
+a.stn-ico.down-ico { background-position: 0 -30px; }
+
+a.stn-ico.down-ico:hover { background-position: -29px -30px; }
+
+a.stn-ico.up-ico { background-position: 0 -60px; }
+
+a.stn-ico.up-ico:hover { background-position: -29px -60px; }
+
+a.stn-ico.error-ico {
+  width: 19px;
+  height: 20px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAABMklEQVR4AaXUsUrDUBTG8Qt3cglk6h73zD6Cr+AgFMRVQemWqQ7qUpC6iksH6eisOEjHPsEd8gJFCKXGtpDjdyHC5ePEC23gRyGn+VMO6TXa9XV0mEAfpjCHEhy8wGk7N4xvWBhABfKPBVyA7Yol8BGJsDdIOGYjoVjQhrEbkD0M/mI9qMNhdXIsy8u++uDy6szP+X4FqY8V/MBqNJTmp6YgQtfnIpu1rO4K9df52AyEfT/eB8EgNBp27s7wa6AF66cxhzSliS13/ToVf+GTZ6w2vHxtR5vPd9qhauFjcx7wjpQdambqO6YvOxosfCyHhmIUCoLjWy22hczHvAnIHh7Cv1MKbseQg4RPjQzKHUJZ13nWgwntUNPAM6R8nmnydg8OtkHAtffz+Emrs5DCQey7v+lmJY2wpB5YAAAAAElFTkSuQmCC') no-repeat;
+}
+
 a.follow-icons {
   display: inline-block;
   vertical-align: middle;
@@ -458,56 +355,42 @@ a.follow-icons {
   -moz-transition: none;
   -o-transition: none;
   -webkit-transition: none;
-  transition: none; }
-  /* line 154, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  a.follow-icons.add-watch-list {
-    background: url('data:image/png;base64,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') no-repeat; }
-    /* line 156, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    a.follow-icons.add-watch-list:hover {
-      background-position: -64px 0; }
-    /* line 157, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    a.follow-icons.add-watch-list:active, a.follow-icons.add-watch-list.added-to-watch-list {
-      background-position: -129px 0; }
-    /* line 158, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    a.follow-icons.add-watch-list.follow-icons-small {
-      background-position: -209px center; }
-      /* line 160, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-      a.follow-icons.add-watch-list.follow-icons-small:hover {
-        background-position: -247px center; }
-      /* line 161, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-      a.follow-icons.add-watch-list.follow-icons-small:active, a.follow-icons.add-watch-list.follow-icons-small.added-to-watch-list {
-        background-position: -286px center; }
-  /* line 164, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  a.follow-icons.add-wish-list {
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATsAAAA4CAMAAAC14a/vAAACQ1BMVEVMaXH////////////qYzbrZzvqYzb////////////viGbqYzb////////////qYzbqYzbqYzbqYzb////////////qYzbqYzbqYzb//fzqYzbqYzb////98u7qYzbqYzbqYzb////////qYzb////////qYzfqYzbqYzbra0D////////////////////qYzb////////+9fL////qYzb/zT7/+u72u6jqYzb////qYzbqYzb////96eL/+urugV3/////////2k/////qYzbqYzb////qYzbqYzbqYzbqYzb/sgf////////73dP/////8Mfyn4L/5ZD////////////////qYzb2uKP////////qYzb3wrD/0zH////////////tdUzqYzb/zh3/4of/3Y7/vgb////qYzb/99//////////////43fqYzb/xEL/1Xn/9tb1r5j3xrb/////vA7telP0q5H/zWT/wDT61sn/5Z7/uB//3pj/32f/77vqYzbwkHD/////6qLqYzbzpo3/ymT9tzz/7JvqYzb////raj70rZbqZDf++ffscknwjm3sbUP++/n//v785t/ufln1s5ztelTzpYv3xrX98Oz2t6L618z+9fLtdk7xlXbviGX86eL//Pv0qY/4zL3xmn351MfyoYb3wrDxmXv4ybn/uwH/sQH/zgP74dj5z8H/vQH/ygH/xwH63NH/tQH2vqvynYHynoL97Of/wAH/uAH/xAH/wgHym3/ynYD/rAH/twGQzltbAAAAiXRSTlMArAOz8v4JBaeb6N6kojMbEgUOkBF1pCO9tH/oJbgC9tqFnXNOFPyVVPkZnwsOWIVri7c7xOi3zqrcj+97u7jsqffiZclMW9AoMTz9aGLAK8Dczjde7r2xz0FTaMvtIR7F80f00M79b5q7lAnS1bnm1bzTyRv58dbb68PK88zaw+LkWsnV19vpy3Mai+wAAAnASURBVHhe7ZxncxPJFoYPjCXZlsGycc7GrI1YFoMBB4QxZjE2Bgw2SwyXuCyZBZbMwnL3ptMKzjlHco4b7/1pV5Y16pnRaXm0LlFyFc9H6n0p16l5T3ef6RFQmLYvWp4bFSlJkVErvluUMRfEhMQPcbV5p1LMtvx8m3nV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') no-repeat; }
-    /* line 166, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    a.follow-icons.add-wish-list:hover {
-      background-position: -64px 0; }
-    /* line 167, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    a.follow-icons.add-wish-list:active, a.follow-icons.add-wish-list.added-to-wish-list {
-      background-position: -129px 0; }
-    /* line 168, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    a.follow-icons.add-wish-list.follow-icons-small {
-      background-position: -209px center; }
-      /* line 170, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-      a.follow-icons.add-wish-list.follow-icons-small:hover {
-        background-position: -247px center; }
-      /* line 171, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-      a.follow-icons.add-wish-list.follow-icons-small:active, a.follow-icons.add-wish-list.follow-icons-small.added-to-wish-list {
-        background-position: -286px center; }
-  /* line 174, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  a.follow-icons.follow-icons-small {
-    width: 29px;
-    height: 30px; }
+  transition: none;
+}
 
-/* line 180, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
+a.follow-icons.add-watch-list { background: url('data:image/png;base64,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') no-repeat; }
+
+a.follow-icons.add-watch-list:hover { background-position: -64px 0; }
+
+a.follow-icons.add-watch-list:active, a.follow-icons.add-watch-list.added-to-watch-list { background-position: -129px 0; }
+
+a.follow-icons.add-watch-list.follow-icons-small { background-position: -209px center; }
+
+a.follow-icons.add-watch-list.follow-icons-small:hover { background-position: -247px center; }
+
+a.follow-icons.add-watch-list.follow-icons-small:active, a.follow-icons.add-watch-list.follow-icons-small.added-to-watch-list { background-position: -286px center; }
+
+a.follow-icons.add-wish-list { background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATsAAAA4CAMAAAC14a/vAAACQ1BMVEVMaXH////////////qYzbrZzvqYzb////////////viGbqYzb////////////qYzbqYzbqYzbqYzb////////////qYzbqYzbqYzb//fzqYzbqYzb////98u7qYzbqYzbqYzb////////qYzb////////qYzfqYzbqYzbra0D////////////////////qYzb////////+9fL////qYzb/zT7/+u72u6jqYzb////qYzbqYzb////96eL/+urugV3/////////2k/////qYzbqYzb////qYzbqYzbqYzbqYzb/sgf////////73dP/////8Mfyn4L/5ZD////////////////qYzb2uKP////////qYzb3wrD/0zH////////////tdUzqYzb/zh3/4of/3Y7/vgb////qYzb/99//////////////43fqYzb/xEL/1Xn/9tb1r5j3xrb/////vA7telP0q5H/zWT/wDT61sn/5Z7/uB//3pj/32f/77vqYzbwkHD/////6qLqYzbzpo3/ymT9tzz/7JvqYzb////raj70rZbqZDf++ffscknwjm3sbUP++/n//v785t/ufln1s5ztelTzpYv3xrX98Oz2t6L618z+9fLtdk7xlXbviGX86eL//Pv0qY/4zL3xmn351MfyoYb3wrDxmXv4ybn/uwH/sQH/zgP74dj5z8H/vQH/ygH/xwH63NH/tQH2vqvynYHynoL97Of/wAH/uAH/xAH/wgHym3/ynYD/rAH/twGQzltbAAAAiXRSTlMArAOz8v4JBaeb6N6kojMbEgUOkBF1pCO9tH/oJbgC9tqFnXNOFPyVVPkZnwsOWIVri7c7xOi3zqrcj+97u7jsqffiZclMW9AoMTz9aGLAK8Dczjde7r2xz0FTaMvtIR7F80f00M79b5q7lAnS1bnm1bzTyRv58dbb68PK88zaw+LkWsnV19vpy3Mai+wAAAnASURBVHhe7ZxncxPJFoYPjCXZlsGycc7GrI1YFoMBB4QxZjE2Bgw2SwyXuCyZBZbMwnL3ptMKzjlHco4b7/1pV5Y16pnRaXm0LlFyFc9H6n0p16l5T3ef6RFQmLYvWp4bFSlJkVErvluUMRfEhMQPcbV5p1LMtvx8m3nV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') no-repeat; }
+
+a.follow-icons.add-wish-list:hover { background-position: -64px 0; }
+
+a.follow-icons.add-wish-list:active, a.follow-icons.add-wish-list.added-to-wish-list { background-position: -129px 0; }
+
+a.follow-icons.add-wish-list.follow-icons-small { background-position: -209px center; }
+
+a.follow-icons.add-wish-list.follow-icons-small:hover { background-position: -247px center; }
+
+a.follow-icons.add-wish-list.follow-icons-small:active, a.follow-icons.add-wish-list.follow-icons-small.added-to-wish-list { background-position: -286px center; }
+
+a.follow-icons.follow-icons-small { width: 29px; height: 30px; }
+
 .projects-arrow-down {
   display: block;
   width: 19px;
   height: 19px;
-  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAmCAYAAAAm56DSAAABFUlEQVR42u2UsQrCMBCG08nF1cXFt/CFBF/BtW6KWKiLTyD4DI4al76Hi4uDoFjBer8EE46jCSSL4MHXg1zuI6TtKSnOo+GAmBB74kTUJmsiN3XF4QsdojTNTQuoF2a/KOsRlUfCqdDHZR1BFIpGvysrUYigIL6XXUfKanggm7ZtvG6LBoHsEeaQVR4RIkS4h+wiijYLawkTnpRP9HrcIfhkE6iL9yaezBVd5mOsIbtC8WT2zuLR9m3Gkyf9zhL/AfH/ZoX+9FMj/Tzj2EmrIyZtOH/ZL8iOetc4HIguoUw+sLpywYOzFoR9QbQKkWXYyBpvgijzyrhQYCn1MJkoXPpEXOZjRjxNVpEyS2pZlvRkf1la2Rtl8FXcKjFooAAAAABJRU5ErkJggg==') 0 -19px no-repeat; }
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAmCAYAAAAm56DSAAABFUlEQVR42u2UsQrCMBCG08nF1cXFt/CFBF/BtW6KWKiLTyD4DI4al76Hi4uDoFjBer8EE46jCSSL4MHXg1zuI6TtKSnOo+GAmBB74kTUJmsiN3XF4QsdojTNTQuoF2a/KOsRlUfCqdDHZR1BFIpGvysrUYigIL6XXUfKanggm7ZtvG6LBoHsEeaQVR4RIkS4h+wiijYLawkTnpRP9HrcIfhkE6iL9yaezBVd5mOsIbtC8WT2zuLR9m3Gkyf9zhL/AfH/ZoX+9FMj/Tzj2EmrIyZtOH/ZL8iOetc4HIguoUw+sLpywYOzFoR9QbQKkWXYyBpvgijzyrhQYCn1MJkoXPpEXOZjRjxNVpEyS2pZlvRkf1la2Rtl8FXcKjFooAAAAABJRU5ErkJggg==') 0 -19px no-repeat;
+}
 
-/* line 187, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
 .btn-type-1, .btn-type-2, .btn-type-3 {
   min-width: 140px;
   height: 41px;
@@ -531,30 +414,22 @@ a.follow-icons {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px #ffc601 solid;
-  text-decoration: none; }
-  /* line 203, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .btn-type-1:hover, .btn-type-2:hover, .btn-type-3:hover {
-    color: #fff;
-    background: #ffd001;
-    /* Old browsers */
-    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZDAwMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmE4MDEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: -moz-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ffd001), color-stop(100%, #ffa801));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-    /* IE10+ */
-    background: linear-gradient(to right, #ffd001 0%, #ffa801 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd001', endColorstr='#ffa801', GradientType=1);
-    /* IE6-8 */ }
+  text-decoration: none;
+}
 
-/* line 218, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
+.btn-type-1:hover, .btn-type-2:hover, .btn-type-3:hover {
+  color: #fff;
+  background: #ffd001;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZDAwMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmE4MDEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left, #ffd001 0%, #ffa801 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ffd001), color-stop(100%, #ffa801));
+  background: -webkit-linear-gradient(left, #ffd001 0%, #ffa801 100%);
+  background: -o-linear-gradient(left, #ffd001 0%, #ffa801 100%);
+  background: -ms-linear-gradient(left, #ffd001 0%, #ffa801 100%);
+  background: linear-gradient(to right, #ffd001 0%, #ffa801 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffd001', endColorstr='#ffa801', GradientType=1);
+}
+
 .btn-type-2, .btn-type-3 {
   font-size: 1.06667em;
   color: #fff;
@@ -563,40 +438,43 @@ a.follow-icons {
   -webkit-border-radius: 20px;
   border-radius: 20px;
   border: 1px solid #ea6336;
-  text-transform: none; }
-  /* line 225, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .btn-type-2:hover, .btn-type-3:hover {
-    background: #ee3823;
-    border-color: #ee3823; }
-  /* line 226, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .btn-type-2:active, .btn-type-3:active {
-    background: #d9d8cf;
-    border-color: #d9d8cf; }
-  /* line 227, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .btn-type-2.btn-white, .btn-type-3.btn-white {
-    background: #fff;
-    width: 196px;
-    color: #909498;
-    border: 1px solid #5d6369;
-    text-transform: uppercase; }
-    /* line 233, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    .btn-type-2.btn-white:hover, .btn-type-3.btn-white:hover {
-      border-color: #ffc601; }
+  text-transform: none;
+}
 
-/* line 237, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
+.btn-type-2:hover, .btn-type-3:hover {
+  background: #ee3823;
+  border-color: #ee3823;
+}
+
+.btn-type-2:active, .btn-type-3:active {
+  background: #d9d8cf;
+  border-color: #d9d8cf;
+}
+
+.btn-type-2.btn-white, .btn-type-3.btn-white {
+  background: #fff;
+  width: 196px;
+  color: #909498;
+  border: 1px solid #5d6369;
+  text-transform: uppercase;
+}
+
+.btn-type-2.btn-white:hover, .btn-type-3.btn-white:hover { border-color: #ffc601; }
+
 .btn-type-3 {
   background-color: #5d6369;
   color: #cbcbcb;
   font-family: "pt_sansbold";
   text-transform: uppercase;
-  border: 1px solid #5d6369; }
-  /* line 243, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .btn-type-3:hover {
-    border-color: #5d6369;
-    background-color: #5d6369;
-    color: #fff; }
+  border: 1px solid #5d6369;
+}
 
-/* line 250, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
+.btn-type-3:hover {
+  border-color: #5d6369;
+  background-color: #5d6369;
+  color: #fff;
+}
+
 a.remove {
   display: inline-block;
   vertical-align: middle;
@@ -609,6 +487,7 @@ a.remove {
   -moz-transition: none;
   -o-transition: none;
   -webkit-transition: none;
+<<<<<<< HEAD
   transition: none; }
   /* line 256, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
   a.remove:hover {
@@ -730,183 +609,21 @@ a.pr-but {
 .custom-checkbox .ui-button-text {
   padding: 0;
   line-height: 16px; }
+=======
+  transition: none;
+}
 
-/* line 361, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-.custom-checkbox2 {
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  height: 24px; }
-  /* line 364, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .custom-checkbox2 .ui-widget {
-    font-family: "open_sansregular";
-    font-size: 1em;
-    line-height: 24px;
-    color: #cbcbcb;
-    text-align: left;
-    padding-left: 33px;
-    position: relative; }
-    /* line 372, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    .custom-checkbox2 .ui-widget:before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      margin-top: -12px;
-      left: 0;
-      display: block;
-      width: 24px;
-      height: 24px;
-      background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAwCAMAAAA8VkqRAAAAJ1BMVEXk5+qQlJiwtLjj5um6vsHe4eSmqq6YnKCRlZnO0tXEyMu9wMStsbVzd7/SAAAASElEQVR42u3NMQ7AIAwEwZztBAj8/71U6JAREh2Nt5xmnyiKlsQ2DtjGIWf+1+E6swpyoTP9gNTo7E0Afa7k4T7zzg3dbejX697YANOUYw1FAAAAAElFTkSuQmCC') no-repeat; }
-    /* line 384, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    .custom-checkbox2 .ui-widget.ui-state-active:before {
-      background-position: 0 -24px; }
-  /* line 387, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .custom-checkbox2 .ui-button {
-    background: none;
-    margin: 0;
-    border: none; }
-  /* line 392, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .custom-checkbox2 .ui-button-text {
-    padding: 0;
-    line-height: 16px; }
+a.remove:hover { background-position: 0 -20px; }
 
-/* line 399, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-.custom-radio .ui-widget {
-  font-family: "pt_sansregular";
-  font-size: 0.8em;
-  line-height: 12px;
-  color: #616872;
-  text-align: center;
-  padding-top: 22px;
-  position: relative;
-  width: 24px; }
-  /* line 408, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .custom-radio .ui-widget:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    margin-left: -10px;
-    display: block;
-    width: 19px;
-    height: 18px;
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAmCAYAAAAm56DSAAADvklEQVR4AZ2UfUzUZRzAmbW52oot59ZW8Ud/tLVFf7e2/q7mls35h22VS+IlJFmm2VgNjZT5Aiha2ULKZpZKSgNxKpBRQmZvBvJyd3DcXQccx+HdgRz8fnfPp+/T9ttO7sUfsH1+GzzP8+H5vjzfnLv9ACuFPGG1kJONTAsPCJVCp1IJZsxpIkaQhIqPA6eFDXZlRaDcA+Eevh35mJq+jezvfU1DXd8mzrj3MjJzA6BVeCybrGHWvMXJ4SpLkJFznjrm47c9wBPpZCW3zShHB8v1Zlscd36AkYj16bQky1aB8ktYtkUWrb7PAE4ky/Y4Itf14rKYmHMD5Fmyn3/w1C9b1jn2DcAbWpQrUH+z5K6HugPNhBcCNHsOpuQOaNSyJ01lpBz8YmgbF/2NfOms0L/TNXEKAFf0Dw4ktYvmk4HNAO3/y4zEQoqswbFdlx5d4e7AOUAxNufi4M0Cvb5IVmrJWClwdCC1JU6NVBNXJgDBmJf6/uK04esuAA5ZBbhw2f9VxtJHjVDW/rs22QKw3pKVBWIeDvS+vuRK1knYEWNqEFhhyTRXOsa+XrLst+B5gJ2Ln1O+zs/Z0Rrboov/HgNUk5Cj0Z8kyJcxE74aOCsToiCj5HB/CX9OXQJUM/BgthGUJ7TMmmGuB9tk5OzjmOM9Gh3vy61r+TvUQSw+6wX22B2OmmeFSqFdcAo3hBNCsXUbe7LUqfu4sGq5Y/thYbcwqOIm5nQQMzQJicQs0CqsE1bYGtsqEZ8J/9SGZ3c5Q4UvMlTwPBpn6Vr8R3YxN/gPwFXh0WyyGiM4zujOUkuQkfHGGpSxMAHkp5OVG8EJXO9s0Jtt4aut0KF7rXxaojwJbW50l3Uj+wSbGgEakmW1kV8uLlmkcRSv0QUygUcsmc+3f8eyZJrpS98DlGnRapTCUbQm+6E3X+DWjy0Yk2N4q7feseY/XAnQoGVPm+HplMPuDwuZOH6IkR0bk/87ke52Lb5jr6fqbYDzWpZvhkMpMl0MtTCPEfATunAagJm/enTfpe79aDNAq5blolTCWbZOL6ReXykAYsMDON56KW0Kxj6vBjhiFaBH/pCx9PM+N64t6zPmM/prJ8BaS7Yl5uq3crEkhre/qtMRAu6zZPcLHnkitiVWhaO/dwG8u/g5PadMc8G7b5ttWaj1JMBl4Z50D/1lZRqx4JkG3dmZQ9v6CtFrVwD0JzfbCHpK6DCmAoTavkO/DHfFJum7IvyfVqGfXWJ+LgJUCPfanbTPCHuFLsEp9ApNQqHwULoz/wGmAU2yZQHhCAAAAABJRU5ErkJggg==') no-repeat; }
-  /* line 419, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .custom-radio .ui-widget.ui-state-active {
-    color: #fff; }
-    /* line 421, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    .custom-radio .ui-widget.ui-state-active:before {
-      background-position: 0 -18px; }
-/* line 424, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-.custom-radio .ui-button {
-  background: none;
-  margin: 0;
-  border: none; }
-/* line 429, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-.custom-radio .ui-button-text {
-  padding: 0;
-  line-height: 16px; }
+a.pr-but { margin: 0px 10px; }
 
-/* line 436, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-.custom-radio2 .ui-widget, .custom-radio3 .ui-widget {
-  font-family: "pt_sansregular";
-  font-size: 1.06667em;
-  line-height: 16px;
-  color: #909498;
-  text-align: left;
-  padding-left: 22px;
-  position: relative;
-  width: 100%; }
-  /* line 445, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .custom-radio2 .ui-widget:before, .custom-radio3 .ui-widget:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 16px;
-    height: 16px;
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAMAAAAsVwj+AAAAb1BMVEVMaXGQlJiQlJiQlJiQlJiQlJiOjo6YnKCPkZOOjo6Ojo6Ojo6Ojo6QlJiOjo6Xl5eXl5eQlJiOjo6QlJiQlJiOjo6Ojo6Ojo6Ojo7////5+fmQlJj8/P3JycnBxMa0trmysrLr6+zs7e3KzM79/f1lqSUnAAAAGXRSTlMAlfkqj9eP/gaV+SrYvLz9/CssmPT01Nf6bgJzpQAAAMVJREFUeNplj+EaRCAQRYetggUWVlsI7/+Ma/Rp2zq/uDXTPYA8CI1jSh5gSCK+b1JuO38l13+xiOlCLAUm0TJZlgig4eIXCN4AUZPDToBqN9goxNINZOwFovNGNA2WBs/6xYLqVu6wckhz6neUNHCTszHLRpaDIUkrpaXUqkrNinK9l64lJuk6Wdb0nK/dYnUOTKHkzPmMlorBiHLz52RGuREyPOAYcLyaeYHo/ZEhXNr+P9v6xYLqVu4wclb/+e4H1uL3F+WiJiJAEGZKAAAAAElFTkSuQmCC') no-repeat; }
-  /* line 455, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .custom-radio2 .ui-widget.ui-state-active, .custom-radio3 .ui-widget.ui-state-active {
-    color: #2e353f; }
-    /* line 457, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    .custom-radio2 .ui-widget.ui-state-active:before, .custom-radio3 .ui-widget.ui-state-active:before {
-      background-position: 0 -16px; }
-/* line 460, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-.custom-radio2 .ui-button, .custom-radio3 .ui-button {
-  background: none;
-  margin: 0;
-  border: none; }
-/* line 465, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-.custom-radio2 .ui-button-text, .custom-radio3 .ui-button-text {
-  padding: 0;
-  line-height: 16px; }
+a.pr-but.btn-type-2 { text-transform: uppercase; }
 
-/* line 472, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-.custom-radio3 .ui-widget {
-  display: block;
-  font-family: "pt_sansregular";
-  font-size: 0.93333em;
-  line-height: 28px;
-  color: #5d6369;
-  padding-left: 35px; }
-  /* line 479, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .custom-radio3 .ui-widget:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 28px;
-    height: 28px;
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAA4CAYAAADuMJi0AAABq0lEQVR42u2XO0sDQRCArQT9B+L/UMFC0MLGyh9g8IUoCkFsbCwUGy2ihYioCGJpo4UW6VQCgiAqdoJFNI/b3PuSuMnlxplA1vTJpJAd+GDZ4r6bm9ljtoviK2usIhkEmJDINdJPshgCBcsBLyiy4HgBfOcEiZ9ImMwLC7gjKJZJCCR8pey4Q8qKFmqhFmqhFmqhFmqhFrYiTOaE2YExsaSEMQSE6YDrBSzYrt8YhB9ISMSRNAJMlJArpI9k3cg+4jAKfeQI6SVhAgHL8bjuFvTshviUhAXLdoE5qI4k/CEhFZZdSJmSSwu1sPPCmmeBuT4JxuxAnajk8wmjqgR7e1rJaA21kEkYReAebyhZYW2Csm39k8r3xzqhkYbmCC4PlEwsjUA1/dGeGqoM4uNQs/JAUU7dqH1jfgjk8137msa/2Gmq0QzItxQYC8Nqr3h73uYurVbA2pz6y2huUK29sy2eYxGKDIiVMZIo7N1Fehm+cyhf7lV2eO5UR3IJVWeK5VEIs5/6X6qF/1yId5lOjImeGhMTCJi2y3W3aB6ETxqj/h5iIsCEgxwiPb9OorbPjuOQzAAAAABJRU5ErkJggg==') 0 0 no-repeat; }
-  /* line 489, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .custom-radio3 .ui-widget.ui-state-active {
-    color: #5d6369; }
-    /* line 491, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-    .custom-radio3 .ui-widget.ui-state-active:before {
-      background-position: 0 -28px; }
-/* line 494, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-.custom-radio3 .ui-button-text {
-  line-height: 28px; }
+a.pr-but.btn-type-3 { font-family: "pt_sansregular"; }
+>>>>>>> gh-pages
 
-/* line 500, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-.range-slider-container .stn-range-slider {
-  height: 10px;
-  background: #d9d8cf;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  border: none; }
-  /* line 505, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .range-slider-container .stn-range-slider .ui-slider-range {
-    background: #ea6336;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0; }
-  /* line 509, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
-  .range-slider-container .stn-range-slider .ui-slider-handle {
-    top: 50%;
-    margin-left: -19px;
-    margin-top: -19px;
-    height: 38px;
-    width: 38px;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    border-radius: 100%;
-    border: 1px solid #cbcbcb;
-    background: #252a32;
-    color: #cbcbcb;
-    font-size: 12px;
-    text-align: center;
-    line-height: 38px;
-    font-family: "pt_sansregular";
-    cursor: pointer; }
 
-/* line 528, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
+
 .make-offer-btn {
   display: inline-block;
   vertical-align: middle;
@@ -915,6 +632,7 @@ a.pr-but {
   *display: inline;
   width: 41px;
   height: 41px;
+<<<<<<< HEAD
   background: url("../img/make-offer-ico.png") no-repeat; }
 
 /* line 536, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
@@ -931,10 +649,16 @@ a.pr-but {
   background-size: 15px 15px; }
 
 /* line 552, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
+=======
+  background: url("../img/make-offer-ico.png") no-repeat;
+}
+
+>>>>>>> gh-pages
 .cash-big-ico {
   display: block;
   width: 56px;
   height: 56px;
+<<<<<<< HEAD
   background: url("../img/big-cash-ico.png") no-repeat; }
 
 /* line 560, /Users/admin/Works/LendingStar/frontend/source/css/partials/_ui.scss */
@@ -1084,115 +808,108 @@ a.pr-but {
         color: #ea6336; }
 
 /* line 2, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
+=======
+  background: url("../img/big-cash-ico.png") no-repeat;
+}
+
+/* footer css */
+
+>>>>>>> gh-pages
 footer.main-footer h4 {
   color: #fff;
-  line-height: 22px; }
-/* line 3, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-footer.main-footer .f1 {
-  background: #2e353f; }
-/* line 4, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
+  line-height: 22px;
+}
+
+footer.main-footer .f1 { background: #2e353f; }
+
 footer.main-footer .f-bottom {
   background: #252a32;
   height: 71px;
-  padding: 19px 0; }
-  /* line 8, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  footer.main-footer .f-bottom .container {
-    position: relative; }
-/* line 10, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
+  padding: 19px 0;
+}
+
+footer.main-footer .f-bottom .container { position: relative; }
+
 footer.main-footer p {
   font-family: "open_sansregular";
   font-size: 0.93333em;
   line-height: 24px;
-  color: #a3aab4; }
+  color: #a3aab4;
+}
 
-/* line 18, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
 .footer-block1, .footer-block2, .footer-block3, .footer-block4 {
   float: left;
   width: 25%;
-  padding: 35px 20px 25px 0; }
-  /* line 22, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .footer-block1 h4, .footer-block2 h4, .footer-block3 h4, .footer-block4 h4 {
-    margin-bottom: 21px; }
-  /* line 23, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .footer-block1 a, .footer-block2 a, .footer-block3 a, .footer-block4 a {
-    font-family: "open_sansregular";
-    font-size: 0.93333em;
-    color: #a3aab4;
-    line-height: 24px;
-    text-decoration: none; }
-    /* line 29, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-    .footer-block1 a:hover, .footer-block2 a:hover, .footer-block3 a:hover, .footer-block4 a:hover {
-      color: #fff; }
-  /* line 31, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .footer-block1 p a, .footer-block2 p a, .footer-block3 p a, .footer-block4 p a {
-    font-size: 1em; }
+  padding: 35px 20px 25px 0;
+}
 
-/* line 34, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-.feedback-form-link {
-  margin-top: 41px; }
-  /* line 36, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .feedback-form-link h4 {
-    margin-bottom: 0; }
-  /* line 37, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .feedback-form-link a {
-    font-size: 1em;
-    text-decoration: underline; }
-    /* line 40, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-    .feedback-form-link a:hover {
-      text-decoration: none; }
+.footer-block1 h4, .footer-block2 h4, .footer-block3 h4, .footer-block4 h4 { margin-bottom: 21px; }
 
-/* line 44, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-.footer-block3 {
-  padding-left: 20px; }
+.footer-block1 a, .footer-block2 a, .footer-block3 a, .footer-block4 a {
+  font-family: "open_sansregular";
+  font-size: 0.93333em;
+  color: #a3aab4;
+  line-height: 24px;
+  text-decoration: none;
+}
 
-/* line 46, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
+.footer-block1 a:hover, .footer-block2 a:hover, .footer-block3 a:hover, .footer-block4 a:hover { color: #fff; }
+
+.footer-block1 p a, .footer-block2 p a, .footer-block3 p a, .footer-block4 p a { font-size: 1em; }
+
+.feedback-form-link { margin-top: 41px; }
+
+.feedback-form-link h4 { margin-bottom: 0; }
+
+.feedback-form-link a {
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+.feedback-form-link a:hover { text-decoration: none; }
+
+.footer-block3 { padding-left: 20px; }
+
 .footer-soc {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
-  *display: inline; }
-  /* line 48, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .footer-soc a {
-    margin: 0px 7px 0px 0px;
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    width: 33px;
-    height: 33px;
-    -moz-transition: none;
-    -o-transition: none;
-    -webkit-transition: none;
-    transition: none;
-    vertical-align: inherit; }
-  /* line 56, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .footer-soc a#soc-tw {
-    background: url("../img/footer-soc-networks.png") 0px 0px no-repeat; }
-    /* line 58, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-    .footer-soc a#soc-tw:hover {
-      background-position: 0px -33px; }
-  /* line 60, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .footer-soc a#soc-fb {
-    background: url("../img/footer-soc-networks.png") -43px 0px no-repeat; }
-    /* line 62, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-    .footer-soc a#soc-fb:hover {
-      background-position: -43px -33px; }
-  /* line 64, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .footer-soc a#soc-gp {
-    background: url("../img/footer-soc-networks.png") -87px 0px no-repeat; }
-    /* line 66, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-    .footer-soc a#soc-gp:hover {
-      background-position: -87px -33px; }
-  /* line 68, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .footer-soc a#soc-yt {
-    background: url("../img/footer-soc-networks.png") -131px 0px no-repeat; }
-    /* line 70, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-    .footer-soc a#soc-yt:hover {
-      background-position: -131px -33px; }
+  *display: inline;
+}
 
-/* line 74, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
+.footer-soc a {
+  margin: 0px 7px 0px 0px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  width: 33px;
+  height: 33px;
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  transition: none;
+  vertical-align: inherit;
+}
+
+.footer-soc a#soc-tw { background: url("../img/footer-soc-networks.png") 0px 0px no-repeat; }
+
+.footer-soc a#soc-tw:hover { background-position: 0px -33px; }
+
+.footer-soc a#soc-fb { background: url("../img/footer-soc-networks.png") -43px 0px no-repeat; }
+
+.footer-soc a#soc-fb:hover { background-position: -43px -33px; }
+
+.footer-soc a#soc-gp { background: url("../img/footer-soc-networks.png") -87px 0px no-repeat; }
+
+.footer-soc a#soc-gp:hover { background-position: -87px -33px; }
+
+.footer-soc a#soc-yt { background: url("../img/footer-soc-networks.png") -131px 0px no-repeat; }
+
+.footer-soc a#soc-yt:hover { background-position: -131px -33px; }
+
 .copyright {
   display: inline-block;
   vertical-align: middle;
@@ -1200,101 +917,48 @@ footer.main-footer p {
   *zoom: 1;
   *display: inline;
   margin-left: 150px;
-  line-height: 33px; }
+  line-height: 33px;
+}
 
-/* line 80, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
 .webmil {
   position: absolute;
   width: 22px;
   height: 17px;
   right: 0;
   top: 50%;
-  margin-top: -8px; }
-  /* line 87, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .webmil img {
-    width: 22px;
-    height: 17px; }
+  margin-top: -8px;
+}
 
-/* line 93, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-footer .ajax-circle {
-  background: url("../img/ajax2.gif") top left no-repeat; }
+.webmil img {
+  width: 22px;
+  height: 17px;
+}
 
-/* line 95, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-.cab-footer {
-  border-top: 2px solid #d5dadf;
-  background-color: #e4e7ea;
-  z-index: 1001; }
+footer .ajax-circle { background: url("../img/ajax2.gif") top left no-repeat; }
 
-/* line 101, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-.cab-footer-menu {
-  text-align: center; }
-  /* line 103, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .cab-footer-menu ul {
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    margin-top: 32px; }
-  /* line 107, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .cab-footer-menu li {
-    float: left;
-    margin-right: 58px; }
-    /* line 110, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-    .cab-footer-menu li:last-child {
-      margin-right: 0; }
-  /* line 112, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .cab-footer-menu a {
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    font-family: "pt_sans_narrowbold";
-    font-size: 1.2em;
-    line-height: 24px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #909498; }
-    /* line 120, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-    .cab-footer-menu a:hover {
-      text-decoration: underline; }
+.disclaimer-container { padding-bottom: 35px; }
 
-/* line 124, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-.disclaimer-container {
-  padding-bottom: 35px; }
-  /* line 126, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .disclaimer-container h4 {
-    padding-top: 35px; }
-  /* line 127, /Users/admin/Works/LendingStar/frontend/source/css/partials/_footer.scss */
-  .disclaimer-container p {
-    margin-top: 21px; }
+.disclaimer-container h4 { padding-top: 35px; }
 
-/* line 2, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-header {
-  background: #ccc;
-  position: relative; }
+.disclaimer-container p { margin-top: 21px; }
 
-/* line 4, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-header.index-header {
-  height: 820px;
-  overflow: hidden; }
+/*end footer css*/
 
-/* line 7, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-header.main-header .scroll_menu2_fixed {
-  position: relative; }
-/* line 8, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
+/* header css */
+
+header { background: #ccc; position: relative; }
+
+header.main-header .scroll_menu2_fixed { position: relative; }
+
 header.main-header #logo {
   -moz-background-size: 22px auto;
   -o-background-size: 22px auto;
   -webkit-background-size: 22px auto;
-  background-size: 22px auto; }
+  background-size: 22px auto;
+}
 
-/* line 11, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-#more {
-  background-color: #fff; }
+#more { background-color: #fff; }
 
-/* line 13, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
 #logo {
   position: absolute;
   left: 50%;
@@ -1303,87 +967,25 @@ header.main-header #logo {
   display: block;
   width: 32px;
   height: 47px;
+<<<<<<< HEAD
   background: url("../img/logo-small.png") center center no-repeat; }
+=======
+  background: url("../img/logo-small.png") center center no-repeat;
+}
+>>>>>>> gh-pages
 
-/* line 24, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
 .main-menu nav {
   padding-top: 19px;
   float: left;
-  display: block; }
+  display: block;
+}
 
-/* line 30, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
 .main-menu {
   -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  position: relative; }
-  /* line 33, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-  .main-menu.scroll_menu2_fixed {
-    top: 0px;
-    position: fixed;
-    background-color: #fff;
-    -moz-background-size: 22px;
-    -o-background-size: 22px;
-    -webkit-background-size: 22px;
-    background-size: 22px;
-    z-index: 1000000;
-    width: 100%; }
-    /* line 41, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-    .main-menu.scroll_menu2_fixed #logo {
-      -moz-background-size: 22px auto;
-      -o-background-size: 22px auto;
-      -webkit-background-size: 22px auto;
-      background-size: 22px auto; }
-  /* line 43, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-  .main-menu .user-logged-in .user-name-menu h6 {
-    color: #000; }
-  /* line 44, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-  .main-menu .container2 {
-    position: relative;
-    height: 80px !important;
-    padding: 0 0 0 20px; }
-
-/* line 51, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-.scroll_menu2_fixed.main-menu nav {
-  padding-top: 19px !important; }
-
-/* line 53, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-.scroll_menu2_fixed.main-menu .user-block {
-  padding-top: 20px !important; }
-
-/* line 55, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-.main-menu nav ul li {
-  float: left; }
-  /* line 57, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-  .main-menu nav ul li a {
-    text-transform: uppercase;
-    font-family: "pt_sansregular";
-    font-size: 1em;
-    color: #000;
-    border: 1.5px rgba(255, 255, 255, 0) solid;
-    padding: 0px 16px;
-    line-height: 40px;
-    height: 41px;
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    border-bottom: 1px solid transparent;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    text-decoration: none; }
-    /* line 70, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-    .main-menu nav ul li a:hover, .main-menu nav ul li a.active-link {
-      text-decoration: underline; }
-
-/* line 74, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-.user-block {
-  padding: 19px 47px 0 0;
-  float: right;
-  display: block;
   position: relative;
+<<<<<<< HEAD
   z-index: 1001; }
 
 /* line 82, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
@@ -1873,92 +1475,83 @@ header.main-header #logo {
           -moz-border-radius: 0 20px 20px 0;
           -webkit-border-radius: 0;
           border-radius: 0 20px 20px 0; }
+=======
+}
 
-@media only screen and (max-width: 1440px) {
-  /* line 487, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-  .main-menu .container2 {
-    padding-left: 40px; }
+.main-menu.scroll_menu2_fixed {
+  top: 0px;
+  position: fixed;
+  background-color: #fff;
+  -moz-background-size: 22px;
+  -o-background-size: 22px;
+  -webkit-background-size: 22px;
+  background-size: 22px;
+  z-index: 1000000;
+  width: 100%;
+}
+>>>>>>> gh-pages
 
-  /* line 488, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-  #logo {
-    -moz-background-size: 22px auto;
-    -o-background-size: 22px auto;
-    -webkit-background-size: 22px auto;
-    background-size: 22px auto;
-    left: 10px;
-    margin-left: 0; }
+.main-menu.scroll_menu2_fixed #logo {
+  -moz-background-size: 22px auto;
+  -o-background-size: 22px auto;
+  -webkit-background-size: 22px auto;
+  background-size: 22px auto;
+}
 
-  /* line 493, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-  .main-menu nav ul li a {
-    padding: 0 10px; }
+.main-menu .user-logged-in .user-name-menu h6 { color: #000; }
 
-  /* line 494, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-  .user-block {
-    padding-right: 20px; }
+.main-menu .container2 {
+  position: relative;
+  height: 80px !important;
+  padding: 0 0 0 20px;
+}
 
-  /* line 496, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-  .cabinet-header #logo {
-    left: 50%;
-    margin-left: -16px; } }
-/* line 506, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-.ui-tooltip.login-tooltip, .login-tooltip-arrow:after {
-  background: rgba(46, 53, 63, 0.6);
-  border: none;
-  text-align: center;
-  width: auto;
-  z-index: 100000000; }
+.scroll_menu2_fixed.main-menu nav { padding-top: 19px !important; }
 
-/* line 513, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-.ui-tooltip.login-tooltip {
-  padding: 11px 20px;
-  color: #fff;
-  font-size: 0.8em;
-  line-height: 12px;
-  font-family: "open_sansregular";
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none; }
+.scroll_menu2_fixed.main-menu .user-block { padding-top: 20px !important; }
 
-/* line 522, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-.login-tooltip-arrow {
-  width: 70px;
-  height: 16px;
-  overflow: hidden;
-  position: absolute;
-  left: 50%;
-  margin-left: -35px;
-  bottom: -16px; }
+.main-menu nav ul li { float: left; }
 
-/* line 531, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-.login-tooltip-arrow.top {
-  top: -16px;
-  bottom: auto; }
+.main-menu nav ul li a {
+  text-transform: uppercase;
+  font-family: "pt_sansregular";
+  font-size: 1em;
+  color: #000;
+  border: 1.5px rgba(255, 255, 255, 0) solid;
+  padding: 0px 16px;
+  line-height: 40px;
+  height: 41px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  border-bottom: 1px solid transparent;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
 
-/* line 535, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-.login-tooltip-arrow.left {
-  left: 20%; }
+.main-menu nav ul li a:hover, .main-menu nav ul li a.active-link { text-decoration: underline; }
 
-/* line 536, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-.login-tooltip-arrow:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: -20px;
-  margin-left: -12px;
-  width: 25px;
-  height: 21px;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg); }
+.user-block {
+  padding: 19px 47px 0 0;
+  float: right;
+  display: block;
+  position: relative;
+  z-index: 1001;
+}
 
-/* line 548, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-.login-tooltip-arrow.top:after {
-  bottom: -20px;
-  top: auto; }
+.user-logged-in { float: right; }
 
+.user-logged-in .user-menu {
+  float: left;
+  margin-top: 6px;
+  padding-right: 20px;
+}
+
+<<<<<<< HEAD
 /* line 554, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
 .cabinet-header {
   width: 100%;
@@ -1990,28 +1583,27 @@ header.main-header #logo {
   height: 19px;
   background: url("../img/tooggle-menu-ico.png") center center no-repeat;
   z-index: 1001; }
+=======
+.user-logged-in .user-menu li.item {
+  float: left;
+  position: relative;
+  margin-left: 16px;
+}
+>>>>>>> gh-pages
 
-/* line 586, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
-#open-quick-panel {
-  position: absolute;
-  right: -60px;
-  top: 168px;
+.user-logged-in .user-menu li.item:first-child { margin-left: 0; }
+
+.user-logged-in .user-menu a.ico {
+  position: relative;
   display: block;
-  width: 150px;
+  width: 29px;
   height: 30px;
-  background-color: #ea6336;
-  z-index: 1001;
-  -moz-transition: all 0.5s ease 0s;
-  -o-transition: all 0.5s ease 0s;
-  -webkit-transition: all 0.5s ease;
-  -webkit-transition-delay: 0s;
-  transition: all 0.5s ease 0s;
-  color: #fff;
-  line-height: 30px;
-  font-size: 1em;
-  font-family: "pt_sansregular";
+  background: url("../img/user-menu-ico.png") no-repeat;
+  z-index: 60;
   text-align: center;
+  line-height: 30px;
   text-decoration: none;
+<<<<<<< HEAD
   padding-right: 20px;
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
@@ -2062,13 +1654,13 @@ header.main-header #logo {
   color: #fff;
   font-size: 1.86667em;
   line-height: 32px; }
+=======
+}
+>>>>>>> gh-pages
 
-/* line 1, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
-.cbp-spmenu {
-  position: fixed;
-  overflow: auto;
-  background: #2e353f; }
+.user-logged-in .user-menu a.ico.user-not { background-position: 0 0; }
 
+<<<<<<< HEAD
 /* line 7, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
 .cbp-spmenu-vertical {
   width: 360px;
@@ -2194,34 +1786,28 @@ header.main-header #logo {
 /* line 96, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
 .user-main-navigation .submenu-availble a.main-nav-item:after {
   content: "";
+=======
+.user-logged-in .user-menu a.ico.user-inbox { background-position: 0 -30px; }
+
+.user-logged-in .user-menu a.ico.empty span { display: none; }
+
+.user-logged-in .user-menu a.ico.create-new-project { background: url("../img/create-new-project-ico.png") no-repeat; }
+
+.user-logged-in .user-menu a.ico.search-new-projects { background: url("../img/search-projects-ico.png") no-repeat; }
+
+.user-logged-in .user-menu a.ico span {
+>>>>>>> gh-pages
   position: absolute;
-  right: 25px;
-  top: 50%;
-  margin-top: -7px;
+  bottom: -8px;
+  right: -8px;
   display: block;
-  width: 14px;
-  height: 14px;
-  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAnElEQVQoz2NgQAL///8XAeImIL4AxD+h+DIQt4PkGLABoEQQEH/8jxuA5IKwaSIWBME0iRGwCZvNIgxQ96OA79+//49OzABjEBsLaGKAeh4F5BVX/dcztQdjEBsLuMAADTk4aOnog2uCYZAYGvjJgOy/uQuWotiEbDNIDl0j3KkwRTC/wfwKE0d3avt/0kETudEhSn4CoCjJkZPIAchRZop9LFt8AAAAAElFTkSuQmCC') no-repeat;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  -webkit-transition: all 0.3s ease;
-  -webkit-transition-delay: 0s;
-  transition: all 0.3s ease 0s;
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg); }
-/* line 114, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
-.user-main-navigation .submenu-availble.opened a.main-nav-item:after {
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg); }
-/* line 122, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
-.user-main-navigation a {
-  position: relative;
-  display: block;
-  height: 40px;
-  padding: 5px 15px 5px 97px;
+  width: 18px;
+  height: 18px;
+  line-height: 16px;
+  text-align: center;
+  background: #ea6336;
   color: #fff;
+<<<<<<< HEAD
   font-family: "pt_sansbold";
   font-size: 1.06667em;
   line-height: 30px;
@@ -2566,16 +2152,21 @@ header.main-header #logo {
   position: absolute;
   top: 31px;
   left: 61px;
+=======
+  border: 1px solid #fff;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+>>>>>>> gh-pages
   font-family: "pt_sansregular";
-  font-size: 1.06667em;
-  color: #fff;
-  line-height: 20px;
-  text-transform: uppercase;
-  text-decoration: none; }
-  /* line 436, /Users/admin/Works/LendingStar/frontend/source/css/partials/_user-menus.scss */
-  #create-new-project:hover {
-    text-decoration: underline; }
+  font-size: 0.53333em;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
 
+<<<<<<< HEAD
 /* line 1, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .text-slider .video-overlay {
   display: block;
@@ -2587,20 +2178,21 @@ header.main-header #logo {
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover; }
+=======
+.user-logged-in .user-menu a.ico:hover span { background: #ee3823; }
+>>>>>>> gh-pages
 
-/* line 10, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-#controls span {
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline; }
+.user-logged-in .user-name-menu {
+  float: left;
+  max-width: 200px;
+  position: relative;
+}
 
-/* line 12, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-#playpause {
-  line-height: 40px;
-  cursor: pointer;
+.user-logged-in .user-name-menu.hovered .user-name:before { background-color: #ee3823; }
+
+.user-logged-in .user-name-menu .user-name {
   display: block;
+<<<<<<< HEAD
   position: absolute;
   left: 48px;
   bottom: 76px;
@@ -2628,48 +2220,17 @@ header.main-header #logo {
 
 /* line 32, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .posrel {
+=======
+  height: 41px;
+>>>>>>> gh-pages
   position: relative;
-  width: 100%;
-  z-index: 10; }
+  text-decoration: none;
+  z-index: 60;
+}
 
-/* line 38, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.text-slider {
-  position: relative;
-  z-index: 10; }
-  /* line 41, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .text-slider .item {
-    z-index: 15;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%; }
-    /* line 47, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-    .text-slider .item video {
-      width: 100%;
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      z-index: 11; }
-    /* line 54, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-    .text-slider .item .sliderTitle {
-      color: #000;
-      width: 940px;
-      position: absolute;
-      top: 38%;
-      left: 50%;
-      margin-left: -470px;
-      z-index: 15;
-      text-align: center; }
+.user-logged-in .user-name-menu .user-name:hover:before { background-color: #ee3823; }
 
-/* line 67, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.h-block {
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  position: absolute;
-  z-index: 100;
-  padding: 48px 0px 130px 0px; }
-
+<<<<<<< HEAD
 /* line 76, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .logo {
   position: relative;
@@ -2850,136 +2411,58 @@ header.main-header #logo {
 
 /* line 329, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .slide-down {
+=======
+.user-logged-in .user-name-menu .user-name:before {
+  content: "";
+>>>>>>> gh-pages
   position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 48px;
-  bottom: 76px;
-  z-index: 100;
-  text-align: center; }
-  /* line 337, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .slide-down a {
-    background: url("../img/scroll_bottom2.png") 0 0 no-repeat;
-    display: block;
-    width: 40px;
-    height: 40px;
-    -moz-transition: none;
-    -o-transition: none;
-    -webkit-transition: none;
-    transition: none; }
-    /* line 343, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-    .slide-down a:hover {
-      background-position: 0px -40px; }
-
-/* line 347, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.slide-up {
-  z-index: 9999;
-  margin-top: 0px;
-  position: relative;
-  text-align: center; }
-  /* line 352, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .slide-up a {
-    z-index: 99999;
-    border: 5px #2e353f solid;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    border-radius: 100%;
-    top: -18px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    position: absolute;
-    background: #2e353f url("../img/scroll_up.png") top left no-repeat;
-    display: block;
-    width: 48px;
-    height: 48px;
-    margin: 0px auto;
-    -moz-transition: none;
-    -o-transition: none;
-    -webkit-transition: none;
-    transition: none; }
-    /* line 367, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-    .slide-up a:hover {
-      background-position: -48px 0px; }
-
-/* line 371, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.main-slogan_pad {
-  margin-top: 100px; }
-
-/* line 373, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-#ls-statistics {
-  background: #f6f6f6; }
-  /* line 375, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  #ls-statistics .container {
-    padding-left: 50px;
-    position: relative;
-    height: 183px;
-    overflow: hidden; }
-
-/* line 383, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.st-1, .st-3 {
-  width: 222px;
-  height: 417px; }
-
-/* line 388, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.st-2 {
-  position: relative;
-  margin-top: -116px;
-  width: 417px;
-  height: 417px;
+  bottom: -4px;
+  right: -8px;
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFBAMAAACKv7BmAAAAHlBMVEX///9MaXH////////////////////////////////3VMxpAAAACnRSTlP/ALEKlsjCePZ0rbn8NAAAACFJREFUCB1jYAg25WAoYFLgZBBhYHBkEFRgEmQQNEsWBAAflQKAnNeiewAAAABJRU5ErkJggg==') center center #ea6336 no-repeat;
+  border: 1px solid #fff;
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  background: #ea6336; }
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
 
-/* line 397, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.st-1, .st-2 {
-  text-align: center;
+.user-logged-in .user-name-menu h6 {
   float: left;
-  display: block; }
-
-/* line 403, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.st-1 .st-num {
-  padding-top: 50px;
-  color: #ea6336;
-  font-size: 3.46667em;
-  font-family: "pt_sansregular"; }
-
-/* line 410, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.st-1 .st-h {
-  color: #174e53;
-  font-size: 1.2em;
-  font-family: "pt_sansregular"; }
-
-/* line 416, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.st-2 .st-num {
   color: #fff;
-  font-size: 3.46667em;
-  font-family: "pt_sansregular"; }
+  max-width: 149px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 41px;
+  height: 41px;
+  padding-right: 5px;
+}
 
-/* line 422, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.st-2 .st-h {
-  color: #fff;
-  font-size: 1.2em;
-  font-family: "pt_sansregular"; }
+.user-logged-in .user-name-menu .user-photo {
+  float: left;
+  width: 41px;
+}
 
-/* line 428, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.st-2 .st-cur {
-  line-height: 36px;
-  padding-top: 130px;
-  color: #fff;
-  font-size: 2.4em;
-  font-family: "pt_sansbold"; }
+.user-logged-in .user-name-menu .user-photo img {
+  width: 41px;
+  height: 41px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
 
-/* line 436, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-#guarantees {
-  position: relative; }
+.main-menu .user-fallout-menu li, .main-menu .notificatin-menu li {
+  float: none !important;
+  border-radius: 0 !important;
+}
 
-/* line 439, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-#press h2, #projects h2, #guarantees h2, #how-it-works h2 {
-  padding: 52px 0px 40px;
-  text-align: center; }
-
+<<<<<<< HEAD
 /* line 445, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 #how-it-works {
   cursor: pointer;
@@ -3015,117 +2498,32 @@ header.main-header #logo {
 
 /* line 476, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .close-video {
+=======
+.user-fallout-menu, .notificatin-menu {
+>>>>>>> gh-pages
   position: absolute;
-  right: 20px;
-  top: 20px;
+  top: 36px;
+  right: -5px;
+  width: 223px;
+  z-index: 50;
   display: none;
-  z-index: 2147483647; }
+}
 
-/* line 484, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.guarantees-block {
-  padding-bottom: 82px;
-  text-align: center; }
-  /* line 487, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .guarantees-block a {
-    text-decoration: none; }
-  /* line 488, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .guarantees-block img {
-    width: 150px;
-    margin: 0px 18px; }
+.user-fallout-menu:before, .notificatin-menu:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 10px;
+  display: block;
+  width: 22px;
+  height: 22px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAARElEQVQI12NgQAITpszQAOKHUKzBgA0AJcyB+A0Q/4diENscXZEnEH9BUgTDIDFPmKJYNMlFUIwsFsuAJtCDZEsPshwAlMlaR1TMvjkAAAAASUVORK5CYII=') #f6f6f6 center 5px no-repeat;
+}
 
-/* line 494, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-#calc {
-  background: #a5967a;
-  height: 247px; }
-
-/* line 499, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-#calc2 {
-  background: #e4e7ea;
-  height: 467px; }
-
-/* line 504, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.investor-tab {
-  display: none; }
-
-/* line 506, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-#calc h4 {
-  padding: 46px 0px 23px;
-  text-align: center;
-  color: #fff; }
-
-/* line 512, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.calc-tab-h {
-  text-align: center; }
-  /* line 514, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .calc-tab-h span {
-    height: 41px;
-    line-height: 41px;
-    text-align: center;
-    width: 60px;
-    color: #fff;
-    font-size: 1.2em;
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline; }
-  /* line 523, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .calc-tab-h a.active-tab-h {
-    background: #ffd001;
-    /* Old browsers */
-    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZDAwMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmE4MDEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: -moz-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ffd001), color-stop(100%, #ffa801));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-    /* IE10+ */
-    background: linear-gradient(to right, #ffd001 0%, #ffa801 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd001', endColorstr='#ffa801', GradientType=1);
-    /* IE6-8 */ }
-  /* line 535, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .calc-tab-h a {
-    border: 1.5px rgba(255, 255, 255, 0) solid;
-    font-family: "open_sansregular";
-    text-align: center;
-    width: 302px;
-    font-size: 1.2em;
-    color: #fff;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    height: 41px;
-    line-height: 41px;
-    background: #c9c0b0;
-    /* Old browsers */
-    text-decoration: none; }
-    /* line 548, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-    .calc-tab-h a:hover {
-      background: transparent;
-      -moz-border-radius: 20px;
-      -webkit-border-radius: 20px;
-      border-radius: 20px;
-      text-decoration: none;
-      border: 1.5px #ffc601 solid; }
-
-/* line 557, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.step-strip {
-  position: relative;
-  z-index: 10;
-  height: 80px;
-  bottom: -50px; }
-
+<<<<<<< HEAD
 /* line 564, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .step-h {
   position: relative;
@@ -3207,137 +2605,127 @@ header.main-header #logo {
   font-size: 0.93333em;
   text-align: center;
   padding: 0px 0px 30px; }
+=======
+.user-fallout-menu ul, .notificatin-menu ul {
+  margin-top: 20px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
+}
+>>>>>>> gh-pages
 
-/* line 618, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.calc-step-tab-investor, .calc-step-tab {
+.user-fallout-menu li, .notificatin-menu li {
+  float: none !important;
+  background-color: #f6f6f6;
   position: relative;
-  margin-top: 50px;
-  display: none; }
+  color: #909498;
+  font-family: "open_sansregular";
+}
 
-/* line 624, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.calc-prev-final {
-  top: 90px !important;
-  left: 105px !important; }
+.user-fallout-menu li:hover, .notificatin-menu li:hover { background-color: #e4e7ea; }
 
-/* line 629, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.calc-next-final {
-  top: 90px !important;
-  left: 833px !important; }
-
-/* line 634, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.calc-prev {
-  position: absolute;
-  top: 255px;
-  left: 314px;
+.user-fallout-menu a, .notificatin-menu a {
   display: block;
-  background: url("../img/calc-arrows.png") 0px 0px no-repeat;
-  width: 23px;
-  height: 41px;
-  -moz-transition: none;
-  -o-transition: none;
-  -webkit-transition: none;
-  transition: none; }
-  /* line 643, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .calc-prev:hover {
-    color: #ea6336;
-    background-position: -63px 0px; }
-  /* line 647, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .calc-prev span {
-    display: block;
-    top: 9px;
-    left: -62px;
-    position: absolute;
-    white-space: nowrap;
-    font-family: "open_sanslight", tahoma, verdana, arial, sans-serif;
-    color: #825230; }
+  padding: 10px 20px;
+  font-family: "open_sansregular";
+  font-size: 0.93333em;
+  text-decoration: none;
+  color: #909498;
+}
 
-/* line 658, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.calc-next:hover {
-  color: #ea6336;
-  background-position: -93px 0px; }
+.user-fallout-menu a.credit-score p span, .notificatin-menu a.credit-score p span { background: #ffbc01; }
 
-/* line 663, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.calc-next span {
+.user-fallout-menu a p span, .notificatin-menu a p span {
   display: block;
-  top: 9px;
-  right: -120px;
   position: absolute;
-  white-space: nowrap;
-  font-family: "open_sanslight", tahoma, verdana, arial, sans-serif;
-  color: #825230; }
-
-/* line 673, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.calc-next, .calc-next-final {
-  position: absolute;
-  top: 255px;
-  left: 624px;
-  display: block;
-  background: url("../img/calc-arrows.png") -31px 0px no-repeat;
-  width: 23px;
-  height: 41px;
-  -moz-transition: none;
-  -o-transition: none;
-  -webkit-transition: none;
-  transition: none; }
-
-/* line 684, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.slider-grad {
-  margin: 0px auto 85px;
-  width: 574px;
-  position: relative; }
-
-/* line 690, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.slider-grad > div {
-  width: 60px;
-  top: 6px;
-  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -10px;
+  width: 36px;
+  height: 20px;
+  background: #ea6336;
+  color: #fff;
+  line-height: 20px;
   text-align: center;
-  background: url("../img/slider-separator.png") top center no-repeat;
-  padding-top: 26px;
-  color: #a8a79b;
-  font-size: 1em;
-  display: block; }
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
 
-/* line 702, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.slider-grad1 {
-  left: -27px; }
+.user-request { padding: 0 10px 10px 20px; }
 
-/* line 704, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.slider-grad2 {
-  left: 110px; }
+.user-request a {
+  padding: 0;
+  display: block;
+}
 
-/* line 706, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.slider-grad3 {
-  left: 256px; }
+.user-request a.accept-request {
+  display: block;
+  float: left;
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 0 0 38px;
+  color: #2e353f;
+}
 
-/* line 708, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.slider-grad4 {
-  left: 398px; }
+.user-request a.accept-request:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 29px;
+  background: url("../img/accept-offer.png") no-repeat;
+}
 
-/* line 710, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.slider-grad5 {
-  left: 543px; }
+.user-request a.accept-request:hover { text-decoration: underline; }
 
-/* line 712, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.slider-tab2-grad1 {
-  left: -27px; }
+.user-request a.project-link {
+  padding: 0;
+  float: right;
+  margin-right: 5px;
+  background: url('data:image/png;base64,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') no-repeat;
+  background-position: -209px center;
+}
 
-/* line 714, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.slider-tab2-grad2 {
-  left: 95px; }
+.user-request a.project-link:hover { background-position: -247px center; }
 
-/* line 716, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.slider-tab2-grad3 {
-  left: 244px; }
+.user-request a.decline-request {
+  padding: 0;
+  width: 29px;
+  height: 29px;
+  background: url("../img/decline-offer-ico.png") center center no-repeat;
+  float: right;
+}
 
-/* line 718, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.slider-tab2-grad4 {
-  left: 394px; }
+.notificatin-menu {
+  top: 30px;
+  width: 245px;
+}
 
-/* line 720, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.slider-tab2-grad5 {
-  left: 543px; }
+.notificatin-menu li { border-bottom: 1px solid #e4e7ea; }
 
+.notificatin-menu li:first-child {
+  background: #e4e7ea;
+  border-bottom: none;
+}
+
+.notificatin-menu li:first-child a {
+  height: 58px;
+  padding: 0 20px;
+  color: #909498;
+}
+
+.notificatin-menu li:first-child a p { line-height: 58px; }
+
+.notificatin-menu li:first-child a p span { width: 46px; }
+
+<<<<<<< HEAD
 /* line 722, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 #slider, #slider2, #slider3, #slider4, #slider5, #slider6 {
   margin: 0px auto 0px;
@@ -3403,134 +2791,42 @@ header.main-header #logo {
   -o-transition: none;
   -webkit-transition: none;
   transition: none;
+=======
+.notificatin-menu li:last-child {
+>>>>>>> gh-pages
   text-align: center;
-  line-height: 48px;
-  font-family: "open_sanslight", tahoma, verdana, arial, sans-serif;
-  font-size: 1.73333em;
-  color: #a5967a; }
+  background: #e4e7ea;
+}
 
-/* line 784, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.project-list {
-  margin: 0px auto;
-  display: block; }
-
-/* line 789, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.project-item {
-  overflow: hidden;
-  margin: 0px 10px 20px 10px;
-  float: left;
+.notificatin-menu li:last-child a {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  border: 1.5px #a5967a solid;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
+  text-decoration: underline;
+  color: #2e353f;
+}
+
+.notificatin-menu li:last-child a:hover { text-decoration: none; }
+
+.notificatin-menu li.project-notif .not-text {
   position: relative;
-  width: 297px;
-  height: 482px;
-  z-index: 80; }
+  padding: 10px 41px 10px 20px;
+}
 
-/* line 802, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.project-item:hover .project-item-hover {
-  /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
-  /* IE 5-7 */
-  filter: alpha(opacity=1);
-  /* Netscape */
-  -moz-opacity: 1;
-  /* Safari 1.x */
-  -khtml-opacity: 1;
-  /* Good browsers */
-  opacity: 1; }
+.notificatin-menu li time {
+  font-size: 10px;
+  line-height: 10px;
+  font-family: "open_sanslight", tahoma, verdana, arial, sans-serif;
+}
 
-/* line 815, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.project-item-hover {
-  /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  /* IE 5-7 */
-  filter: alpha(opacity=0);
-  /* Netscape */
-  -moz-opacity: 0;
-  /* Safari 1.x */
-  -khtml-opacity: 0;
-  /* Good browsers */
-  opacity: 0;
-  z-index: 10;
-  display: block;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background-color: rgba(165, 150, 122, 0.7);
-  border: 1.5px #a5967a solid;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  width: 297px;
-  height: 482px;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  -webkit-transition: all 0.3s ease;
-  -webkit-transition-delay: 0s;
-  transition: all 0.3s ease 0s; }
-  /* line 837, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .project-item-hover a {
-    text-decoration: none; }
+.notificatin-menu li time b {
+  font-weight: normal;
+  margin-left: 10px;
+}
 
-/* line 840, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.project-item-hover ul {
-  width: 222px;
-  margin: 60px auto 0px; }
-
-/* line 845, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.project-item-hover ul li.ybut a {
-  margin-bottom: 16px;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  height: 41px;
-  width: 222px;
-  border: 1.5px rgba(255, 255, 255, 0) solid;
-  font-family: "open_sansregular";
-  text-align: center;
-  font-size: 1.2em;
-  color: #a5967a;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  line-height: 38px;
-  background: rgba(255, 255, 255, 0.7); }
-
-/* line 860, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.project-item-hover ul li.ybut a:hover {
-  color: #fff;
-  background: #ffd001;
-  /* Old browsers */
-  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZDAwMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmE4MDEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-  background: -moz-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ffd001), color-stop(100%, #ffa801));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-  /* IE10+ */
-  background: linear-gradient(to right, #ffd001 0%, #ffa801 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd001', endColorstr='#ffa801', GradientType=1);
-  /* IE6-8 */ }
-
-/* line 875, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.add-to-wish-list-added:before {
-  background-position: -129px 0px !important; }
-
+<<<<<<< HEAD
 /* line 878, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .add-to-wish-list {
   margin-bottom: 30px;
@@ -3620,98 +2916,55 @@ header.main-header #logo {
   font-size: 1.33333em;
   height: 90px;
   overflow: hidden; }
+=======
+.notificatin-menu li span.ico {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  margin-top: -7px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+>>>>>>> gh-pages
 
-/* line 958, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.pr-mini-desc2 {
-  font-family: "open_sansregular";
-  color: #796848;
-  font-size: 1em;
-  height: 130px;
+.notificatin-menu li span.ico.red { background: #ea3636; }
+
+.notificatin-menu li span.ico.yellow { background: #ffbc01; }
+
+.notificatin-menu li span.ico.green { background: #6dc876; }
+
+.notificatin-menu li p {
   overflow: hidden;
-  line-height: 18px; }
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 16px;
+}
 
-/* line 967, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.pr-rate {
-  padding-top: 38px;
-  font-family: "open_sansregular";
-  color: #796848;
-  font-size: 1em; }
-  /* line 972, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .pr-rate span {
-    font-family: "pt_sans_narrowbold";
-    font-size: 1.6em; }
-    /* line 975, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-    .pr-rate span b {
-      font-family: "pt_sans_narrowbold";
-      font-size: 0.75em;
-      font-weight: normal; }
-
-/* line 983, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.pr-status {
-  background-color: #d9d8cf;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  height: 17px;
-  margin: 10px auto 37px;
+.notificatin-menu li a {
+  padding-right: 41px;
   position: relative;
-  width: 100%;
-  z-index: 9; }
+}
 
-/* line 993, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.pr-status-line {
-  background-color: #ea6336;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  height: 17px; }
+.notificatin-menu li a.read { background-color: #fff; }
 
-/* line 999, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.pr-data-l {
-  color: #796848;
-  font-family: "open_sansregular";
-  font-size: 0.93333em;
-  float: left;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline; }
+.invest-list {
+  position: absolute;
+  left: -121px;
+  height: 31px;
+  line-height: 31px;
+  top: 27px;
+  z-index: 10;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
 
-/* line 1007, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.pr-data-r {
-  color: #796848;
-  font-family: "open_sansregular";
-  font-size: 0.93333em;
-  float: right;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline; }
-
-/* line 1015, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.pr-amount-left {
-  padding-bottom: 5px;
-  color: #ea6336;
-  font-size: 1.6em;
-  font-family: "pt_sans_narrowbold"; }
-  /* line 1020, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .pr-amount-left span {
-    font-size: 0.75em; }
-
-/* line 1023, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.pr-days-left {
-  padding-bottom: 5px;
-  font-size: 1.6em;
-  font-family: "pt_sans_narrowbold";
-  color: #838383; }
-
-/* line 1030, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.pr-links {
-  padding: 33px 0px 61px;
-  text-align: center; }
-
+<<<<<<< HEAD
 /* line 1035, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 #feedback {
   height: 600px;
@@ -3722,153 +2975,335 @@ header.main-header #logo {
   -webkit-background-size: cover;
   background-size: cover;
   position: relative; }
+=======
+.invest-list.empty a:hover { text-decoration: underline; }
+>>>>>>> gh-pages
 
-/* line 1043, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.fdb-slider {
-  position: relative; }
+.invest-list.empty a span { display: none; }
 
-/* line 1045, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.fdb-slider-item {
-  display: none;
-  text-align: center; }
+.invest-list a {
+  position: relative;
+  padding: 0px 38px 0px 0px;
+  display: block;
+  text-decoration: none;
+}
 
-/* line 1050, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.fdb-img img {
-  border: 10px solid #f6f6f6;
+.invest-list a span {
+  position: absolute;
+  bottom: -8px;
+  right: -8px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #fff;
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  width: 160px;
-  height: 160px; }
-
-/* line 1057, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.fdb-img {
-  padding: 51px 0px 24px; }
-
-/* line 1059, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.fdb-position div {
   font-family: "pt_sansregular";
-  font-size: 1.2em;
-  color: #fff; }
-
-/* line 1065, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.fdb-position {
-  height: 109px; }
-
-/* line 1067, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.fdb-header {
-  font-family: "open_sansbold";
-  font-size: 2.53333em;
-  color: #fff; }
-
-/* line 1073, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.fdb-text {
-  padding: 10px 50px 0px;
-  font-family: "open_sansregular";
-  line-height: 26px;
-  font-size: 1em;
-  color: #fff; }
-
-/* line 1081, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.fdb-slider-left {
-  position: absolute;
-  top: 111px;
-  left: 314px;
+  color: #fff;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
   display: block;
-  background: url("../img/feedback-arrows.png") 0px 0px no-repeat;
-  width: 23px;
-  height: 41px;
-  -moz-transition: none;
-  -o-transition: none;
-  -webkit-transition: none;
-  transition: none; }
-  /* line 1090, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .fdb-slider-left:hover {
-    background-position: -60px 0px; }
+  z-index: 3;
+  background: #909498;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
 
-/* line 1093, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.fdb-slider-right {
+.invest-list a:hover span { background: #ee3823; }
+
+.invest-list a:before {
+  z-index: 2;
+  content: "";
   position: absolute;
-  top: 111px;
-  left: 624px;
+  right: 0px;
+  top: 0px;
+  background: url("../img/invest-items-list.png") no-repeat;
+  width: 31px;
+  height: 31px;
+}
+
+.main-menu .user-block { z-index: 20; }
+
+.main-menu .user-block ul.user-lg-ju {
+  background: #f6f6f6;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.main-menu .user-block li {
+  float: left;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.main-menu .user-block li.active { background: #ea6336; }
+
+.main-menu .user-block li.active a { color: #fff; }
+
+.main-menu .user-block a.login-form-link {
+  float: right;
   display: block;
-  background: url("../img/feedback-arrows.png") -32px 0px no-repeat;
-  width: 23px;
-  height: 41px;
-  -moz-transition: none;
-  -o-transition: none;
-  -webkit-transition: none;
-  transition: none; }
-  /* line 1102, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .fdb-slider-right:hover {
-    background-position: -92px 0px; }
-
-/* line 1105, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-#press {
-  height: 368px; }
-
-/* line 1107, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.press-slider {
-  width: 758px;
-  margin: 0px auto;
-  position: relative; }
-
-/* line 1113, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.press-left {
-  float: left;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  width: 522px; }
-
-/* line 1119, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.press-right {
-  float: left;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  width: 236px; }
-
-/* line 1125, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.press-h {
-  padding-bottom: 5px;
-  font-family: "open_sansregular";
-  font-size: 1.2em;
-  color: #000; }
-
-/* line 1132, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.press-feedback {
+  width: 135px;
+  text-align: center;
+  line-height: 41px;
   font-family: "pt_sansregular";
-  color: #919599;
-  font-size: 1em;
-  line-height: 24px;
-  padding-right: 100px; }
+  font-size: 1.06667em;
+  color: #000;
+  text-decoration: none;
+}
 
-/* ----- slider text ----- */
-/* line 1141, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.effectContainer {
-  text-align: justify;
-  height: 150px; }
+.main-menu .user-block .user-login-form-container {
+  float: left;
+  display: none;
+}
 
-/* line 1146, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.effectContainer h5 img {
-  vertical-align: middle; }
+.main-menu .user-block a#hide-login-form {
+  float: left;
+  display: block;
+  width: 33px;
+  height: 37px;
+  margin-top: 2px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAPCAMAAAA4caRkAAAAP1BMVEVMaXH////////////////////////////////////////////////////////////////////////////////u4+wCAAAAFHRSTlMAzJZvNxKStAML/E/0pWDnh7seH432K3wAAABOSURBVBjTY+ATEGLABthF+Fmwi4vwcGMXF+FixhTnFQEBNg50cU52sAQ7J7oEBxNYgpEVwyhBsAQLcepxmY/LPbjcj9u/2MOHT0AYmzAA5fgFURvDFOEAAAAASUVORK5CYII=') 18px center no-repeat;
+  -moz-background-size: 18px 12px;
+  -o-background-size: 18px 12px;
+  -webkit-background-size: 18px 12px;
+  background-size: 18px 12px;
+}
 
-/* line 1148, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.slide {
-  position: relative; }
+.main-menu .user-block .user-login-form {
+  float: left;
+  padding-left: 2px;
+}
 
-/* line 1150, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
+.main-menu .user-block .user-login-form .lg-item {
+  float: left;
+  position: relative;
+  margin-top: 2px;
+}
+
+.main-menu .user-block .user-login-form .lg-item a.pass-recover {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  margin-top: -7px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAx0lEQVR4AWNABrHJmZxAnAXE24H4BghD2VlQOQYYZkDi2APxMyD+jw1D5ezRNXoB8Q+QAnwYqsYLppEfiF+jK+qdMOV/U1sXhmaoWn6QxkosmsB4+qy5/1evXY9NcyVI42l8zlu4ZDk28dMgjZ9xacrKL8Vl42cGXIFSVl3/f8u2HTgDCaTxEkEnYuJLII1tOJyJT2MbSKMEFn/idCZUrQQsAUQA8T9CCQCqJgI9yUVATcNnUwS2tApzdhs0wH5A8SWomASyWgAB33/oN5bRlQAAAABJRU5ErkJggg==') no-repeat;
+}
+
+.main-menu .user-block .user-login-form .lg-item input {
+  height: 37px;
+  width: 180px;
+  border: none;
+  font-size: 1.06667em;
+  font-family: "pt_sansregular";
+  color: #6c6c6c;
+  background: #e2e2e2;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.main-menu .user-block .user-login-form .lg-item input:focus, .main-menu .user-block .user-login-form .lg-item input:hover {
+  background: #fff;
+}
+
+.main-menu .user-block .user-login-form .lg-item input#user-login {
+  -moz-border-radius: 20px 0 0 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px 0 0 20px;
+}
+/* line 480, /Users/admin/Works/LendingStar/frontend/source/css/partials/_header.scss */
+
+.main-menu .user-block .user-login-form .lg-item input#user-pass {
+  -moz-border-radius: 0 20px 20px 0;
+  -webkit-border-radius: 0;
+  border-radius: 0 20px 20px 0;
+}
+@media only screen and (max-width: 1440px) {
+
+  .main-menu .container2 { padding-left: 40px; }
+
+  #logo {
+    -moz-background-size: 22px auto;
+    -o-background-size: 22px auto;
+    -webkit-background-size: 22px auto;
+    background-size: 22px auto;
+    left: 10px;
+    margin-left: 0;
+  }
+
+  .main-menu nav ul li a { padding: 0 10px; }
+
+  .user-block { padding-right: 20px; }
+
+  .cabinet-header #logo { left: 50%; margin-left: -16px; }
+}
+
+.ui-tooltip.login-tooltip, .login-tooltip-arrow:after {
+  background: rgba(46, 53, 63, 0.6);
+  border: none;
+  text-align: center;
+  width: auto;
+  z-index: 100000000;
+}
+
+.ui-tooltip.login-tooltip {
+  padding: 11px 20px;
+  color: #fff;
+  font-size: 0.8em;
+  line-height: 12px;
+  font-family: "open_sansregular";
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.login-tooltip-arrow {
+  width: 70px;
+  height: 16px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  margin-left: -35px;
+  bottom: -16px;
+}
+
+.login-tooltip-arrow.top {
+  top: -16px;
+  bottom: auto;
+}
+
+.login-tooltip-arrow.left { left: 20%; }
+
+.login-tooltip-arrow:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  margin-left: -12px;
+  width: 25px;
+  height: 21px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.login-tooltip-arrow.top:after {
+  bottom: -20px;
+  top: auto;
+}
+
+/*end header css*/
+
+
+
+/*static pages css */
+
+.submenu-container { border-bottom: 1px solid #e4e7ea; }
+
+.submenu-container li {
+  float: left;
+  padding: 21px 0;
+  margin-right: 34px;
+}
+
+.submenu-container li:last-child { margin-right: 0; }
+
+.submenu-container a {
+  display: block;
+  height: 20px;
+  position: relative;
+  font-family: "pt_sansregular";
+  font-size: 1.06667em;
+  line-height: 20px;
+  text-decoration: none;
+  color: #909498;
+  padding-left: 15px;
+}
+
+.submenu-container a.active {
+  color: #2e353f;
+  text-decoration: underline;
+}
+
+.submenu-container a.active:before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 12px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -6px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAMCAMAAABoQAyvAAAAM1BMVEWQlJiQlJiQlJiQlJiQlJiQlJiQlJhMaXGQlJiQlJiQlJiQlJiQlJiQlJiQlJiQlJiQlJjrUhIkAAAAEHRSTlMPJtEu2SDtAArfyL4YF+W0MkDJ2wAAAEFJREFUCB0FgIkRgjAAwMLXtKCY/af1oN9UhXpQobpR5qj2j3iM6rzQ7a1O9FrVwuOt1sYc1XkJ1f5VqBsVeqbqH7wKA3mCVLB1AAAAAElFTkSuQmCC') no-repeat;
+}
+
+.submenu-container a:hover {
+  color: #2e353f;
+  text-decoration: underline;
+}
+
+.text-page-header { border-bottom: 1px solid #e4e7ea; }
+
+.text-page-header .text-container { width: 100%; padding: 80px 490px 80px 0; }
+
+.text-page-header .text-container.terms-of-conditions-ico {
+  background: url("../img/terms-of-conditions-ico.png") right 80px center no-repeat;
+}
+
+.text-page-header .text-container.privacy-policy { background: url("../img/policy-protection.png") right 80px center no-repeat; }
+
+.text-page-header .text-container.for-borrower-ico {
+  padding-right: 360px;
+  background: url("../img/for-borrowers-ico.png") right 80px center no-repeat;
+}
+
+.text-page-header .text-container.for-investors-ico {
+  padding-right: 360px;
+  background: url("../img/guarantees-6.png") right 80px center no-repeat;
+}
+
+.text-page-header h3 { color: #909498; }
+
+.text-page-header p {
+  margin-top: 10px;
+  font-size: 1.06667em;
+  color: #909498;
+  font-family: "pt_sansregular";
+}
+
+.text-page-header .btn-type-2 {
+  text-transform: uppercase;
+  width: 215px;
+  margin-top: 30px;
+}
+
+#image-slider {
+  height: 360px;
+  margin-top: 30px;
+}
+
+#image-slider .effectContainer { height: 360px; }
+
+#image-slider .effectContainer .slide img { width: 710px; height: 340px; }
+
 div.fadenav {
   position: absolute;
   bottom: 0px;
-  left: -7px; }
+  left: -7px;
+}
 
-/* line 1156, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 div.fadenav a {
   display: block;
   background: #ea6336;
@@ -3879,216 +3314,97 @@ div.fadenav a {
   overflow: hidden;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  border-radius: 50%; }
-  /* line 1165, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  div.fadenav a:hover {
-    text-decoration: none;
-    background: #d9d8cf; }
-  /* line 1169, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  div.fadenav a.current {
-    background: #ffc201; }
-    /* line 1171, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-    div.fadenav a.current:hover {
-      background: #909498; }
+  border-radius: 50%;
+}
 
-/* line 1175, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.chart-label1 {
-  top: 65px;
-  left: 0px;
-  width: 200px;
-  text-align: center;
-  position: absolute; }
-  /* line 1181, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .chart-label1 div {
-    font-family: "pt_sansbold";
-    font-size: 1.73333em;
-    color: #a5967a; }
+div.fadenav a:hover {
+  text-decoration: none;
+  background: #d9d8cf;
+}
 
-/* line 1188, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.chart-title {
-  top: -40px;
-  left: -25px;
-  width: 200px;
-  text-align: center;
-  position: absolute;
-  color: #000;
-  font-size: 1.33333em; }
+div.fadenav a.current { background: #ffc201; }
 
-/* line 1198, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.chart-title3 {
-  bottom: -50px;
-  left: -47px;
-  width: 200px;
-  text-align: center;
-  position: absolute;
-  color: #000;
-  font-size: 1.2em; }
+div.fadenav a.current:hover { background: #909498; }
 
-/* line 1208, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.chart-label2 {
-  top: 50px;
-  left: 0px;
-  width: 150px;
-  text-align: center;
-  position: absolute; }
-  /* line 1214, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .chart-label2 div {
-    font-family: "pt_sansbold";
-    font-size: 1.33333em;
-    color: #a5967a; }
+.text-page-body { padding-bottom: 80px; }
 
-/* line 1221, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.chart-label3 {
-  top: 32px;
-  left: 0px;
-  width: 105px;
-  text-align: center;
-  position: absolute; }
-  /* line 1227, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .chart-label3 div {
-    font-family: "pt_sansbold";
-    font-size: 1.06667em;
-    color: #a5967a; }
+.text-page-body.user-text-page-body .for-user-menu-col {
+  width: 230px;
+  float: left;
+  margin-right: 20px;
+}
 
-/* line 1234, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.firstChart, .firstChart2, .firstChart3 {
+.text-page-body.user-text-page-body .text-content {
+  float: left;
+  width: 710px;
+}
+
+.for-user-menu-col { padding-top: 30px; }
+
+.for-user-menu-col li a {
   position: relative;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-  background: #fff;
-  margin: 0px auto; }
-
-/* line 1241, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.firstChart, #myChart {
-  width: 200px;
-  height: 200px; }
-
-/* line 1246, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.three-charts {
-  padding: 40px 0px 0px 0px;
-  text-align: center; }
-
-/* line 1251, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.three-charts2 {
-  position: relative;
-  padding: 40px 0px 0px 0px;
-  text-align: center; }
-
-/* line 1257, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.firstChart2 {
-  margin: 0px 34px;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  width: 150px;
-  height: 150px; }
+  padding-right: 15px;
+  font-size: 1.06667em;
+  line-height: 32px;
+  color: #909498;
+  text-decoration: none;
+}
 
-/* line 1264, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.firstChart3 {
-  margin: 0px 55px;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  width: 105px;
-  height: 105px; }
+.for-user-menu-col li a:hover, .for-user-menu-col li a.active {
+  font-family: "pt_sansbold";
+  color: #2e353f;
+}
 
-/* line 1271, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.tab4h {
-  padding: 45px 0px 40px;
-  text-align: center;
-  font-size: 1.33333em;
-  color: #000; }
-
-/* line 1278, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.score-setter a {
-  margin: 0px 4px;
-  font-size: 1em;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  color: #a5967a;
-  border: 1px #a5967a solid;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  background-color: white;
-  text-align: center;
-  height: 40px;
-  line-height: 36px;
-  text-decoration: none; }
-
-/* line 1292, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.score-letter {
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline; }
-  /* line 1294, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-  .score-letter a {
-    width: 40px;
-    text-transform: uppercase; }
-
-/* line 1297, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-#calculate-income {
+.for-user-menu-col li a.active:before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 12px;
   position: absolute;
-  bottom: 80px; }
+  right: 0;
+  top: 50%;
+  margin-top: -6px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAMCAMAAABoQAyvAAAAM1BMVEWQlJiQlJiQlJiQlJiQlJiQlJiQlJhMaXGQlJiQlJiQlJiQlJiQlJiQlJiQlJiQlJiQlJjrUhIkAAAAEHRSTlMPJtEu2SDtAArfyL4YF+W0MkDJ2wAAAEFJREFUCB0FgIkRgjAAwMLXtKCY/af1oN9UhXpQobpR5qj2j3iM6rzQ7a1O9FrVwuOt1sYc1XkJ1f5VqBsVeqbqH7wKA3mCVLB1AAAAAElFTkSuQmCC') no-repeat;
+}
 
-/* line 1299, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-a.calculate:hover,
-.score-setter a.inv-port:hover {
-  background: #ee3823 !important; }
+.for-user-menu-col .banner-container {
+  margin-top: 50px;
+  width: 230px;
+  height: 383px;
+}
 
-/* line 1302, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.score-letter a.score-letter-active,
-.borrower-finish-button a:hover {
-  color: #fff;
-  border: 1px #ffc601 solid;
-  background: #ffd001;
-  /* Old browsers */
-  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZDAwMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmE4MDEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-  background: -moz-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ffd001), color-stop(100%, #ffa801));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(left, #ffd001 0%, #ffa801 100%);
-  /* IE10+ */
-  background: linear-gradient(to right, #ffd001 0%, #ffa801 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd001', endColorstr='#ffa801', GradientType=1);
-  /* IE6-8 */ }
+.for-user-menu-col .banner-container img {
+  width: 230px;
+  height: 383px;
+}
 
-/* line 1318, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.score-letter a.score-letter-active:hover {
-  color: #fff; }
+.text-content p, .text-content h1, .text-content h2, .text-content h3, .text-content h4, .text-content h5, .text-content h6 {
+  color: #909498;
+}
 
-/* line 1320, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.score-letter a:hover,
-.set-score:hover {
-  background-color: #fff;
-  border: 1px #fcde5c solid;
-  color: #a5967a; }
+.text-content p {
+  margin-top: 20px;
+  font-size: 1.06667em;
+  line-height: 24px;
+  font-family: "pt_sansregular";
+}
 
-/* line 1327, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.score-setter {
-  text-align: center; }
+.text-content a {
+  color: #1f98ff;
+  font-size: 1.06667em;
+  line-height: 24px;
+  text-decoration: underline;
+  font-family: "pt_sansregular";
+}
 
-/* line 1329, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
-.set-score {
-  width: 200px; }
+.text-content a:hover { text-decoration: none; }
 
+<<<<<<< HEAD
 /* line 1331, /Users/admin/Works/LendingStar/frontend/source/css/partials/_index.scss */
 .score-setter a.inv-port {
   margin: 0px 4px;
@@ -4743,57 +4059,30 @@ a.calculate:hover,
     z-index: 10; }
 /* line 57, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
 .all-projects-list .row {
+=======
+.text-content h1, .text-content h2, .text-content h3, .text-content h4, .text-content h5, .text-content h6 {
+  font-family: "open_sansregular";
+  margin-top: 30px;
+}
+
+.text-content ul { padding-top: 15px; }
+
+.text-content ul li {
+  margin-top: 15px;
+>>>>>>> gh-pages
   position: relative;
-  display: block;
-  width: 100%;
-  height: 98px;
-  background-color: #fff;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  text-decoration: none;
-  z-index: 9; }
-/* line 67, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.all-projects-list .pr-progress {
+  padding-left: 17px;
+  font-size: 1.06667em;
+  line-height: 22px;
+  font-family: "pt_sansregular";
+  color: #909498;
+}
+
+.text-content ul li:before {
+  content: "";
   position: absolute;
-  top: 0;
   left: 0;
-  height: 98px;
-  z-index: 5; }
-  /* line 73, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-  .all-projects-list .pr-progress .pr-progress-bar {
-    background: #e9e3cb;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 98px;
-    width: 100%;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border-radius: 20px; }
-  /* line 82, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-  .all-projects-list .pr-progress .progress-text {
-    display: block;
-    width: 46px;
-    height: 20px;
-    position: absolute;
-    right: -23px;
-    top: -10px;
-    background: #fff;
-    color: #ea6336;
-    text-align: center;
-    font-family: "pt_sansbold";
-    font-size: 0.8em;
-    line-height: 16px;
-    border: 1px solid #c5c4ba;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px; }
-/* line 99, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.all-projects-list .short-pr-data {
-  position: absolute;
-  top: 0;
-  left: 0;
+<<<<<<< HEAD
   height: 98px;
   width: 960px;
   padding: 15px 60px 15px 20px;
@@ -5191,115 +4480,70 @@ a.calculate:hover,
 .ui-tooltip.save-filter-tooltip, .tip-arrow:after {
   background: rgba(255, 255, 255, 0.2);
   border: none;
-  text-align: center;
-  width: auto; }
+=======
+  top: 5px;
+  display: block;
+  width: 6px;
+  height: 11px;
+  background: url("../img/list-ico.png") no-repeat;
+}
 
-/* line 440, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.ui-tooltip.save-filter-tooltip {
-  padding: 11px 20px;
-  color: #fff;
-  font-size: 0.8em;
-  line-height: 12px;
+.text-content table {
+  margin-top: 30px;
+>>>>>>> gh-pages
+  text-align: center;
+  background: #ececed;
+  border-color: #fff;
+}
+
+.text-content table th {
+  text-transform: uppercase;
+  border-color: #fff;
+  font-family: "pt_sans_narrowbold";
+  color: #545454;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+.text-content table td {
+  border-color: #fff;
+  color: #2e353f;
   font-family: "pt_sansregular";
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none; }
+  font-size: 1.06667em;
+}
 
-/* line 449, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.tip-arrow {
-  width: 70px;
-  height: 16px;
-  overflow: hidden;
-  position: absolute;
-  left: 50%;
-  margin-left: -35px;
-  bottom: -16px; }
+.guarantees-body { padding-bottom: 80px; }
 
-/* line 458, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.tip-arrow.top {
-  top: -16px;
-  bottom: auto; }
+.static-page .buttons-container { margin: 0 auto; text-align: center; }
 
-/* line 462, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.tip-arrow.left {
-  left: 20%; }
+.static-page .buttons-container .btn-type-2 {
+  width: 215px;
+  text-transform: uppercase;
+}
 
-/* line 463, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.tip-arrow:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: -20px;
-  margin-left: -12px;
-  width: 25px;
-  height: 21px;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg); }
+.static-page .buttons-container .btn-type-2:first-child { margin-right: 17px; }
 
-/* line 475, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.tip-arrow.top:after {
-  bottom: -20px;
-  top: auto; }
+.guarantee-container { border-top: 1px solid #e4e7ea; }
 
-/* line 482, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.ui-tooltip.custom-sorting-tooltip, .tooltip-arrow:after {
-  background: rgba(46, 53, 63, 0.6);
-  border: none;
-  text-align: center;
-  width: auto; }
+.guarantee-container:first-child { border-top: none; }
 
-/* line 488, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.ui-tooltip.custom-sorting-tooltip {
-  padding: 11px 20px;
-  color: #fff;
-  font-size: 1em;
-  line-height: 16px;
-  font-family: "open_sansregular";
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px; }
+.guarantee-block {
+  width: 100%;
+  padding: 60px 0;
+}
 
-/* line 496, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.tooltip-arrow {
-  width: 70px;
-  height: 16px;
-  overflow: hidden;
-  position: absolute;
-  left: 50%;
-  margin-left: -35px;
-  bottom: -16px; }
+.guarantee-block p, .guarantee-block h1, .guarantee-block h2, .guarantee-block h3, .guarantee-block h4, .guarantee-block h5, .guarantee-block h6 { color: #909498; }
 
-/* line 505, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.tooltip-arrow.top {
-  top: -16px;
-  bottom: auto; }
+.guarantee-block p {
+  margin-top: 20px;
+  font-size: 1.06667em;
+  color: #909498;
+  font-family: "pt_sansregular";
+}
 
-/* line 509, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.tooltip-arrow.left {
-  left: 20%; }
+.guarantee-block h3 { line-height: 36px; }
 
-/* line 510, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.tooltip-arrow:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: -20px;
-  margin-left: -12px;
-  width: 25px;
-  height: 21px;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg); }
-
-/* line 522, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
-.tooltip-arrow.top:after {
-  bottom: -20px;
-  top: auto; }
-
+<<<<<<< HEAD
 /* line 529, /Users/admin/Works/LendingStar/frontend/source/css/partials/_projects.scss */
 .added-filter-opt .filter-opt {
   float: left;
@@ -6625,17 +5869,23 @@ a.calculate:hover,
   position: absolute;
   top: 15px;
   right: 70px; }
+=======
+.guarantee-block h4 { font-family: "open_sansregular"; }
 
-/* line 484, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
-.chart-carousel-container {
-  position: absolute;
-  left: 0;
-  top: 90px;
-  height: 266px;
-  width: 100%;
-  padding: 0 60px;
-  z-index: 5; }
+.guarantee-block.picture-right {
+  padding-right: 305px;
+  background: url("../img/guarantees-6.png") right 80px center no-repeat;
+}
 
+.guarantee-block.picture-left {
+  padding-left: 194px;
+  background: url("../img/guarantees-1.png") 10px center no-repeat;
+}
+>>>>>>> gh-pages
+
+.guarantee-block.picture-left.credit-rating { background: url("../img/guarantees-2.png") 10px center no-repeat; }
+
+<<<<<<< HEAD
 /* line 494, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
 .chart-carousel {
   width: 100%;
@@ -7006,12 +6256,15 @@ a.sort-bydate {
 .notTable-col1, .myfiles-col1 {
   float: left;
   width: 80%; }
+=======
+.guarantee-block.picture-left.credit-cond { background: url("../img/guarantees-3.png") 10px center no-repeat; }
 
-/* line 830, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
-.notTable-col2, .myfiles-col2 {
-  float: right;
-  width: 20%; }
+.guarantee-block.picture-left.money-back { background: url("../img/guarantees-4.png") 10px center no-repeat; }
+>>>>>>> gh-pages
 
+.guarantee-block.picture-left.legal-contract { background: url("../img/guarantees-5.png") 10px center no-repeat; }
+
+<<<<<<< HEAD
 /* line 836, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
 .notification-tableBody .item, .myfiles-tableBody .item {
   position: relative;
@@ -7788,11 +7041,25 @@ a.sort-bydate {
     background: url("../img/mastercard-ico.png") no-repeat; }
 /* line 1395, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
 .bankDetails-tableContainer .deal-ico {
+=======
+.guarantee-block.ico-top {
+  padding-top: 130px;
+  text-align: center;
+  background: url("../img/guarantees-ico.png") center 25px no-repeat;
+}
+
+.guarantee-block.ico-top.safely-platform { background: url("../img/guarantees-ico2.png") center 25px no-repeat; }
+
+.guarantee-block.ico-top.we-take-care { background: url("../img/guarantees-ico3.png") center 25px no-repeat; }
+
+.guarantee-block.ico-top p {
+>>>>>>> gh-pages
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
+<<<<<<< HEAD
   width: 29px;
   height: 29px;
   background: url("../img/deals-ico.png") no-repeat; }
@@ -8014,11 +7281,18 @@ a.sort-bydate {
   *display: inline; }
 /* line 1504, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
 .bankDetails-tableBody .trCol-3 p {
+=======
+  width: 620px;
+}
+
+.guarantee-block.ico-top h3 {
+>>>>>>> gh-pages
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
+<<<<<<< HEAD
   max-width: 40px;
   min-width: 18px;
   padding: 0; }
@@ -8169,75 +7443,23 @@ a.sort-bydate {
 .borrower-projects-list-tableBody .filters-row,
 .borrower-projects-list-tableBody .my-investments-row,
 .borrower-projects-list-tableBody .borrower-project-row {
+=======
+  width: 780px;
+}
+
+.text-container.about-us--top {
+>>>>>>> gh-pages
   position: relative;
-  border-bottom: 0;
-  padding: 0; }
-  /* line 1622, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
-  .filters-list-tableBody .filters-row .item, .filters-list-tableBody .my-investments-row .item, .filters-list-tableBody .borrower-project-row .item,
-  .my-investments-tableBody .filters-row .item,
-  .my-investments-tableBody .my-investments-row .item,
-  .my-investments-tableBody .borrower-project-row .item,
-  .borrower-projects-list-tableBody .filters-row .item,
-  .borrower-projects-list-tableBody .my-investments-row .item,
-  .borrower-projects-list-tableBody .borrower-project-row .item {
-    display: block;
-    width: 100%;
-    padding: 11px 0;
-    background: #fff;
-    border-top: 1px solid #e4e7ea; }
-    /* line 1628, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
-    .filters-list-tableBody .filters-row .item:hover, .filters-list-tableBody .my-investments-row .item:hover, .filters-list-tableBody .borrower-project-row .item:hover,
-    .my-investments-tableBody .filters-row .item:hover,
-    .my-investments-tableBody .my-investments-row .item:hover,
-    .my-investments-tableBody .borrower-project-row .item:hover,
-    .borrower-projects-list-tableBody .filters-row .item:hover,
-    .borrower-projects-list-tableBody .my-investments-row .item:hover,
-    .borrower-projects-list-tableBody .borrower-project-row .item:hover {
-      background: #f1f3f4; }
-    /* line 1629, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
-    .filters-list-tableBody .filters-row .item.active, .filters-list-tableBody .my-investments-row .item.active, .filters-list-tableBody .borrower-project-row .item.active,
-    .my-investments-tableBody .filters-row .item.active,
-    .my-investments-tableBody .my-investments-row .item.active,
-    .my-investments-tableBody .borrower-project-row .item.active,
-    .borrower-projects-list-tableBody .filters-row .item.active,
-    .borrower-projects-list-tableBody .my-investments-row .item.active,
-    .borrower-projects-list-tableBody .borrower-project-row .item.active {
-      background: #f1f3f4; }
-  /* line 1631, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
-  .filters-list-tableBody .filters-row p, .filters-list-tableBody .my-investments-row p, .filters-list-tableBody .borrower-project-row p,
-  .my-investments-tableBody .filters-row p,
-  .my-investments-tableBody .my-investments-row p,
-  .my-investments-tableBody .borrower-project-row p,
-  .borrower-projects-list-tableBody .filters-row p,
-  .borrower-projects-list-tableBody .my-investments-row p,
-  .borrower-projects-list-tableBody .borrower-project-row p {
-    font-size: 1.06667em;
-    color: #909498;
-    line-height: 27px;
-    height: 29px; }
-  /* line 1638, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
-  .filters-list-tableBody .filters-row.opened p, .filters-list-tableBody .my-investments-row.opened p, .filters-list-tableBody .borrower-project-row.opened p,
-  .my-investments-tableBody .filters-row.opened p,
-  .my-investments-tableBody .my-investments-row.opened p,
-  .my-investments-tableBody .borrower-project-row.opened p,
-  .borrower-projects-list-tableBody .filters-row.opened p,
-  .borrower-projects-list-tableBody .my-investments-row.opened p,
-  .borrower-projects-list-tableBody .borrower-project-row.opened p {
-    color: #2e353f; }
+  padding: 90px 570px 90px 0;
+  height: 400px;
 
-/* line 1646, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
-.borrower-projects-list-tableBody .borrower-project-row .item:hover {
-  background: #ea6336; }
-  /* line 1648, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
-  .borrower-projects-list-tableBody .borrower-project-row .item:hover p {
-    color: #fff; }
-/* line 1652, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
-.borrower-projects-list-tableBody .borrower-project-row .trCol-2 p, .borrower-projects-list-tableBody .borrower-project-row .trCol-3 p {
-  text-decoration: underline; }
+}
 
-/* line 1657, /Users/admin/Works/LendingStar/frontend/source/css/partials/_cabinet.scss */
-.user-actions-container {
+.text-container.about-us--top h3 { padding-bottom: 25px; }
+
+.about-us--top-ico {
   position: absolute;
+<<<<<<< HEAD
   top: 11px;
   right: 0;
   width: 315px;
@@ -8535,12 +7757,54 @@ a.sort-bydate {
 /* line 22, /Users/admin/Works/LendingStar/frontend/source/css/partials/_borrower-cab.scss */
 .br-credit-score-scale {
   margin-top: 40px;
+=======
+  right: -115px;
+  bottom: 0;
+  display: block;
+  width: 616px;
+  height: 373px;
+  background: url('../img/about-us-ico.png') no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.about-us--benefits, .about-us--text, .about-us--whatwedo {
+  border-bottom: 1px solid #e4e7ea;
+  padding: 60px 0 70px 0;
+}
+
+.about-us--whatwedo { border-bottom: 0; }
+
+.about-us--benefits h3, .about-us--text h3, .about-us--whatwedo h3, .about-us--benefits h4 { color: #909498; }
+
+.about-us--benefits h3, .about-us--whatwedo h3 { text-align: center; }
+
+.about-us--text h3 { padding-bottom: 25px; }
+
+.about-us--benefits p, .about-us--text p, .about-us--whatwedo p {
+  color: #909498;
+  font-family: "pt_sansregular";
+  font-size: 1.06667em;
+}
+
+.about-us--text p { margin-top: 10px; }
+
+.about-us--benefits--center { text-align: center; }
+
+.about-us--benefits-block {
+>>>>>>> gh-pages
   position: relative;
+  width: 30%;
+  padding-top: 200px;
+  margin: 50px 5% 0 0;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align:top;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
+<<<<<<< HEAD
   width: 798px;
   height: 162px;
   background: url("../img/user-score-scale.png") center center no-repeat; }
@@ -8935,8 +8199,20 @@ a.sort-bydate {
 
 /* line 8, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
 .my-investments-add-filter-container .main-filter-container {
+=======
+}
+
+.about-us--benefits-block:last-child { margin-right: 0; }
+
+.about-us--benefits-block::before {
+  content: '';
+>>>>>>> gh-pages
   display: block;
+  width: 160px;
+  height: 160px;
+  position: absolute;
   top: 0;
+<<<<<<< HEAD
   background-color: #fff; }
   /* line 12, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
   .my-investments-add-filter-container .main-filter-container .container {
@@ -9042,11 +8318,37 @@ a.sort-bydate {
 
 /* line 97, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
 .calltoaction {
+=======
+  left: 50%;
+  margin-left: -80px;
+  background: url('../img/about-us-benefits.png') no-repeat;
+}
+
+.about-us--benefits-block.first::before { background-position: 0 0; }
+
+.about-us--benefits-block.second::before { background-position: 0 -160px; }
+
+.about-us--benefits-block.third::before { background-position: 0 -320px; }
+
+.about-us--benefits-block p {
+  margin-top: 15px;
+  font-size: 1em;
+}
+
+.about-us--whatwedo .buttons-container { margin-top: 65px; }
+
+.about-us--whatwedo-block {
+  position: relative;
+  padding-left: 100px;
+  width: 30%;
+  margin: 40px 5% 0 0;
+>>>>>>> gh-pages
   display: inline-block;
-  vertical-align: middle;
+  vertical-align:top;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
+<<<<<<< HEAD
   margin: 25px 0; }
   /* line 100, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
   .calltoaction p {
@@ -9063,39 +8365,74 @@ a.sort-bydate {
 
 /* line 113, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
 .enable-autoinvestment-form span.label {
+=======
+}
+
+.about-us--whatwedo-block:last-child { margin-right: 0; }
+
+.about-us--whatwedo-block::before {
+  content: '';
+  display: block;
+  width: 88px;
+  height: 88px;
+>>>>>>> gh-pages
   position: absolute;
-  right: 0;
+  left: 0;
   top: 50%;
-  margin-top: -9px;
-  display: block;
-  width: 60px;
-  color: #d9d8cf;
-  height: 18px;
-  line-height: 17px;
+  margin-top: -44px;
+  background: url('../img/about-us-whatwedo.png') no-repeat;
+}
+
+.about-us--whatwedo-block.first::before { background-position: 0 0; }
+
+.about-us--whatwedo-block.second::before { background-position: 0 -88px; }
+
+.about-us--whatwedo-block.third::before { background-position: 0 -176px; }
+
+.video-container { position: relative; }
+
+.video-container--background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 380px;
+  background: #f2f2f2;
+  z-index: 0;
+}
+
+#how-it-works {
+  position: relative;
+  cursor: pointer;
+  background: url("../img/how-it-works.png") center 145px no-repeat;
   z-index: 10;
-  text-transform: uppercase; }
-/* line 126, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
-.enable-autoinvestment-form .row {
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  width: 510px;
-  margin-top: 20px;
-  text-align: left;
-  position: relative; }
-  /* line 132, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
-  .enable-autoinvestment-form .row.part-of input {
-    width: 208px; }
-/* line 134, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
-.enable-autoinvestment-form label {
+}
+
+#how-it-works h2 {
+  padding: 52px 0px 40px;
+  text-align: center;
+}
+
+#how-it-works.yt-nobg { background: #e2e2e2 none; }
+
+#how-it-works .yt-video {
+  position: relative;
+  display: none;
+}
+
+#how-it-works .container {
+  min-height: 730px;
+  position: relative;
+}
+#how-it-works .container iframe {
+  z-index: 1;
+  position: absolute;
+}
+
+#how-it-works span.yt {
   display: block;
-  float: left; }
-/* line 138, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
-.enable-autoinvestment-form input {
-  float: right;
-  display: block;
+<<<<<<< HEAD
   width: 360px; }
 
 /* line 145, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
@@ -9245,16 +8582,31 @@ a.sort-bydate {
   /* line 244, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
   .borrower-project-full-desc .assets-chart-desc-container {
     margin-left: 5%; }
+=======
+  width: 100px;
+  height: 77px;
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  margin-left: -50px;
+  background: url("../img/yt-player.png") no-repeat;
+}
+>>>>>>> gh-pages
 
-@media only screen and (max-width: 1024px) {
-  /* line 248, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
-  .borrower-project-full-desc {
-    padding-left: 1%; } }
-/* line 251, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
-.borrower-project-txt-desc {
-  float: left;
-  width: 51%;
+#how-it-works:hover span.yt { background-position: 0 -77px; }
+
+.close-video {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: none;
+  z-index: 2147483647;
+}
+
+.video-container--text {
+  position: relative;
   margin-top: 20px;
+<<<<<<< HEAD
   padding-left: 40px; }
   /* line 256, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
   .borrower-project-txt-desc h3 {
@@ -9297,27 +8649,43 @@ a.sort-bydate {
   float: left;
   width: 49%;
   padding-left: 40px; }
+=======
+  padding-bottom: 55px;
+  text-align: center;
+  z-index: 11;
+}
+>>>>>>> gh-pages
 
-/* line 296, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
-.invested-project-current-yield {
-  float: left;
-  width: 51%;
-  padding-left: 80px; }
-  /* line 300, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
-  .invested-project-current-yield h5 {
-    padding-left: 20px; }
+.video-container--text p {
+  font-size: 1.2em;
+  line-height: 1.6667em;
+}
 
-/* line 303, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
-.project-assets-container {
-  margin-top: 30px;
+.static-text p {
+  color: #909498;
+  font-family: "pt_sansregular";
+  font-size: 1.06667em;
+}
+
+.static-text h3, .static-text h4 {
+  color: #909498;
+  text-align: center;
+}
+
+.how-it-works--center { text-align: center; }
+
+.steps-for-borrower { padding: 65px 0 55px 0; }
+
+.how-it-works--borrower-block {
   position: relative;
-  height: 300px;
-  width: 300px;
-  overflow: hidden;
+  width: 30%;
+  padding-top: 160px;
+  margin: 35px 5% 0 0;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align:top;
   *vertical-align: auto;
   *zoom: 1;
+<<<<<<< HEAD
   *display: inline; }
   /* line 310, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
   .project-assets-container .project-assets-returned, .project-assets-container .project-assets-invested {
@@ -9454,8 +8822,41 @@ a.sort-bydate {
 
 /* line 429, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
 .invested-projects-nav-container {
+=======
+  *display: inline;
+}
+
+.how-it-works--borrower-block:last-child { margin-right: 0; }
+
+.how-it-works--borrower-block p { margin-top: 15px; }
+
+.how-it-works--borrower-block::before {
+  content: '';
+  display: block;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -70px;
+  background: url('../img/steps-for-borrower.png') no-repeat;
+}
+
+.how-it-works--borrower-block.first::before { background-position: 0 0; }
+
+.how-it-works--borrower-block.second::before { background-position: 0 -140px; }
+
+.how-it-works--borrower-block.third::before { background-position: 0 -280px; }
+
+.grow-your-business {
+  height: 216px;
+  width: 100%;
+  overflow: hidden;
+>>>>>>> gh-pages
   position: relative;
+  background: #f6f6f6;
   text-align: center;
+<<<<<<< HEAD
   margin-top: 100px;
   padding: 0 10px; }
   /* line 434, /Users/admin/Works/LendingStar/frontend/source/css/partials/_investor-cab.scss */
@@ -9924,14 +9325,24 @@ a.sort-bydate {
   width: 620px;
   float: left;
   padding-top: 40px; }
+=======
+}
+>>>>>>> gh-pages
 
-/* line 285, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
-.invest-cart-calculator-container {
-  width: 300px;
-  float: left;
-  margin-left: 20px;
-  padding-top: 40px; }
+.grow-your-business::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: none repeat scroll 0 0 #ea6336;
+  border-radius: 100%;
+  height: 556px;
+  margin: -278px 0 0 -278px;
+  width: 556px;
+  z-index: 1;
+}
 
+<<<<<<< HEAD
 /* line 293, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
 .invest-cart-pr-stat-container h4 {
   font-size: 1.2em;
@@ -9991,10 +9402,14 @@ a.sort-bydate {
   background: url("../img/invest-cart-chart-back.png") center 5px no-repeat;
   width: 480px;
   height: 300px;
+=======
+.grow-your-business .container {
+>>>>>>> gh-pages
   position: relative;
-  margin-top: 25px;
-  text-align: center; }
+  z-index: 5;
+}
 
+<<<<<<< HEAD
 /* line 341, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
 .invest-cart-pr-stat .assets-chart-desc-container {
   width: 100%;
@@ -10068,10 +9483,58 @@ a.sort-bydate {
   width: 95px; }
 /* line 387, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
 .investment-projects-table.header li {
+=======
+.grow-your-business h4 {
+  font-family: 'pt_sansregular';
+  font-size: 2em;
+  color: #fff;
+}
+
+.grow-your-business .btn-type-3 {
+  background: #fff;
+  font-family: 'open_sansbold';
+  font-size: 0.9333em;
+  color: #2e353f;
+  border-color: #fff;
+  line-height: 2.857em;
+  margin: 15px 0;
+}
+
+.grow-your-business p {
+  color: #fff;
+  font-family: 'pt_sansregular';
+  font-size: 1.2em;
+}
+
+.grow-your-business p span { font-family: 'pt_sansbold'; }
+
+.grow-your-business--container { display: table; height: 216px; width: 100%; }
+
+.grow-your-business--content { display: table-cell; vertical-align: middle; }
+
+.text-about-guarantees {
+  padding: 60px 0 50px 0;
+  border-bottom: 1px solid #e4e7ea;
+}
+
+.aside-text-lcol, .aside-text-rcol {
+>>>>>>> gh-pages
   float: left;
-  font-size: 0.93333em;
-  font-family: "pt_sansregular";
+  width: 470px;
+  text-align: center;
+  padding-top: 90px;
+  background: url("../img/guarantees-ico3.png") center 0 no-repeat;
+}
+
+.aside-text-lcol .btn-type-2, .aside-text-rcol .btn-type-2 {
+  margin-top: 30px;
+  text-transform: none;
+}
+
+.aside-text-lcol h3, .aside-text-rcol h3 {
+  font-size: 1.6em;
   color: #909498;
+<<<<<<< HEAD
   text-align: center; }
   /* line 393, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
   .investment-projects-table.header li span {
@@ -10322,19 +9785,39 @@ a.sort-bydate {
   float: left;
   font-size: 0.93333em;
   font-family: "pt_sansregular";
+=======
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  width: 450px;
+}
+
+.aside-text-lcol p, .aside-text-rcol p {
+  margin-top: 20px;
+>>>>>>> gh-pages
   color: #909498;
-  line-height: 18px; }
-  /* line 623, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
-  .in-cart-projects-table.header li span {
-    display: block;
-    font-size: 0.857em;
-    line-height: 16px; }
-/* line 627, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
-.in-cart-projects-table.body li.row {
-  background: #f4f4f4;
-  margin-top: 10px;
-  padding: 11px 0 11px 0;
+  font-family: 1.06667em;
+  color: #909498;
+}
+
+.aside-text-rcol { margin-left: 20px; background: url('../img/guarantees-ico4.png') center 0 no-repeat; }
+
+.aside-text-rcol h3 { width: 245px; }
+
+.steps-for-investor.static-text h4 { text-align: left; }
+
+.steps-for-investor {
+  padding: 65px 0 200px 0;
+  background: url('../img/privacy-policy-ico-big.png') center bottom 80px no-repeat;
+}
+
+.steps-for-investor .buttons-container { margin-top: 70px; }
+
+.investor-guides--block {
   position: relative;
+<<<<<<< HEAD
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -10411,323 +9894,38 @@ a.sort-bydate {
 /* line 699, /Users/admin/Works/LendingStar/frontend/source/css/partials/_static-pages.scss */
 .in-cart-assets-container .invest-cart-chart-container {
   width: 300px;
+=======
+  margin-top: 90px;
+  width: 50%;
+  padding: 0 10px 0 160px;
+>>>>>>> gh-pages
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
-  *display: inline; }
+  *display: inline;
+  min-height: 140px;
+}
 
-@media only screen and (max-width: 950px) {
-  /* line 3, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .vid1 {
-    width: auto !important; }
+.investor-guides--block::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 140px;
+  height: 140px;
+  background: url('../img/steps-for-investor.png') no-repeat;
+}
 
-  /* line 4, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .logo, .logo a {
-    width: 123px;
-    height: 25px; }
+.investor-guides--block.first::before { background-position: 0 0; }
 
-  /* line 8, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .logo a {
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover; }
+.investor-guides--block.second::before { background-position: 0 -140px; }
 
-  /* line 10, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .slide-down a {
-    width: 38px;
-    height: 38px;
-    background-size: cover; }
-    /* line 14, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    .slide-down a:hover {
-      background-position: 0 0; }
+.investor-guides--block.third::before { background-position: 0 -280px; }
 
-  /* line 17, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  #playpause {
-    width: 38px;
-    height: 38px;
-    background-position: -107px 0;
-    background-size: cover; }
-    /* line 22, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    #playpause:hover {
-      background-position: -107px 0; }
+.investor-guides--block.fourth::before { background-position: 0 -420px; }
 
-  /* line 24, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  #more {
-    -moz-background-size: 22px;
-    -o-background-size: 22px;
-    -webkit-background-size: 22px;
-    background-size: 22px; }
+.investor-guides--block p { margin-top: 15px; }
 
-  /* line 25, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  #ls-statistics .container {
-    padding-left: 0; }
-
-  /* line 28, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .st-2, .st-1, .st-3 {
-    width: 33%; }
-
-  /* line 29, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  #how-it-works {
-    background-size: 620px;
-    background-position: center center; }
-    /* line 32, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    #how-it-works .container {
-      width: 768px !important; }
-    /* line 33, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    #how-it-works .step2 {
-      left: 230px;
-      top: 205px; }
-    /* line 34, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    #how-it-works .step3 {
-      left: 430px;
-      top: 330px; }
-    /* line 35, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    #how-it-works .step4 {
-      left: 565px;
-      top: 285px; }
-
-  /* line 37, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .guarantees-block img {
-    width: 130px;
-    margin: 0 10px; }
-
-  /* line 41, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  #calc h4 {
-    padding-bottom: 27px; }
-
-  /* line 42, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .calc-step-tab, .calc-step-tab-investor {
-    width: 660px;
-    margin-left: auto;
-    margin-right: auto; }
-
-  /* line 47, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .calc-next, .calc-next-final {
-    left: 510px; }
-
-  /* line 48, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .calc-prev {
-    left: 130px; }
-
-  /* line 49, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .calc-prev-final {
-    left: 40px !important; }
-
-  /* line 50, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .calc-next-final {
-    left: 597px !important; }
-
-  /* line 51, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .tab4h {
-    padding-bottom: 20px; }
-
-  /* line 52, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .score-letter {
-    width: 100%; }
-
-  /* line 54, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .score-setter .set-score, .score-setter .calculate {
-    margin-top: 20px; }
-
-  /* line 56, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .your-rate {
-    left: 143px; }
-
-  /* line 57, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .recommended-payment {
-    right: 143px; }
-
-  /* line 58, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .firstChart2 {
-    margin: 0 10px; }
-
-  /* line 59, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  #projects .container {
-    text-align: center; }
-
-  /* line 60, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .project-list {
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    text-align: left;
-    width: 634px; }
-
-  /* line 61, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .fdb-slider {
-    width: 720px;
-    margin: 0 auto; }
-
-  /* line 62, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .fdb-slider-left {
-    left: 220px; }
-
-  /* line 63, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .fdb-slider-right {
-    right: 220px;
-    left: auto; }
-
-  /* line 64, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .press-slider {
-    width: 720px; }
-
-  /* line 65, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .press-left {
-    width: 484px; }
-
-  /* line 69, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .pr-search-form-container {
-    width: 330px; }
-    /* line 71, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    .pr-search-form-container input[type="text"] {
-      width: 254px; }
-
-  /* line 73, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .projects-filter-container {
-    text-align: center; }
-
-  /* line 76, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .visible-filter {
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    text-align: left; }
-
-  /* line 80, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .added-filter-opt ul {
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-    text-align: left; }
-
-  /* line 81, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .all-projects-list {
-    width: 95%;
-    margin: 0 0 0 2%; }
-    /* line 84, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    .all-projects-list .row {
-      width: 100%; }
-    /* line 85, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    .all-projects-list .short-pr-data {
-      width: 100%;
-      padding: 15px 9% 15px 3%; }
-      /* line 88, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-      .all-projects-list .short-pr-data .proj-author {
-        width: 40%;
-        margin-right: 2%; }
-        /* line 91, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-        .all-projects-list .short-pr-data .proj-author .pr-author-photo {
-          margin-right: 5px;
-          width: 25%; }
-          /* line 94, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-          .all-projects-list .short-pr-data .proj-author .pr-author-photo img {
-            width: 100%;
-            height: 100%; }
-        /* line 99, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-        .all-projects-list .short-pr-data .proj-author .pr-author-name {
-          width: 70%; }
-      /* line 101, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-      .all-projects-list .short-pr-data .proj-data {
-        width: 35%;
-        margin-right: 1%; }
-        /* line 104, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-        .all-projects-list .short-pr-data .proj-data .rate, .all-projects-list .short-pr-data .proj-data .days-left {
-          width: 26%;
-          margin-right: 2%; }
-        /* line 105, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-        .all-projects-list .short-pr-data .proj-data .term {
-          width: 40%; }
-      /* line 107, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-      .all-projects-list .short-pr-data .proj-required {
-        width: 20%; } }
-@media only screen and (max-width: 1250px) {
-  /* line 115, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .notifications-filter-container label, .stnCab-link-container label {
-    margin-right: 25px; }
-  /* line 116, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .notifications-filter-container .not-filter, .notifications-filter-container .stnCab-links, .stnCab-link-container .not-filter, .stnCab-link-container .stnCab-links {
-    margin-left: 10px; }
-    /* line 117, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    .notifications-filter-container .not-filter li, .notifications-filter-container .stnCab-links li, .stnCab-link-container .not-filter li, .stnCab-link-container .stnCab-links li {
-      margin-right: 10px; }
-
-  /* line 121, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .payment-amount-slider-container {
-    margin-left: 0;
-    width: 335px; }
-    /* line 124, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    .payment-amount-slider-container .range-slider-container {
-      width: 185px; }
-
-  /* line 126, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .date-range-container {
-    margin-left: 20px;
-    width: 310px; }
-    /* line 129, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    .date-range-container label {
-      margin-right: 10px; }
-    /* line 130, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    .date-range-container input {
-      width: 220px;
-      padding: 4px 33px 4px 15px;
-      background-position: right 10px center; }
-
-  /* line 137, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .invested-project-short-desc li.user-actions {
-    padding-left: 10px; }
-
-  /* line 139, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .gamification-assets {
-    padding-left: 10px; }
-
-  /* line 140, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .invested-project-current-yield {
-    padding-left: 40px; }
-
-  /* line 141, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .project-assets-desc-container {
-    margin-left: 2%;
-    width: 31%; }
-
-  /* line 142, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .transaction-tableContainer .trCol-1 p, .my-investments-filters-list-container .trCol-1 p, .my-investments-container .trCol-1 p {
-    margin-left: 20px; }
-
-  /* line 143, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .transaction-tableContainer .transaction-tableHeader a,
-  .transaction-tableContainer .filters-list-tableHeader a,
-  .transaction-tableContainer .my-investments-tableHeader a,
-  .my-investments-filters-list-container .transaction-tableHeader a,
-  .my-investments-filters-list-container .filters-list-tableHeader a,
-  .my-investments-filters-list-container .my-investments-tableHeader a,
-  .my-investments-container .transaction-tableHeader a,
-  .my-investments-container .filters-list-tableHeader a,
-  .my-investments-container .my-investments-tableHeader a {
-    margin-left: 20px; }
-
-  /* line 153, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .invested-project-full-desc .assets-chart-desc-container {
-    margin-left: 5px;
-    width: 150px; }
-
-  /* line 160, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-  .reinvest-income-block .select-cont .choose-preferences {
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline; }
-    /* line 162, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    .reinvest-income-block .select-cont .choose-preferences .ui-widget {
-      width: 200px !important; }
-    /* line 163, /Users/admin/Works/LendingStar/frontend/source/css/partials/_responsive-media.scss */
-    .reinvest-income-block .select-cont .choose-preferences .ui-selectmenu-menu {
-      width: 200px !important; } }
+/*end static pages css*/
