@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head lang='en'>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
+    <title>LendingStar</title>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <link href='img/favicon.png' rel='shortcut icon'>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="fonts/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="css/vendor/jquery.custom-scrollbar.css" rel="stylesheet" type="text/css" />
+    <link href="css/vendor/jquery.datepick.css" rel="stylesheet" type="text/css" />
+    <link href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="css/all.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js" type="text/javascript"></script>
+    <script src="js/jquery.custom-scrollbar.min.js" type="text/javascript"></script>
+    <script src="js/chart.min.js" type="text/javascript"></script>
+    <script src="js/fade-plugin.js" type="text/javascript"></script>
+    <script src="js/classie.js" type="text/javascript"></script>
+    <script src="js/jquery.plugin.js" type="text/javascript"></script>
+    <script src="js/jquery.datepick.js" type="text/javascript"></script>
+    <script src="js/jquery.multiselect.min.js" type="text/javascript"></script>
+    <script src="js/base.js" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js'></script>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js'></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class='main-content'>
+      <div class='ui-container'>
+        <div class='ui-line'>
+          <h1>Header H1 PT Sans, Regular, 52px</h1>
+        </div>
+        <div class='ui-line'>
+          <h2>Header H2 Open Sans, Light/Bold, 38px</h2>
+        </div>
+        <div class='ui-line'>
+          <h2 class='bold'>Header H2 Open Sans, Light/Bold, 38px</h2>
+        </div>
+        <div class='ui-line'>
+          <h3>Header H3  Open Sans, Light, 36px</h3>
+        </div>
+        <div class='ui-line'>
+          <h4>Header H4 Open Sans, Light, 22px</h4>
+        </div>
+        <div class='ui-line'>
+          <h5>Header H5 Open Sans, Light, 18px</h5>
+        </div>
+        <div class='ui-line'>
+          <h6>Header H6 PT Sans, Light, 16px</h6>
+        </div>
+        <div class='ui-line'>
+          <p>Default text</p>
+        </div>
+        <div class='ui-line'>
+          <a href='#'>Standart link</a>
+        </div>
+        <div class='ui-line'>
+          <input type='text'>
+        </div>
+        <div class='ui-line'>
+          <textarea></textarea>
+        </div>
+        <div class='ui-line'>
+          <button disabled='disabled'>A</button>
+        </div>
+        <div class='ui-line'>
+          <button>A</button>
+        </div>
+        <div class='ui-line'>
+          <a class='stn-ico close-ico' href='#'></a>
+        </div>
+        <div class='ui-line'>
+          <a class='stn-ico down-ico' href='#'></a>
+        </div>
+        <div class='ui-line'>
+          <a class='stn-ico up-ico' href='#'></a>
+        </div>
+        <div class='ui-line'>
+          <a class='stn-ico error-ico' href='#'></a>
+        </div>
+        <div class='ui-line'>
+          <a class='follow-icons add-watch-list' href='#'></a>
+        </div>
+        <div class='ui-line'>
+          <a class='follow-icons add-wish-list' href='#'></a>
+        </div>
+        <div class='ui-line'>
+          <a class='follow-icons follow-icons-small add-watch-list' href='#'></a>
+        </div>
+        <div class='ui-line'>
+          <a class='follow-icons follow-icons-small add-wish-list' href='#'></a>
+        </div>
+        <div class='ui-line'>
+          <span class='projects-arrow-down'></span>
+        </div>
+        <div class='ui-line'>
+          <a class='btn-type-1' href='#'>more projects</a>
+        </div>
+        <div class='ui-line'>
+          <div class='custom-slct'>
+            <select class='custom-select'>
+              <option selected='selected'>Kyiv</option>
+              <option>Lviv</option>
+              <option>Ivano-Frankivsk</option>
+              <option>Ternopil</option>
+            </select>
+          </div>
+        </div>
+        <div class='ui-line'>
+          <div class='custom-slct'>
+            <select class='custom-select'>
+              <option selected='selected'>Kyiv</option>
+              <option>Lviv</option>
+              <option>Ivano-Frankivsk</option>
+              <option>Ternopil</option>
+            </select>
+          </div>
+        </div>
+        <div class='ui-line'>
+          <div class='custom-checkbox'>
+            <ul>
+              <li>
+                <label for='loan-type1'>Business loans</label>
+                <input id='loan-type1' type='checkbox'>
+              </li>
+              <li>
+                <label for='loan-type2'>Consumer loans</label>
+                <input id='loan-type2' type='checkbox'>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class='ui-line'>
+          <div class='custom-radio'>
+            <ul>
+              <li>
+                <input id='ratingA' name='radio' type='radio'>
+                <label for='ratingA'>300</label>
+              </li>
+              <li>
+                <input id='ratingB' name='radio' type='radio'>
+                <label for='ratingB'>200</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
